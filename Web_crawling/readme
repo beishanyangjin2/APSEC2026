@@ -1,0 +1,22 @@
+# Web Crawling
+
+This module discovers Android projects on F-Droid and collects their GitHub issues for NCF bug-report mining.
+
+## Files
+
+- `crawling_repo_url.ipynb`: extracts GitHub repository URLs from F-Droid metadata.
+- `fdroid_github_only.csv`: 2,941 unique GitHub repositories discovered by the crawler.
+- `crawling_issues.ipynb`: downloads repository issues through the GitHub API and excludes pull requests.
+- `newest_100_issues.json`: a small sample of the collected issue format.
+
+The complete crawl contains 518,027 issues. Download `all_issues_new.zip` from the [FineDroid Project Data folder](https://drive.google.com/drive/folders/1Gcd3DOvtz2brau-ETGziX9KAn1119fgM?usp=sharing).
+
+## Running the notebooks
+
+Run `crawling_repo_url.ipynb` first, followed by `crawling_issues.ipynb`. Configure a GitHub token through the environment to avoid the unauthenticated API rate limit:
+
+```bash
+export GITHUB_TOKEN="xxx"
+```
+
+The main Python dependencies are `requests` and `beautifulsoup4`. The resulting issue files are consumed by the [NCF bug-report filtering module](../NCF_bug_report_filtering/readme.md).

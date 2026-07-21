@@ -1,0 +1,4 @@
+model,TPC (%),TPW (%),FP (%),FA (%),runs,label_source
+OLLM,56.0,14.7,56.0,35.3,3,ollm-gpt-4o/run_*/labels.csv
+VisionDroid,24.0,14.0,18.0,16.0,1,visiondroid-gpt-4o/labels.csv
+FineDroid,58.0,6.0,14.0,10.0,1,../finedroid/labels.csv

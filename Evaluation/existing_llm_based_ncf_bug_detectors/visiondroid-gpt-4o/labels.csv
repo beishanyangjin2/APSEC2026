@@ -1,0 +1,196 @@
+split,case_name,case_key,gt_id,ground_truth_has_bug,predicted_has_bug,label,original_label,gt_reason,detector_bug_reason,judge_consistent,judge_rationale,judge_raw_output,judge_error,status,parse_error,num_screenshots,num_transitions,num_warnings,warnings,detector_output_json,manifest,error
+tr,1,tr__1,,True,False,FN,,,,,,,,completed,False,6,5,0,,raw_predictions/tr__1.json,manifests/tr__1.json,
+tr,2,tr__2,,True,False,FN,,,,,,,,completed,False,8,7,0,,raw_predictions/tr__2.json,manifests/tr__2.json,
+tr,3,tr__3,,True,False,FN,,,,,,,,completed,False,16,15,6,Skipped 1 extra actions from trace.txt | Step 2: could not find bounds for trace.txt action feature='New event' | Step 5: could not find bounds for trace.txt action feature='id/eventdate_input' | Step 8: could not find bounds for trace.txt action feature='id/endeventdate_input' | Step 11: could not find bounds for trace.txt action feature='id/eventinittime_input' | Step 15: could not find bounds for trace.txt action feature='id/okButton_AddEvent',raw_predictions/tr__3.json,manifests/tr__3.json,
+tr,4,tr__4,4,True,True,TPW,TP,"The sequence shows that after attempting to edit a transaction by changing the payee, multiple error messages appear, indicating that the transaction update fails. This suggests a failure in handling transaction edits, specifically related to saving changes after editing.","The screen shows a negative balance transaction, which seems incorrect given the previous positive amount inputs.",False,"The detector reason identifies a balance issue, not the transaction edit failure.","```json
+{
+  ""consistent"": false,
+  ""rationale"": ""The detector reason identifies a balance issue, not the transaction edit failure.""
+}
+```",,completed,False,13,12,3,Skipped 2 extra actions from trace.txt | Step 7: could not find bounds for trace.txt action feature='Save' | Step 11: could not find bounds for trace.txt action feature='None',raw_predictions/tr__4.json,manifests/tr__4.json,
+tr,5,tr__5,,True,False,FN,,,,,,,,completed,False,5,4,0,,raw_predictions/tr__5.json,manifests/tr__5.json,
+tr,6,tr__6,,True,False,FN,,,,,,,,completed,False,14,13,3,Skipped 2 extra actions from trace.txt | Step 8: could not find bounds for trace.txt action feature='Save' | Step 13: could not find bounds for trace.txt action feature='Undo',raw_predictions/tr__6.json,manifests/tr__6.json,
+tr,7,tr__7,7,True,True,TPC,TP,"The 'DONATE' button was clicked, but there was no change in the screen or any indication that the donation process was initiated. This suggests that the button is not functioning as expected, as it should lead to a donation interface or confirmation of the action.","The DONATE button does not perform any action, indicating a possible feedback missing or button not responding bug.",True,Both reasons identify the DONATE button as non-responsive.,"```json
+{
+  ""consistent"": true,
+  ""rationale"": ""Both reasons identify the DONATE button as non-responsive.""
+}
+```",,completed,False,4,3,0,,raw_predictions/tr__7.json,manifests/tr__7.json,
+tr,8,tr__8,,True,False,FN,,,,,,,,completed,False,9,8,5,Skipped 1 extra actions from trace.txt | Step 5: could not find bounds for trace.txt action feature='' | Step 6: could not find bounds for trace.txt action feature='' | Step 7: could not find bounds for trace.txt action feature='' | Step 8: could not find bounds for trace.txt action feature='',raw_predictions/tr__8.json,manifests/tr__8.json,
+tr,9-new,tr__9-new,,True,False,FN,,,,,,,,completed,False,6,5,0,,raw_predictions/tr__9-new.json,manifests/tr__9-new.json,
+tr,10-new,tr__10-new,,True,False,FN,,,,,,,,completed,False,4,3,0,,raw_predictions/tr__10-new.json,manifests/tr__10-new.json,
+tr,11,tr__11,,True,False,FN,,,,,,,,completed,False,11,10,0,,raw_predictions/tr__11.json,manifests/tr__11.json,
+tr,12-new,tr__12-new,12,True,True,TPC,TP,"After the device is rotated to landscape mode on the ""Choose Your Browser"" onboarding screen, the app returns to the initial onboarding page showing ""Let's do it!"" instead of preserving the current onboarding step, indicating that the onboarding state is lost during configuration changes.","After rotating the screen, the page unexpectedly reverts to the previous state instead of maintaining the current state or progressing further.",True,Both describe state loss after screen rotation.,"```json
+{
+  ""consistent"": true,
+  ""rationale"": ""Both describe state loss after screen rotation.""
+}
+```",,completed,False,3,2,2,Skipped non-sequence screenshots: Screenshot_1779909547.png | Step 2: could not find bounds for trace.txt action feature='landscape',raw_predictions/tr__12-new.json,manifests/tr__12-new.json,
+tr,13,tr__13,,True,False,FN,,,,,,,,completed,False,6,5,1,Step 5: could not find bounds for trace.txt action feature='',raw_predictions/tr__13.json,manifests/tr__13.json,
+tr,14,tr__14,14,True,True,TPW,TP,"After navigating back from the 'Learn more' page, the app returns to the home screen instead of the 'Add search engine' screen where the user was previously entering details. This indicates a failure in maintaining the state of the app, as the user should have been returned to the previous state to continue their action.",Unexpected transition to Mozilla Support instead of performing an in-app action.,False,The detector describes a different navigation issue unrelated to the 'Learn more' page transition.,"```json
+{
+  ""consistent"": false,
+  ""rationale"": ""The detector describes a different navigation issue unrelated to the 'Learn more' page transition.""
+}
+```",,completed,False,10,8,2,Missing 1 actions for screenshots; remaining screenshots use observe | Step 8: could not find bounds for trace.txt action feature='',raw_predictions/tr__14.json,manifests/tr__14.json,
+tr,15,tr__15,15,True,True,TPW,TP,"After deleting the episode 'Hegseth in the Hot Seat', its action button changes from ""Delete"" to ""Download"", indicating that it is no longer downloaded. However, the episode still appears in the list filtered by ""Downloaded"", showing that the filtered view is not updated to reflect the deletion.","Attempting to delete a podcast immediately navigates back, but should show a confirmation or feedback first.",False,the reasons describe different bugs related to deletion functionality.,"```json
+{
+  ""consistent"": false,
+  ""rationale"": ""the reasons describe different bugs related to deletion functionality.""
+}
+```",,completed,False,19,18,2,Step 5: could not find bounds for trace.txt action feature='' | Step 14: could not find bounds for trace.txt action feature='',raw_predictions/tr__15.json,manifests/tr__15.json,
+tr,16,tr__16,,True,False,FN,,,,,,,,completed,False,8,7,0,,raw_predictions/tr__16.json,manifests/tr__16.json,
+tr,17-new,tr__17-new,17,True,True,TPC,TP,"After selecting three tags for a transaction, tapping ""CLEAR ALL"" closes the tag selection dialog, but the previously selected tags (test_tag1, test_tag2, test_tag3) remain associated with the transaction. This indicates that the ""CLEAR ALL"" action dismisses the dialog without removing the existing tags.",The 'CLEAR ALL' action does not remove the tags from the Edit Transaction page.,True,Both reasons describe the 'CLEAR ALL' action failing to remove tags.,"```json
+{
+  ""consistent"": true,
+  ""rationale"": ""Both reasons describe the 'CLEAR ALL' action failing to remove tags.""
+}
+```",,completed,False,13,12,0,,raw_predictions/tr__17-new.json,manifests/tr__17-new.json,
+tr,18,tr__18,,True,False,FN,,,,,,,,completed,False,10,9,0,,raw_predictions/tr__18.json,manifests/tr__18.json,
+tr,19,tr__19,,True,False,FN,,,,,,,,completed,False,1,0,12,"Skipped event 1: pre_screenshot is missing or unresolved | Skipped event 2: pre_screenshot is missing or unresolved | Skipped event 3: pre_screenshot is missing or unresolved | Skipped event 4: pre_screenshot is missing or unresolved | Skipped event 5: pre_screenshot is missing or unresolved | Skipped event 6: pre_screenshot is missing or unresolved | Skipped event 7: pre_screenshot is missing or unresolved | Skipped event 8: pre_screenshot is missing or unresolved | Skipped event 9: pre_screenshot is missing or unresolved | Skipped event 10: pre_screenshot is missing or unresolved | Skipped numeric screenshots not referenced by events.json: 1.png, 2.png, 3.png, 4.png, 5.png, 6.png, 7.png, 8.png, 9.png | Skipped non-sequence screenshots: Screenshot_1778266387.png",raw_predictions/tr__19.json,manifests/tr__19.json,
+tr,20,tr__20,,True,False,FN,,,,,,,,completed,False,1,0,6,"Skipped event 1: pre_screenshot is missing or unresolved | Skipped event 2: pre_screenshot is missing or unresolved | Skipped event 3: pre_screenshot is missing or unresolved | Skipped event 4: pre_screenshot is missing or unresolved | Skipped event 5: pre_screenshot is missing or unresolved | Skipped numeric screenshots not referenced by events.json: 1.png, 2.png, 3.png, 4.png",raw_predictions/tr__20.json,manifests/tr__20.json,
+tr,21,tr__21,,True,False,FN,,,,,,,,completed,False,1,0,12,"Skipped event 1: pre_screenshot is missing or unresolved | Skipped event 2: pre_screenshot is missing or unresolved | Skipped event 3: pre_screenshot is missing or unresolved | Skipped event 4: pre_screenshot is missing or unresolved | Skipped event 5: pre_screenshot is missing or unresolved | Skipped event 6: pre_screenshot is missing or unresolved | Skipped event 7: pre_screenshot is missing or unresolved | Skipped event 8: pre_screenshot is missing or unresolved | Skipped event 9: pre_screenshot is missing or unresolved | Skipped event 10: pre_screenshot is missing or unresolved | Skipped event 11: pre_screenshot is missing or unresolved | Skipped numeric screenshots not referenced by events.json: 1.png, 2.png, 3.png, 4.png, 5.png, 6.png, 7.png, 8.png, 9.png, 10.png",raw_predictions/tr__21.json,manifests/tr__21.json,
+tr,22,tr__22,,True,False,FN,,,,,,,,completed,False,1,0,21,"Skipped event 1: pre_screenshot is missing or unresolved | Skipped event 2: pre_screenshot is missing or unresolved | Skipped event 3: pre_screenshot is missing or unresolved | Skipped event 4: pre_screenshot is missing or unresolved | Skipped event 5: pre_screenshot is missing or unresolved | Skipped event 6: pre_screenshot is missing or unresolved | Skipped event 7: pre_screenshot is missing or unresolved | Skipped event 8: pre_screenshot is missing or unresolved | Skipped event 9: pre_screenshot is missing or unresolved | Skipped event 10: pre_screenshot is missing or unresolved | Skipped event 11: pre_screenshot is missing or unresolved | Skipped event 12: pre_screenshot is missing or unresolved | Skipped event 13: pre_screenshot is missing or unresolved | Skipped event 14: pre_screenshot is missing or unresolved | Skipped event 15: pre_screenshot is missing or unresolved | Skipped event 16: pre_screenshot is missing or unresolved | Skipped event 17: pre_screenshot is missing or unresolved | Skipped event 18: pre_screenshot is missing or unresolved | Skipped event 19: pre_screenshot is missing or unresolved | Skipped event 20: pre_screenshot is missing or unresolved | Skipped numeric screenshots not referenced by events.json: 1.png, 2.png, 3.png, 4.png, 5.png, 6.png, 7.png, 8.png, 9.png, 10.png, 11.png, 12.png, 13.png, 14.png, 15.png, 16.png, 17.png, 18.png, 19.png",raw_predictions/tr__22.json,manifests/tr__22.json,
+tr,23,tr__23,,True,False,FN,,,,,,,,completed,False,7,6,0,,raw_predictions/tr__23.json,manifests/tr__23.json,
+tr,24-new,tr__24-new,24,True,True,TPW,TP,"The category ""A_Test_Category"" and its subcategory are visible before the rename operation. However, after renaming the subcategory and returning to the categories list, neither the renamed subcategory nor its parent category is displayed, indicating that the category hierarchy disappears after the rename action.",No feedback or confirmation that the subcategory rename was successful. The final state should reflect the renamed subcategory.,False,"The detector reason focuses on the lack of feedback, not the disappearance of categories.","```json
+{
+  ""consistent"": false,
+  ""rationale"": ""The detector reason focuses on the lack of feedback, not the disappearance of categories.""
+}
+```",,completed,False,21,20,0,,raw_predictions/tr__24-new.json,manifests/tr__24-new.json,
+tr,25,tr__25,25,True,True,TPC,TP,"After enabling ""Prefer Streaming"", tapping the ""Download"" button on an episode does not start a download. Instead, a playback control appears and toggles between ""Play"" and ""Pause"" on subsequent clicks, indicating that the download action is triggering streaming behavior.",Repeated download actions indicate no feedback or confirmation of download success.,True,Both reasons point to the download action failing to perform as expected.,"```json
+{
+  ""consistent"": true,
+  ""rationale"": ""Both reasons point to the download action failing to perform as expected.""
+}
+```",,completed,False,15,14,0,,raw_predictions/tr__25.json,manifests/tr__25.json,
+tr,26,tr__26,,True,False,FN,,,,,,,,completed,False,10,9,0,,raw_predictions/tr__26.json,manifests/tr__26.json,
+tr,27-new,tr__27-new,27,True,True,TPC,TP,"After selecting ""Delete"" for the non-empty bookmark folder test_folder, the app exits the bookmarks screen and returns to the browser page instead of deleting the folder. When the bookmarks page is reopened, the folder still exists with its bookmark, indicating that deleting a non-empty folder unexpectedly redirects the user without performing the deletion.",Attempt to delete a bookmark folder but it doesn't appear to be removed.,True,Both descriptions refer to the failure of deleting a bookmark folder.,"```json
+{
+  ""consistent"": true,
+  ""rationale"": ""Both descriptions refer to the failure of deleting a bookmark folder.""
+}
+```",,completed,False,18,17,0,,raw_predictions/tr__27-new.json,manifests/tr__27-new.json,
+tr,28-new,tr__28-new,,True,False,FN,,,,,,,,completed,False,9,8,1,"Skipped numeric screenshots not referenced by events.json: 5.png, 6.png",raw_predictions/tr__28-new.json,manifests/tr__28-new.json,
+tr,29,tr__29,,True,False,FN,,,,,,,,completed,False,17,16,0,,raw_predictions/tr__29.json,manifests/tr__29.json,
+tr,30,tr__30,30,True,True,TPC,TP,"The sequence shows that the user hides the file Cat_November_2010-1a.jpg and then accesses the Hidden Files list to unhide it. However, after removing the file from the hidden list, it does not reappear in the directory view. This indicates that the file remains hidden even after being removed from the hidden files list.","The hidden file 'Cat_November_2010-1a.jpg' is not visible on '/storage/emulated/0/Download' despite being marked as hidden, indicating a failure to toggle Hidden Files visibility correctly.",True,Both reasons identify a failure in toggling the hidden status of the file.,"```json
+{
+  ""consistent"": true,
+  ""rationale"": ""Both reasons identify a failure in toggling the hidden status of the file.""
+}
+```",,completed,False,9,8,0,,raw_predictions/tr__30.json,manifests/tr__30.json,
+tr,31,tr__31,31,True,True,TPC,TP,"After selecting an image and tapping ""CROP IMAGE"", no cropping interface is opened. Instead, the app displays the message ""Editing is not supported for this image"", preventing the selected image from being cropped.","CROP IMAGE button clicked, but an error message shows 'Editing is not supported for this image.' This indicates a feedback or media control error.",True,Both reasons describe the same issue with the CROP IMAGE function.,"```json
+{
+  ""consistent"": true,
+  ""rationale"": ""Both reasons describe the same issue with the CROP IMAGE function.""
+}
+```",,completed,False,9,8,0,,raw_predictions/tr__31.json,manifests/tr__31.json,
+tr,32,tr__32,,True,False,FN,,,,,,,,completed,False,9,8,0,,raw_predictions/tr__32.json,manifests/tr__32.json,
+tr,34-new,tr__34-new,34,True,True,TPC,TP,"After opening Language from Settings, the language settings page displays a blank screen with no visible options or content.","The page does not display any content after selecting 'Language', indicating a potential page loading failure.",True,Both reasons describe a blank screen issue after selecting 'Language'.,"```json
+{
+  ""consistent"": true,
+  ""rationale"": ""Both reasons describe a blank screen issue after selecting 'Language'.""
+}
+```",,completed,False,3,2,0,,raw_predictions/tr__34-new.json,manifests/tr__34-new.json,
+tr,35,tr__35,,True,False,FN,,,,,,,,completed,False,14,13,0,,raw_predictions/tr__35.json,manifests/tr__35.json,
+tr,36,tr__36,,True,False,FN,,,,,,,,completed,False,43,42,0,,raw_predictions/tr__36.json,manifests/tr__36.json,
+tr,37,tr__37,,True,False,FN,,,,,,,,completed,False,23,22,0,,raw_predictions/tr__37.json,manifests/tr__37.json,
+tr,38,tr__38,,True,False,FN,,,,,,,,completed,False,5,4,0,,raw_predictions/tr__38.json,manifests/tr__38.json,
+tr,39,tr__39,39,True,True,TPW,TP,"After enabling 'Send usage data', navigating back to the Privacy & Security settings and performing a swipe action results in 'Send usage data' being turned off again. This inconsistency indicates that the setting change is not being retained properly, suggesting a failure in state persistence.","After clicking 'Send usage data', there is no confirmation feedback indicating whether the data was sent or if the option was toggled successfully.",False,The detector describes a lack of feedback while the ground truth is about state persistence.,"```json
+{
+  ""consistent"": false,
+  ""rationale"": ""The detector describes a lack of feedback while the ground truth is about state persistence.""
+}
+```",,completed,False,9,8,0,,raw_predictions/tr__39.json,manifests/tr__39.json,
+tr,40,tr__40,40,True,True,TPW,TP,"After selecting ""Make Firefox Focus default browser"", the system resolver presents Browser and Firefox Focus as available options. The user then selects ""Always"", but the flow subsequently opens BrowserActivity instead of Firefox Focus. This indicates that choosing Firefox Focus as the default browser does not take effect as expected.",A security warning appears unexpectedly after trying to set Firefox Focus as the default browser.,False,The detector reason describes a different issue related to a security warning.,"```json
+{
+  ""consistent"": false,
+  ""rationale"": ""The detector reason describes a different issue related to a security warning.""
+}
+```",,completed,False,8,7,0,,raw_predictions/tr__40.json,manifests/tr__40.json,
+tr,41,tr__41,,True,False,FN,,,,,,,,completed,False,11,10,0,,raw_predictions/tr__41.json,manifests/tr__41.json,
+tr,42-new,tr__42-new,,True,False,FN,,,,,,,,completed,False,8,7,0,,raw_predictions/tr__42-new.json,manifests/tr__42-new.json,
+tr,43-new,tr__43-new,43,True,True,TPW,TP,"The user navigates from the Quizlet login page to the Google sign-in page and enters text into the email field. After rotating the device, the Google sign-in page is replaced by the initial Quizlet login page. This indicates that the current web page is reset to the initial page after screen rotation.",Unexpected transition to a screen with 'Please wait...' without successful login or error feedback.,False,The detector describes a transition issue unrelated to screen rotation.,"```json
+{
+  ""consistent"": false,
+  ""rationale"": ""The detector describes a transition issue unrelated to screen rotation.""
+}
+```",,completed,False,8,7,1,Skipped numeric screenshots not referenced by events.json: 10.png,raw_predictions/tr__43-new.json,manifests/tr__43-new.json,
+tr,44,tr__44,,True,False,FN,,,,,,,,completed,False,20,20,3,Skipped event 21: pre_screenshot is missing or unresolved | Skipped event 22: pre_screenshot is missing or unresolved | Could not append final observe page: last event result_screenshot is missing,raw_predictions/tr__44.json,manifests/tr__44.json,
+tr,45-new,tr__45-new,,True,False,FN,,,,,,,,completed,False,7,6,0,,raw_predictions/tr__45-new.json,manifests/tr__45-new.json,
+tr,46,tr__46,46,True,True,TPC,TP,"After the user opens ""Send troubleshooting report"", a report-generation dialog appears, but the user cancels it before submitting. When the user selects ""Send troubleshooting report"" again, the dialog does not reopen and the app instead shows ""Report already submitted"". This indicates that cancelling the troubleshooting report flow is treated as if the report had already been submitted.",Unexpected repeat of 'Send troubleshooting report' action without different behavior or feedback.,True,Both describe the same issue of incorrect behavior when repeating the report action.,"```json
+{
+  ""consistent"": true,
+  ""rationale"": ""Both describe the same issue of incorrect behavior when repeating the report action.""
+}
+```",,completed,False,7,6,0,,raw_predictions/tr__46.json,manifests/tr__46.json,
+tr,47,tr__47,,True,False,FN,,,,,,,,completed,False,17,16,0,,raw_predictions/tr__47.json,manifests/tr__47.json,
+tr,48,tr__48,48,True,True,TPC,TP,"The first page shows DatabaseException, and after create a new appointment, nothing update",DatabaseException error indicates a failure in loading events data.,True,Both reasons identify DatabaseException as the core issue.,"```json
+{
+  ""consistent"": true,
+  ""rationale"": ""Both reasons identify DatabaseException as the core issue.""
+}
+```",,completed,False,6,5,0,,raw_predictions/tr__48.json,manifests/tr__48.json,
+tr,49-new,tr__49-new,,True,False,FN,,,,,,,,completed,False,8,7,0,,raw_predictions/tr__49-new.json,manifests/tr__49-new.json,
+tr,50-new,tr__50-new,50,True,True,TPC,TP,"The ""About this article"" section initially contains a single ""View edit history"" item and a single ""View talk page"" item. After the user opens the edit history page and returns to the article, the same section contains two copies of both items. This indicates that the ""About this article"" entries are duplicated when returning to the article page.",The page content in Step 8 does not show any update or transition after the revision history check. The page reverts to the article view without any additional information or navigation options that might be expected following a revision history view.,True,Both reasons describe the issue of the 'About this article' section not updating as expected after visiting the revision history.,"```json
+{
+  ""consistent"": true,
+  ""rationale"": ""Both reasons describe the issue of the 'About this article' section not updating as expected after visiting the revision history.""
+}
+```",,completed,False,9,8,0,,raw_predictions/tr__50-new.json,manifests/tr__50-new.json,
+tr,51,tr__51,51,True,True,TPC,TP,"After the user creates and selects both ""tag1"" and ""tag2"", then chooses ""Delete"" from the multi-selection menu, the deletion menu closes but both tags remain selected and continue to be displayed in the Tags list. This indicates that the delete action does not remove the selected tags when multiple tags are selected.","Tags tag1 and tag2 are selected, but clicking 'Delete' does not remove them.",True,Both describe the failure to delete selected tags.,"```json
+{
+  ""consistent"": true,
+  ""rationale"": ""Both describe the failure to delete selected tags.""
+}
+```",,completed,False,16,15,0,,raw_predictions/tr__51.json,manifests/tr__51.json,
+fl,1,fl__1,,False,True,FP,,,,,,,,completed,False,6,5,0,,raw_predictions/fl__1.json,manifests/fl__1.json,
+fl,2,fl__2,,False,False,TN,,,,,,,,completed,False,10,9,2,Step 4: could not find bounds for trace.txt action feature='down' | Step 9: could not find bounds for trace.txt action feature='down',raw_predictions/fl__2.json,manifests/fl__2.json,
+fl,3,fl__3,,False,False,TN,,,,,,,,completed,False,10,9,4,Skipped 1 extra actions from trace.txt | Step 2: could not find bounds for trace.txt action feature='New Event' | Step 5: could not find bounds for trace.txt action feature='id/eventinittime_input' | Step 9: could not find bounds for trace.txt action feature='id/okButton_AddEvent',raw_predictions/fl__3.json,manifests/fl__3.json,
+fl,4,fl__4,,False,True,FP,,,,,,,,completed,False,17,16,6,Skipped 2 extra actions from trace.txt | Step 7: could not find bounds for trace.txt action feature='Save' | Step 9: could not find bounds for trace.txt action feature='Bills:Gas' | Step 13: could not find bounds for trace.txt action feature='[' | Step 14: could not find bounds for trace.txt action feature='test_payee1' | Step 15: could not find bounds for trace.txt action feature='id/fab',raw_predictions/fl__4.json,manifests/fl__4.json,
+fl,5,fl__5,,False,False,TN,,,,,,,,completed,False,5,4,0,,raw_predictions/fl__5.json,manifests/fl__5.json,
+fl,6,fl__6,,False,False,TN,,,,,,,,completed,False,12,11,2,Skipped 2 extra actions from trace.txt | Step 8: could not find bounds for trace.txt action feature='Save',raw_predictions/fl__6.json,manifests/fl__6.json,
+fl,7,fl__7,,False,False,TN,,,,,,,,completed,False,4,3,0,,raw_predictions/fl__7.json,manifests/fl__7.json,
+fl,8,fl__8,,False,False,TN,,,,,,,,completed,False,23,22,11,Skipped 2 extra actions from trace.txt | Step 5: could not find bounds for trace.txt action feature='Preview' | Step 6: could not find bounds for trace.txt action feature='' | Step 8: could not find bounds for trace.txt action feature='Navigate up' | Step 9: could not find bounds for trace.txt action feature='Open drawer' | Step 14: could not find bounds for trace.txt action feature='Preview' | Step 15: could not find bounds for trace.txt action feature='Show answer' | Step 16: could not find bounds for trace.txt action feature='' | Step 18: could not find bounds for trace.txt action feature='' | Step 19: could not find bounds for trace.txt action feature='More options' | Step 20: could not find bounds for trace.txt action feature='preview',raw_predictions/fl__8.json,manifests/fl__8.json,
+fl,9-new,fl__9-new,,False,False,TN,,,,,,,,completed,False,6,5,0,,raw_predictions/fl__9-new.json,manifests/fl__9-new.json,
+fl,10-new,fl__10-new,,False,False,TN,,,,,,,,completed,False,4,3,0,,raw_predictions/fl__10-new.json,manifests/fl__10-new.json,
+fl,11,fl__11,,False,False,TN,,,,,,,,completed,False,8,6,3,Missing 1 actions for screenshots; remaining screenshots use observe | Step 5: could not find bounds for trace.txt action feature='Sprache' | Step 6: could not find bounds for trace.txt action feature='English',raw_predictions/fl__11.json,manifests/fl__11.json,
+fl,12-new,fl__12-new,,False,False,TN,,,,,,,,completed,False,5,4,0,,raw_predictions/fl__12-new.json,manifests/fl__12-new.json,
+fl,13,fl__13,,False,True,FP,,,,,,,,completed,False,6,5,1,Step 5: could not find bounds for trace.txt action feature='',raw_predictions/fl__13.json,manifests/fl__13.json,
+fl,14,fl__14,,False,False,TN,,,,,,,,completed,False,9,8,2,Skipped 1 extra actions from trace.txt | Step 8: could not find bounds for trace.txt action feature='Learn more',raw_predictions/fl__14.json,manifests/fl__14.json,
+fl,15,fl__15,,False,False,TN,,,,,,,,completed,False,19,18,2,Step 5: could not find bounds for trace.txt action feature='' | Step 14: could not find bounds for trace.txt action feature='',raw_predictions/fl__15.json,manifests/fl__15.json,
+fl,16,fl__16,,False,False,TN,,,,,,,,completed,False,8,7,0,,raw_predictions/fl__16.json,manifests/fl__16.json,
+fl,17-new,fl__17-new,,False,False,TN,,,,,,,,completed,False,11,10,0,,raw_predictions/fl__17-new.json,manifests/fl__17-new.json,
+fl,18,fl__18,,False,False,TN,,,,,,,,completed,False,9,8,0,,raw_predictions/fl__18.json,manifests/fl__18.json,
+fl,19,fl__19,,False,False,TN,,,,,,,,completed,False,9,8,0,,raw_predictions/fl__19.json,manifests/fl__19.json,
+fl,20,fl__20,,False,False,TN,,,,,,,,completed,False,1,0,7,"Skipped event 1: pre_screenshot is missing or unresolved | Skipped event 2: pre_screenshot is missing or unresolved | Skipped event 3: pre_screenshot is missing or unresolved | Skipped event 4: pre_screenshot is missing or unresolved | Skipped event 5: pre_screenshot is missing or unresolved | Skipped event 6: pre_screenshot is missing or unresolved | Skipped numeric screenshots not referenced by events.json: 1.png, 2.png, 3.png, 4.png, 5.png",raw_predictions/fl__20.json,manifests/fl__20.json,
+fl,21,fl__21,,False,False,TN,,,,,,,,completed,False,1,0,12,"Skipped event 1: pre_screenshot is missing or unresolved | Skipped event 2: pre_screenshot is missing or unresolved | Skipped event 3: pre_screenshot is missing or unresolved | Skipped event 4: pre_screenshot is missing or unresolved | Skipped event 5: pre_screenshot is missing or unresolved | Skipped event 6: pre_screenshot is missing or unresolved | Skipped event 7: pre_screenshot is missing or unresolved | Skipped event 8: pre_screenshot is missing or unresolved | Skipped event 9: pre_screenshot is missing or unresolved | Skipped event 10: pre_screenshot is missing or unresolved | Skipped event 11: pre_screenshot is missing or unresolved | Skipped numeric screenshots not referenced by events.json: 1.png, 2.png, 3.png, 4.png, 5.png, 6.png, 7.png, 8.png, 9.png, 10.png",raw_predictions/fl__21.json,manifests/fl__21.json,
+fl,22,fl__22,,False,False,TN,,,,,,,,completed,False,20,19,7,Step 5: could not find bounds for trace.txt action feature='' | Step 9: could not find bounds for trace.txt action feature='' | Step 10: could not find bounds for trace.txt action feature='' | Step 15: could not find bounds for trace.txt action feature='' | Step 16: could not find bounds for trace.txt action feature='' | Step 18: could not find bounds for trace.txt action feature='' | Step 19: could not find bounds for trace.txt action feature='',raw_predictions/fl__22.json,manifests/fl__22.json,
+fl,23,fl__23,,False,False,TN,,,,,,,,completed,False,7,6,0,,raw_predictions/fl__23.json,manifests/fl__23.json,
+fl,24-new,fl__24-new,,False,True,FP,,,,,,,,completed,False,22,21,0,,raw_predictions/fl__24-new.json,manifests/fl__24-new.json,
+fl,25,fl__25,,False,False,TN,,,,,,,,completed,False,12,11,1,Skipped numeric screenshots not referenced by events.json: 13.png,raw_predictions/fl__25.json,manifests/fl__25.json,
+fl,26,fl__26,,False,False,TN,,,,,,,,completed,False,27,26,0,,raw_predictions/fl__26.json,manifests/fl__26.json,
+fl,27-new,fl__27-new,,False,False,TN,,,,,,,,completed,False,17,16,0,,raw_predictions/fl__27-new.json,manifests/fl__27-new.json,
+fl,28-new,fl__28-new,,False,True,FP,,,,,,,,completed,False,9,8,0,,raw_predictions/fl__28-new.json,manifests/fl__28-new.json,
+fl,29,fl__29,,False,False,TN,,,,,,,,completed,False,23,22,0,,raw_predictions/fl__29.json,manifests/fl__29.json,
+fl,30,fl__30,,False,True,FP,,,,,,,,completed,False,9,8,0,,raw_predictions/fl__30.json,manifests/fl__30.json,
+fl,31,fl__31,,False,False,TN,,,,,,,,completed,False,10,9,0,,raw_predictions/fl__31.json,manifests/fl__31.json,
+fl,32,fl__32,,False,False,TN,,,,,,,,completed,False,9,8,1,events.json existed but produced no usable sequence; used fallback path,raw_predictions/fl__32.json,manifests/fl__32.json,
+fl,34-new,fl__34-new,,False,False,TN,,,,,,,,completed,False,7,6,0,,raw_predictions/fl__34-new.json,manifests/fl__34-new.json,
+fl,35,fl__35,,False,True,FP,,,,,,,,completed,False,17,16,0,,raw_predictions/fl__35.json,manifests/fl__35.json,
+fl,36,fl__36,,False,False,TN,,,,,,,,completed,False,51,50,0,,raw_predictions/fl__36.json,manifests/fl__36.json,
+fl,37,fl__37,,False,False,TN,,,,,,,,completed,False,6,5,1,"Skipped numeric screenshots not referenced by events.json: 1.png, 2.png, 3.png, 4.png, 5.png, 6.png, 7.png, 8.png, 9.png, 10.png, 11.png, 12.png, 13.png, 14.png, 15.png, 16.png, 17.png, 18.png",raw_predictions/fl__37.json,manifests/fl__37.json,
+fl,38,fl__38,,False,False,TN,,,,,,,,completed,False,7,6,0,,raw_predictions/fl__38.json,manifests/fl__38.json,
+fl,39,fl__39,,False,False,TN,,,,,,,,completed,False,9,8,0,,raw_predictions/fl__39.json,manifests/fl__39.json,
+fl,40,fl__40,,False,False,TN,,,,,,,,completed,False,8,7,0,,raw_predictions/fl__40.json,manifests/fl__40.json,
+fl,41,fl__41,,False,True,FP,,,,,,,,completed,False,11,10,1,Step 8: could not find bounds for trace.txt action feature='',raw_predictions/fl__41.json,manifests/fl__41.json,
+fl,42-new,fl__42-new,,False,False,TN,,,,,,,,completed,False,7,6,0,,raw_predictions/fl__42-new.json,manifests/fl__42-new.json,
+fl,43-new,fl__43-new,,False,False,TN,,,,,,,,completed,False,8,7,0,,raw_predictions/fl__43-new.json,manifests/fl__43-new.json,
+fl,44,fl__44,,False,False,TN,,,,,,,,completed,False,13,12,0,,raw_predictions/fl__44.json,manifests/fl__44.json,
+fl,45-new,fl__45-new,,False,False,TN,,,,,,,,completed,False,6,5,0,,raw_predictions/fl__45-new.json,manifests/fl__45-new.json,
+fl,46,fl__46,,False,False,TN,,,,,,,,completed,False,8,7,0,,raw_predictions/fl__46.json,manifests/fl__46.json,
+fl,47,fl__47,,False,False,TN,,,,,,,,completed,False,19,18,0,,raw_predictions/fl__47.json,manifests/fl__47.json,
+fl,48,fl__48,,False,False,TN,,,,,,,,completed,False,9,8,0,,raw_predictions/fl__48.json,manifests/fl__48.json,
+fl,49-new,fl__49-new,,False,True,FP,,,,,,,,completed,False,7,6,0,,raw_predictions/fl__49-new.json,manifests/fl__49-new.json,
+fl,50-new,fl__50-new,,False,False,TN,,,,,,,,completed,False,8,7,0,,raw_predictions/fl__50-new.json,manifests/fl__50-new.json,
+fl,51,fl__51,,False,False,TN,,,,,,,,completed,False,14,13,0,,raw_predictions/fl__51.json,manifests/fl__51.json,

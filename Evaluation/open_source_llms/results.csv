@@ -1,0 +1,9 @@
+model,TPC (%),TPW (%),FP (%),FA (%),runs,label_source
+Llama3.1-8B-Instruct,30.0,62.0,96.0,79.0,1,llama-3.1-8b-instruct/labels.csv
+Mistral-7B-Instruct-v0.3,10.0,16.0,22.0,19.0,1,mistral-7b-instruct-v0.3/labels.csv
+Phi-4,58.0,40.0,90.0,65.0,1,phi-4-14b/labels.csv
+Gemma3-12B-IT,44.0,48.0,94.0,71.0,1,gemma-3-12b-it/labels.csv
+Qwen2.5-14B,32.0,16.0,34.0,25.0,1,qwen2.5-14b/labels.csv
+Qwen3-14B (No Thinking),32.0,38.0,80.0,59.0,1,qwen3-14b-no-thinking/labels.csv
+Qwen3-14B (Thinking),38.0,26.0,26.0,26.0,1,qwen3-14b-thinking/labels.csv
+FineDroid,58.0,6.0,14.0,10.0,1,../finedroid/labels.csv

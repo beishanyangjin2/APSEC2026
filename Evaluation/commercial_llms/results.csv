@@ -1,0 +1,8 @@
+model,TPC (%),TPW (%),FP (%),FA (%),runs,label_source
+GPT-4o,36.7,4.0,12.7,8.3,3,gpt-4o/run_*/labels.csv
+GPT-5,66.7,3.3,5.3,4.3,3,gpt-5/run_*/labels.csv
+Gemini 2.5 Flash,78.0,14.7,37.3,26.0,3,gemini-2.5-flash/run_*/labels.csv
+Gemini 2.5 Pro,84.7,11.3,43.3,27.3,3,gemini-2.5-pro/run_*/labels.csv
+DeepSeek-Chat,62.0,20.7,62.7,41.7,3,deepseek-chat/run_*/labels.csv
+DeepSeek-Reasoner,80.0,10.7,26.7,18.7,3,deepseek-reasoner/run_*/labels.csv
+FineDroid,58.0,6.0,14.0,10.0,1,../finedroid/labels.csv

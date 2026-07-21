@@ -1,0 +1,19 @@
+category,model,TPC (%),TPW (%),FP (%),FA (%),runs
+open-source LLMs,Llama3.1-8B-Instruct,30.0,62.0,96.0,79.0,1
+open-source LLMs,Mistral-7B-Instruct-v0.3,10.0,16.0,22.0,19.0,1
+open-source LLMs,Phi-4,58.0,40.0,90.0,65.0,1
+open-source LLMs,Gemma3-12B-IT,44.0,48.0,94.0,71.0,1
+open-source LLMs,Qwen2.5-14B,32.0,16.0,34.0,25.0,1
+open-source LLMs,Qwen3-14B (No Thinking),32.0,38.0,80.0,59.0,1
+open-source LLMs,Qwen3-14B (Thinking),38.0,26.0,26.0,26.0,1
+open-source LLMs,FineDroid,58.0,6.0,14.0,10.0,1
+commercial LLMs,GPT-4o,36.7,4.0,12.7,8.3,3
+commercial LLMs,GPT-5,66.7,3.3,5.3,4.3,3
+commercial LLMs,Gemini 2.5 Flash,78.0,14.7,37.3,26.0,3
+commercial LLMs,Gemini 2.5 Pro,84.7,11.3,43.3,27.3,3
+commercial LLMs,DeepSeek-Chat,62.0,20.7,62.7,41.7,3
+commercial LLMs,DeepSeek-Reasoner,80.0,10.7,26.7,18.7,3
+commercial LLMs,FineDroid,58.0,6.0,14.0,10.0,1
+existing LLM-based NCF bug detectors,OLLM,56.0,14.7,56.0,35.3,3
+existing LLM-based NCF bug detectors,VisionDroid,24.0,14.0,18.0,16.0,1
+existing LLM-based NCF bug detectors,FineDroid,58.0,6.0,14.0,10.0,1

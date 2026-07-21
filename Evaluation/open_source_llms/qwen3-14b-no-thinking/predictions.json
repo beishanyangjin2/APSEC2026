@@ -1,0 +1,410 @@
+[
+  {
+    "id": "tr_1",
+    "generated": "{\n  \"is_bug\": \"No\",\n  \"reason\": \"The UI interaction follows a logical flow for setting up the Aegis app: welcoming the user, selecting authentication method, entering and confirming a password, and completing setup. All actions are consistent with expected behavior, and there is no indication of a functional bug that would cause a crash or incorrect behavior.\"\n}"
+  },
+  {
+    "id": "tr_2",
+    "generated": "{\n  \"is_bug\": \"Yes\",\n  \"reason\": \"After renaming the 'Gifts' category to 'Gifts_test' and clicking OK, the app displays a toast message 'Updating data failed', indicating that the change was not successfully saved. This suggests a functional issue where the expected behavior (successfully renaming a category) did not occur, leading to a non-crash functional bug.\"\n}"
+  },
+  {
+    "id": "tr_3",
+    "generated": "{\n  \"is_bug\": \"Yes\",\n  \"reason\": \"The app allows the user to set an end event date (Apr 22, 2026) that is later than the start event date (Apr 20, 2026), but there is no validation in place to prevent this. This could lead to logical inconsistencies in the event data, such as an event ending before it starts, which is a functional bug.\"\n}"
+  },
+  {
+    "id": "tr_4",
+    "generated": "{\n  \"is_bug\": \"Yes\",\n  \"reason\": \"A toast message indicates that the transaction update failed with an error message. This suggests that the app did not successfully save the transaction, which is a non-crash functional bug as the app did not crash but failed to perform the intended action.\"\n}"
+  },
+  {
+    "id": "tr_5",
+    "generated": "{\n  \"is_bug\": \"Yes\",\n  \"reason\": \"After clicking 'Continue' to restore a backup, the app returns to the DeckPicker screen without any indication that the backup was successfully restored. The UI state appears unchanged, which may mislead the user into thinking the restoration process was not completed, even though the action was confirmed.\"\n}"
+  },
+  {
+    "id": "tr_6",
+    "generated": "{\n  \"is_bug\": \"Yes\",\n  \"reason\": \"The app shows 'Congratulations! You have finished for now.' in the DeckPicker activity, but the card count in the deck (test_deck1) still shows '4 cards due'. This indicates a mismatch between the UI state and the actual data, suggesting a non-crash functional bug where the UI does not correctly reflect the underlying card status.\"\n}"
+  },
+  {
+    "id": "tr_7",
+    "generated": "{\n  \"is_bug\": \"No\",\n  \"reason\": \"The UI interaction trace shows a click on the 'DONATE' button in the AboutActivity, but there is no indication of a crash or functional failure. The screen information remains consistent before and after the click, and no error or unexpected behavior is reported. Therefore, there is no non-crash functional bug identified.\"\n}"
+  },
+  {
+    "id": "tr_8",
+    "generated": "{\n  \"is_bug\": \"Yes\",\n  \"reason\": \"The user clicked 'Preview' in the CardBrowser, which opened the PreviewerActivity. However, after multiple 'back' actions, the app did not return to the previous screen (CardBrowser) but remained in PreviewerActivity. This indicates a navigation issue where the back button is not functioning as expected, leading to a non-crash functional bug.\"\n}"
+  },
+  {
+    "id": "tr_9",
+    "generated": "{\n  \"is_bug\": \"Yes\",\n  \"reason\": \"The search functionality in the preferences screen does not properly reset or re-display the full list of settings when the search is collapsed and re-opened. After collapsing the search and clicking the search button again, the UI does not show the full list of settings categories, indicating a functional issue with the search feature.\"\n}"
+  },
+  {
+    "id": "tr_10",
+    "generated": "{\n  \"is_bug\": \"Yes\",\n  \"reason\": \"After clicking the 'License' button, the UI shows a dialog with an 'OK' button but no actual license content is displayed. This is a functional bug because the user is directed to the license information, but the information is not shown, leading to a poor user experience.\"\n}"
+  },
+  {
+    "id": "tr_11",
+    "generated": "{\n  \"is_bug\": \"Yes\",\n  \"reason\": \"The app language changes (e.g., to 'Deutsch' and then back to 'English') do not consistently update the UI text. For example, after selecting 'Deutsch', some UI elements remain in English (e.g., 'Messages', 'Shorts', 'Discover'), indicating a localization bug where the app fails to fully apply the selected language.\"\n}"
+  },
+  {
+    "id": "tr_12",
+    "generated": "{\n  \"is_bug\": \"Yes\",\n  \"reason\": \"After rotating the device to landscape mode, the UI reverts back to the initial onboarding screen instead of maintaining the updated state (e.g., 'Privacy protections activated!'). This indicates a potential issue with state management or UI rendering during orientation changes, which could confuse users.\"\n}"
+  },
+  {
+    "id": "tr_13",
+    "generated": "{\n  \"is_bug\": \"Yes\",\n  \"reason\": \"After clicking 'Select all' in the Card Browser, only one card ('Abscissa', '横坐标') was unchecked, while all others remained checked. This indicates an inconsistency in the selection state, suggesting a functional bug in the 'Select all' feature.\"\n}"
+  },
+  {
+    "id": "tr_14",
+    "generated": "{\n  \"is_bug\": \"Yes\",\n  \"reason\": \"The user navigated to the 'Add search engine' screen, entered a search string and name, and clicked 'Learn more', which opened a help page. However, after pressing 'Back', the app returned to the main screen, but the newly added search engine was not reflected in the UI. This indicates a functional bug where the added search engine is not being saved or displayed correctly.\"\n}"
+  },
+  {
+    "id": "tr_15",
+    "generated": "{\n  \"is_bug\": \"No\",\n  \"reason\": \"The interaction trace shows a normal user flow without any functional issues. The user navigated through the app, filtered episodes, and performed actions like 'Delete' and 'Refresh' without encountering any crashes or unexpected behavior. The app responded as expected to user inputs.\"\n}"
+  },
+  {
+    "id": "tr_16",
+    "generated": "{\n  \"is_bug\": \"Yes\",\n  \"reason\": \"The 'Undo' button is clicked but the UI does not revert to the previous state. The 'SHOW ANSWER' button is still present, and the card content does not change, indicating that the undo action did not function as expected.\"\n}"
+  },
+  {
+    "id": "tr_17",
+    "generated": "{\n  \"is_bug\": \"Yes\",\n  \"reason\": \"The app allows the user to add multiple tags to a transaction, but when the user clicks 'CLEAR ALL' in the tag selection dialog, the tags are not cleared from the transaction. The tags 'test_tag1, test_tag2, test_tag3' remain in the 'Tags for transaction' field even after clicking 'CLEAR ALL', which is a functional inconsistency and a bug.\"\n}"
+  },
+  {
+    "id": "tr_18",
+    "generated": "{\n  \"is_bug\": \"Yes\",\n  \"reason\": \"The app allows the user to remove a search engine (e.g., Amazon.com) and then attempts to remove it again, but the UI does not properly handle the state. After removing Amazon.com, it should no longer be listed, but the 'Remove' action is still clickable, which may lead to unexpected behavior or errors when attempting to remove an already-removed item.\"\n}"
+  },
+  {
+    "id": "tr_19",
+    "generated": "{\n  \"is_bug\": \"Yes\",\n  \"reason\": \"The app prompts for a password when extracting a zip file, but the zip file 'test1.zip' was created without a password. This indicates an unexpected behavior where the app is requesting a password for an archive that does not require one, which is a functional bug.\"\n}"
+  },
+  {
+    "id": "tr_20",
+    "generated": "{\n  \"is_bug\": \"No\",\n  \"reason\": \"The UI interaction trace shows a normal navigation flow between activities and screens without any unexpected behavior, crashes, or functional inconsistencies. The user navigated back and forth between screens, and all UI elements appear to function as expected.\"\n}"
+  },
+  {
+    "id": "tr_21",
+    "generated": "{\n  \"is_bug\": \"Yes\",\n  \"reason\": \"The app navigates to a 'test1' folder, but when returning to the main file list, the 'test1' entry is still visible, suggesting it should have been removed or marked as visited. However, when searching for 'test1', the search results include 'test1', 'test 10', and 'test 100', which may indicate incorrect or incomplete search functionality, leading to a non-crash functional bug.\"\n}"
+  },
+  {
+    "id": "tr_22",
+    "generated": "{\n  \"is_bug\": \"No\",\n  \"reason\": \"The interaction trace shows a normal navigation and configuration flow within the app without any unexpected behavior, crashes, or functional inconsistencies. All UI elements respond as expected, and the user is able to navigate between screens and configure settings without issues.\"\n}"
+  },
+  {
+    "id": "tr_23",
+    "generated": "{\n  \"is_bug\": \"Yes\",\n  \"reason\": \"The file name 'messi 19 99.jpg' was entered, but the system displays it as 'messi%2019%2099.jpg', indicating URL encoding (%20 represents a space). This suggests a potential bug in how the app handles or displays file names after renaming, possibly due to incorrect encoding/decoding or display logic.\"\n}"
+  },
+  {
+    "id": "tr_24",
+    "generated": "{\n  \"is_bug\": \"No\",\n  \"reason\": \"The UI interaction trace shows a normal flow of adding and editing categories and subcategories, with proper navigation and functionality. No unexpected behavior or functional issues are observed.\"\n}"
+  },
+  {
+    "id": "tr_25",
+    "generated": "{\n  \"is_bug\": \"Yes\",\n  \"reason\": \"The 'Download' button is clicked multiple times, but the UI does not change to indicate that the download has started or completed. The 'Download' option remains available even after being clicked, which suggests a lack of proper feedback or state update in the UI, indicating a functional bug.\"\n}"
+  },
+  {
+    "id": "tr_26",
+    "generated": "{\n  \"is_bug\": \"Yes\",\n  \"reason\": \"The UI elements in the 'Privacy & Security' settings screen are displayed in a mix of languages (e.g., 'Block ad trackers' in English and 'Blokkeer sosiale speurders' in Afrikaans), which indicates an inconsistency in the UI localization. This could lead to a confusing user experience and suggests a functional bug related to language switching or UI rendering.\"\n}"
+  },
+  {
+    "id": "tr_27",
+    "generated": "{\n  \"is_bug\": \"Yes\",\n  \"reason\": \"The app allows the user to edit and delete a bookmark folder 'test_folder' that was created, but after deletion, the folder still appears in the bookmarks list with a count of '1 item', which is misleading and indicates a UI inconsistency or data synchronization issue.\"\n}"
+  },
+  {
+    "id": "tr_28",
+    "generated": "{\n  \"is_bug\": \"No\",\n  \"reason\": \"The interaction flow appears to be functional without any non-crash bugs. The user successfully navigated through the app, entered a URL, initiated a download, saved it, and accessed the downloads section. All actions were performed as expected, and no unexpected behavior or UI inconsistencies were observed.\"\n}"
+  },
+  {
+    "id": "tr_29",
+    "generated": "{\n  \"is_bug\": \"No\",\n  \"reason\": \"The interaction trace shows a normal flow of navigating through the app, changing language settings, and interacting with cards and notes. There is no indication of a non-crash functional bug, such as incorrect behavior, missing functionality, or UI inconsistencies.\"\n}"
+  },
+  {
+    "id": "tr_30",
+    "generated": "{\n  \"is_bug\": \"Yes\",\n  \"reason\": \"The 'Hide' action was triggered in the context menu, which should hide the selected file. However, after navigating back, the file 'Cat_November_2010-1a.jpg' is still visible in the file list, indicating that the 'Hide' functionality did not work as expected. This is a non-crash functional bug.\"\n}"
+  },
+  {
+    "id": "tr_31",
+    "generated": "{\n  \"is_bug\": \"Yes\",\n  \"reason\": \"The app attempts to crop an image, but a toast message indicates that editing is not supported for the selected image. This is a functional bug because the user is presented with an option ('CROP IMAGE') that does not work as expected, leading to a failed action without clear user guidance.\"\n}"
+  },
+  {
+    "id": "tr_32",
+    "generated": "{\n  \"is_bug\": \"Yes\",\n  \"reason\": \"The app's search functionality appears to be malfunctioning. After entering 'your' in the search field, the search results screen shows entries like 'your_data.mmb', but the search query does not match these results accurately. This suggests that the search logic may not be functioning as intended, leading to incorrect or irrelevant search results.\"\n}"
+  },
+  {
+    "id": "tr_33",
+    "generated": "{\n  \"is_bug\": \"Yes\",\n  \"reason\": \"The number of due cards in the DeckPicker screen changes inconsistently. Initially, it shows '266 cards due', then after returning from the Reviewer, it shows '267 cards due'. This discrepancy suggests a possible bug in the UI's card count update logic, which may not be reflecting the actual state of the deck.\"\n}"
+  },
+  {
+    "id": "tr_34",
+    "generated": "{\n  \"is_bug\": \"Yes\",\n  \"reason\": \"After clicking 'Language' in the Settings menu, the UI information shows a single NAF (Non-Actionable Field) covering the entire screen, indicating no actionable elements or visible content. This suggests a potential UI rendering issue or a missing screen transition, which is a non-crash functional bug.\"\n}"
+  },
+  {
+    "id": "tr_35",
+    "generated": "{\n  \"is_bug\": \"Yes\",\n  \"reason\": \"After editing a note and saving it, the Previewer screen shows 'Default' instead of the expected deck name 'test_deck1', indicating a failure to update or reflect the correct deck context, which is a functional inconsistency.\"\n}"
+  },
+  {
+    "id": "tr_36",
+    "generated": "{\n  \"is_bug\": \"Yes\",\n  \"reason\": \"The app allows adding multiple cards to the same deck (e.g., 'foo::B') without any indication that the deck is being updated or that the card count is increasing. However, when navigating back to the DeckPicker, the counts for the deck 'foo' do not reflect the actual number of cards added, which suggests a discrepancy in the UI state and data synchronization.\"\n}"
+  },
+  {
+    "id": "tr_37",
+    "generated": "{\n  \"is_bug\": \"No\",\n  \"reason\": \"The interaction trace shows a normal navigation flow through the app, including settings changes and deck selection, without any unexpected behavior, crashes, or functional inconsistencies. All actions (e.g., navigating up, changing language, configuring gestures) are performed as expected, and the UI responds appropriately.\"\n}"
+  },
+  {
+    "id": "tr_38",
+    "generated": "{\n  \"is_bug\": \"No\",\n  \"reason\": \"The UI interaction trace shows a normal flow of navigating from the main screen to the 'About' section, then to 'Licenses', and finally to the 'READ LICENSE' screen. The rotation to landscape mode does not cause any crash or functional issue. All UI elements appear to be functioning as expected, and there is no indication of a non-crash functional bug.\"\n}"
+  },
+  {
+    "id": "tr_39",
+    "generated": "{\n  \"is_bug\": \"No\",\n  \"reason\": \"The interaction trace shows a normal navigation through the settings menu without any unexpected behavior, crashes, or functional inconsistencies. All actions (clicks, swipes, back navigation) are performed as expected, and UI elements respond appropriately.\"\n}"
+  },
+  {
+    "id": "tr_40",
+    "generated": "{\n  \"is_bug\": \"Yes\",\n  \"reason\": \"The user attempted to set Firefox Focus as the default browser, which triggered the system's app resolver activity. However, after selecting 'Always', the user was redirected to a security warning screen in the default Android browser, which indicates an unexpected or incorrect behavior. The app should handle the default browser setup without redirecting to an unrelated security warning screen.\"\n}"
+  },
+  {
+    "id": "tr_41",
+    "generated": "{\n  \"is_bug\": \"Yes\",\n  \"reason\": \"The user added a card with the text '!$' which appears to be invalid or nonsensical content. However, the app did not validate or reject the input, allowing the card to be saved and displayed in the reviewer screen. This indicates a potential functional bug where the app fails to enforce input validation for card content.\"\n}"
+  },
+  {
+    "id": "tr_42",
+    "generated": "{\n  \"is_bug\": \"Yes\",\n  \"reason\": \"The app allows the user to select a language (e.g., 'Occitan (France)') but does not reflect the change in the UI, as the text remains in English. This indicates a functional issue where the language selection does not take effect, which is a non-crash bug.\"\n}"
+  },
+  {
+    "id": "tr_43",
+    "generated": "{\n  \"is_bug\": \"Yes\",\n  \"reason\": \"The app attempts to log in to Quizlet via Google, but after entering the email, the UI rotates to landscape mode, which may cause layout issues or misalignment of input fields and buttons, potentially leading to a non-crash functional bug where the user cannot proceed with the login process correctly.\"\n}"
+  },
+  {
+    "id": "tr_44",
+    "generated": "{\n  \"is_bug\": \"No\",\n  \"reason\": \"The interaction trace shows a normal workflow of navigating through the app, reviewing flashcards, browsing cards, repositioning a card, and returning to the previous screens. All actions appear to be handled correctly without any unexpected behavior, crashes, or functional inconsistencies.\"\n}"
+  },
+  {
+    "id": "tr_45",
+    "generated": "{\n  \"is_bug\": \"No\",\n  \"reason\": \"The interaction flow appears to be functional and follows a logical sequence: selecting a database, editing a card, saving it, reviewing it, grading it, and returning to the main screen. No non-crash functional bugs are evident in the described UI interactions.\"\n}"
+  },
+  {
+    "id": "tr_46",
+    "generated": "{\n  \"is_bug\": \"Yes\",\n  \"reason\": \"The app allows the user to submit a troubleshooting report, but after the first submission, it shows a 'Report already submitted' toast message. However, the user can still click 'Send troubleshooting report' again, which does not provide any feedback or prevent the user from attempting to resubmit, potentially leading to confusion or redundant actions.\"\n}"
+  },
+  {
+    "id": "tr_47",
+    "generated": "{\n  \"is_bug\": \"No\",\n  \"reason\": \"The interaction flow appears to be functional without any crashes or logical errors. The user successfully created a new deck, added a note, and navigated between screens as expected. The UI elements responded correctly to user actions, and the final toast message confirms that a card was added successfully.\"\n}"
+  },
+  {
+    "id": "tr_48",
+    "generated": "{\n  \"is_bug\": \"Yes\",\n  \"reason\": \"The UI trace shows a 'DatabaseException' related to a missing column 'events.groupId' in the SQL query. This indicates a functional bug in the app, as it is attempting to access a database column that does not exist, which would cause the app to fail or behave incorrectly when loading data.\"\n}"
+  },
+  {
+    "id": "tr_49",
+    "generated": "{\n  \"is_bug\": \"Yes\",\n  \"reason\": \"The app displays '70' as the result of the expression '2×3(5)', which is mathematically incorrect. The correct evaluation of 2×3(5) is 30, not 70. This indicates a functional bug in the calculation logic of the app.\"\n}"
+  },
+  {
+    "id": "tr_50",
+    "generated": "{\n  \"is_bug\": \"No\",\n  \"reason\": \"The UI interaction trace shows a normal flow of navigating through Wikipedia pages, searching for a term, and viewing its details and edit history. There is no indication of a non-crash functional bug, such as incorrect behavior, missing functionality, or UI inconsistencies.\"\n}"
+  },
+  {
+    "id": "tr_51",
+    "generated": "{\n  \"is_bug\": \"Yes\",\n  \"reason\": \"After selecting and attempting to delete two tags, the UI still shows the tags ('tag1' and 'tag2') as present, indicating that the deletion action did not successfully remove them. This is a functional bug because the expected behavior after clicking 'Delete' is for the tags to be removed, but they remain visible in the UI.\"\n}"
+  },
+  {
+    "id": "fl_1",
+    "generated": "{\n  \"is_bug\": \"Yes\",\n  \"reason\": \"The app proceeds to the next step even though the password confirmation field is empty, and a toast message indicates that passwords should be identical and non-empty. This suggests a validation failure, as the app did not prevent the user from proceeding with an incomplete or mismatched password setup.\"\n}"
+  },
+  {
+    "id": "fl_2",
+    "generated": "{\n  \"is_bug\": \"Yes\",\n  \"reason\": \"The app allows renaming a category ('Gifts' to 'Gifts_test') and the change is reflected in the list, but the old category name ('Gifts') still appears in the list. This indicates an inconsistency in the UI, as the renamed category should no longer be visible, leading to potential confusion for the user.\"\n}"
+  },
+  {
+    "id": "fl_3",
+    "generated": "{\n  \"is_bug\": \"Yes\",\n  \"reason\": \"The app allows setting an end time earlier than the start time (1:40 AM as end time and 1:10 AM as start time), which is logically inconsistent and could lead to incorrect event data being saved.\"\n}"
+  },
+  {
+    "id": "fl_4",
+    "generated": "{\n  \"is_bug\": \"Yes\",\n  \"reason\": \"The app allows editing of a payee name while editing a transaction, but the updated payee name ('test_Payee2') is not reflected in the transaction list on the home screen. The transaction still shows 'test_payee1' instead of 'test_Payee2', indicating a data synchronization or UI update issue.\"\n}"
+  },
+  {
+    "id": "fl_5",
+    "generated": "{\n  \"is_bug\": \"Yes\",\n  \"reason\": \"After restoring a backup, the app returns to the DeckPicker screen, but the number of cards due has changed from '6 cards due' to '4 cards due', which may indicate an inconsistency or incorrect state after the restore operation. This could be a functional bug if the restore did not properly reflect the expected card count or if the UI did not update correctly based on the restored data.\"\n}"
+  },
+  {
+    "id": "fl_6",
+    "generated": "{\n  \"is_bug\": \"Yes\",\n  \"reason\": \"The app allows the user to edit and save a note, then navigate back to the deck picker where the card count increases from 4 to 6. However, after reviewing and undoing the 'Easy' action, the card count does not revert back to 4, indicating a potential inconsistency in the card count tracking logic. This suggests a functional bug where the app fails to update the deck card count correctly after undoing a review action.\"\n}"
+  },
+  {
+    "id": "fl_7",
+    "generated": "{\n  \"is_bug\": \"Yes\",\n  \"reason\": \"The app navigates to a Chrome browser to handle the 'DONATE' action, which is not a standard or expected behavior for an in-app donation button. This could confuse users and is not a seamless UX, indicating a functional issue.\"\n}"
+  },
+  {
+    "id": "fl_8",
+    "generated": "{\n  \"is_bug\": \"Yes\",\n  \"reason\": \"The app allows adding multiple cards with the same name ('Card 1') into the same deck, which could lead to confusion or duplication. When navigating through the card previewer, the card index ('1 of 2', '2 of 2') suggests that multiple cards exist, but the card names are not unique, making it difficult for users to distinguish between them. This is a functional issue as it may cause usability problems.\"\n}"
+  },
+  {
+    "id": "fl_9",
+    "generated": "{\n  \"is_bug\": \"Yes\",\n  \"reason\": \"The 'Collapse' button is clicked, which should hide the search bar, but the UI still shows the search bar with the 'Search…' text and the 'EditText' field. This indicates that the collapse action did not function as expected, leading to a UI inconsistency.\"\n}"
+  },
+  {
+    "id": "fl_10",
+    "generated": "{\n  \"is_bug\": \"No\",\n  \"reason\": \"The UI interaction follows a logical flow without any indication of a functional bug. The user navigated from the main screen to the 'About' screen, then clicked on 'License', which displayed the GNU GPL license text. The presence of an 'OK' button suggests a way to close the license view, which is a standard behavior and not indicative of a bug.\"\n}"
+  },
+  {
+    "id": "fl_11",
+    "generated": "{\n  \"is_bug\": \"Yes\",\n  \"reason\": \"The app switches to the 'Deutsch' (German) language option, but when the user clicks on 'English', the UI reverts back to the English language settings instead of staying in German. This indicates an inconsistency in language persistence, which is a functional bug.\"\n}"
+  },
+  {
+    "id": "fl_12",
+    "generated": "{\n  \"is_bug\": \"No\",\n  \"reason\": \"The UI interaction follows a logical flow: starting onboarding, selecting the browser, setting it as default, and configuring the address bar placement. No unexpected behavior or functional issues are observed in the sequence.\"\n}"
+  },
+  {
+    "id": "fl_13",
+    "generated": "{\n  \"is_bug\": \"Yes\",\n  \"reason\": \"After clicking 'Select all', all cards should be selected. However, when clicking on the card 'Abscissa', only that card's checkbox is unchecked, while others remain checked. This indicates an inconsistency in the selection state, suggesting a functional bug in the UI interaction.\"\n}"
+  },
+  {
+    "id": "fl_14",
+    "generated": "{\n  \"is_bug\": \"Yes\",\n  \"reason\": \"The user added a custom search engine with the name 'test' and search string '11', but there is no confirmation or visual feedback that the search engine was successfully added. The UI does not indicate whether the 'SAVE' action was successful, which could lead to confusion for the user about whether their changes were applied.\"\n}"
+  },
+  {
+    "id": "fl_15",
+    "generated": "{\n  \"is_bug\": \"Yes\",\n  \"reason\": \"After filtering episodes by 'Downloaded', the UI shows 'No Episodes' with a message indicating that episodes will be shown when a podcast is added. However, the user had previously added and interacted with episodes (e.g., 'Hegseth in the Hot Seat'), which should be visible after applying the filter. This suggests a functional bug where the filtering logic is not correctly displaying the expected episodes.\"\n}"
+  },
+  {
+    "id": "fl_16",
+    "generated": "{\n  \"is_bug\": \"Yes\",\n  \"reason\": \"The 'Undo' action is being clicked multiple times, but the UI does not reflect a change in state (e.g., the card or timer does not revert). This suggests that the 'Undo' functionality may not be working as expected, which is a non-crash functional bug.\"\n}"
+  },
+  {
+    "id": "fl_17",
+    "generated": "{\n  \"is_bug\": \"Yes\",\n  \"reason\": \"After clicking 'CLEAR ALL' in the tags dialog, the tags field should be cleared, but it still shows 'test_tag1, test_tag2, test_tag3'. This indicates a functional bug where the 'CLEAR ALL' action does not properly reset the tags input field.\"\n}"
+  },
+  {
+    "id": "fl_18",
+    "generated": "{\n  \"is_bug\": \"Yes\",\n  \"reason\": \"The user clicked 'Remove' while in the 'Remove search engines' screen, but the 'eBay' search engine was unchecked before the removal. This suggests that the app may have removed a search engine that was not selected for removal, which is a functional inconsistency.\"\n}"
+  },
+  {
+    "id": "fl_19",
+    "generated": "{\n  \"is_bug\": \"Yes\",\n  \"reason\": \"The app creates a zip file named 'test1.zip' and successfully extracts it, but the extracted folder 'test1' is not visible in the UI until after a refresh or navigation. This indicates a potential UI inconsistency or delay in updating the file browser, which could confuse users expecting immediate visibility of the extracted files.\"\n}"
+  },
+  {
+    "id": "fl_20",
+    "generated": "{\n  \"is_bug\": \"Yes\",\n  \"reason\": \"The user navigated from the DeckPicker to Preferences, then to AnkiDroid settings, and finally pressed back twice to return to DeckPicker. However, the UI elements in the DeckPicker screen after returning do not reflect the expected state (e.g., no indication that settings were changed). This suggests a potential issue with state persistence or UI refresh when returning to the DeckPicker activity.\"\n}"
+  },
+  {
+    "id": "fl_21",
+    "generated": "{\n  \"is_bug\": \"Yes\",\n  \"reason\": \"The app navigates to the 'test1' folder, but when the user clicks 'test1' again, it does not return to the previous screen or show a clear indication of navigation. This suggests a potential issue with the back navigation or screen state management, leading to a confusing or non-functional UI behavior.\"\n}"
+  },
+  {
+    "id": "fl_22",
+    "generated": "{\n  \"is_bug\": \"No\",\n  \"reason\": \"The interaction trace shows a normal navigation flow through the app without any unexpected behavior, crashes, or functional inconsistencies. All UI elements respond as expected, and the app transitions between screens correctly.\"\n}"
+  },
+  {
+    "id": "fl_23",
+    "generated": "{\n  \"is_bug\": \"No\",\n  \"reason\": \"The interaction follows a logical flow: navigating to the 'Download' folder, accessing properties, renaming a file, entering a new name, and saving it. The UI responds appropriately, and the toast message 'Renaming' confirms the action. No functional issues or crashes are observed.\"\n}"
+  },
+  {
+    "id": "fl_24",
+    "generated": "{\n  \"is_bug\": \"Yes\",\n  \"reason\": \"The app allows the creation of a subcategory 'A_Subcategory' under 'A_Category', and later allows editing of the subcategory name to 'A_Subcategory_rename'. However, the UI does not reflect the updated name in the list of subcategories under 'A_Category'. This indicates a data synchronization or UI rendering issue, where the change is not properly reflected, leading to a functional inconsistency.\"\n}"
+  },
+  {
+    "id": "fl_25",
+    "generated": "{\n  \"is_bug\": \"Yes\",\n  \"reason\": \"After clicking 'Download', the UI shows a 'Cancel download' option, but there is no corresponding 'Download' action available to initiate the download. This inconsistency in UI behavior creates a functional bug where the user is presented with a way to cancel a download but not to start one.\"\n}"
+  },
+  {
+    "id": "fl_26",
+    "generated": "{\n  \"is_bug\": \"Yes\",\n  \"reason\": \"The app allows the user to click on 'No thanks' in the cookie blocking dialog, but it does not return to the previous screen or update the UI to reflect the change. The UI remains in the same state as if the user had selected 'Yes please', indicating a failure to handle the user's choice correctly.\"\n}"
+  },
+  {
+    "id": "fl_27",
+    "generated": "{\n  \"is_bug\": \"Yes\",\n  \"reason\": \"The app allows the user to delete a bookmark folder that contains items, but it does not provide a clear confirmation or warning about the consequences of deletion. The user is prompted with a dialog asking if they want to delete the folder and its contents, but the action proceeds without ensuring the user fully understands the irreversible nature of the deletion, which could lead to accidental data loss.\"\n}"
+  },
+  {
+    "id": "fl_28",
+    "generated": "{\n  \"is_bug\": \"No\",\n  \"reason\": \"The interaction flow appears to be functional without any non-crash bugs. The user successfully navigated through the app: entered a URL, clicked 'Go', interacted with a download option, confirmed the download, and accessed the Downloads menu. All actions were performed as expected, and no unexpected behavior or UI inconsistencies were observed.\"\n}"
+  },
+  {
+    "id": "fl_29",
+    "generated": "{\n  \"is_bug\": \"Yes\",\n  \"reason\": \"The app switches to Japanese language settings, but the UI elements (e.g., 'Sync (log in)', 'Add note', 'Card browser', etc.) are not fully translated, leading to a mismatch between the language setting and the displayed text. This is a functional bug as it results in an inconsistent user experience.\"\n}"
+  },
+  {
+    "id": "fl_30",
+    "generated": "{\n  \"is_bug\": \"Yes\",\n  \"reason\": \"The 'Hide' action was triggered in the context menu, which should hide the selected file. However, the file 'Cat_November_2010-1a.jpg' still appears in the file list after the 'Hidden Files' option is clicked, indicating that the 'Hide' functionality did not work as expected, leading to a functional inconsistency.\"\n}"
+  },
+  {
+    "id": "fl_31",
+    "generated": "{\n  \"is_bug\": \"No\",\n  \"reason\": \"The interaction flow follows a logical sequence without any unexpected behavior or crashes. The user successfully navigated from adding a note, attaching a multimedia file, selecting a photo, cropping it, and returning to the note editor. No functional issues were observed.\"\n}"
+  },
+  {
+    "id": "fl_32",
+    "generated": "{\n  \"is_bug\": \"Yes\",\n  \"reason\": \"The app allows searching for 'your' but displays a file named 'your_data.mmb' in the search results. However, the search input was 'your', and the result 'your_data.mmb' is not a direct match for the search term, indicating a potential issue with the search functionality or result filtering.\"\n}"
+  },
+  {
+    "id": "fl_33",
+    "generated": "{\n  \"is_bug\": \"Yes\",\n  \"reason\": \"The number of studied cards in the DeckPicker screen shows 'Studied 21 cards in 3 minutes today' after the user has only studied 3 cards (from 20 to 17 cards due). This discrepancy indicates a UI inconsistency or incorrect data display, which is a non-crash functional bug.\"\n}"
+  },
+  {
+    "id": "fl_34",
+    "generated": "{\n  \"is_bug\": \"Yes\",\n  \"reason\": \"The app language was changed to 'Deutsch' (German), but the UI elements such as button labels and text (e.g., 'Rückblicke', 'Start', 'Mai 2026') are not fully translated or are inconsistent. This indicates a partial or incorrect localization, which is a functional bug.\"\n}"
+  },
+  {
+    "id": "fl_35",
+    "generated": "{\n  \"is_bug\": \"No\",\n  \"reason\": \"The interaction trace shows a normal workflow of navigating through the app, editing a note, saving changes, and returning to the card browser. The changes made to the note are reflected correctly in the card browser, and all UI elements behave as expected without any functional issues.\"\n}"
+  },
+  {
+    "id": "fl_36",
+    "generated": "{\n  \"is_bug\": \"Yes\",\n  \"reason\": \"The app allows adding notes to a deck (e.g., 'foo::B') and then editing the deck selection in the NoteEditor. However, when returning to the DeckPicker, the card count for the deck 'foo' does not update correctly. For example, after adding 4 cards to 'foo::B', the deck 'foo' still shows 0 cards, which is incorrect. This indicates a functional bug where the card count is not being updated or displayed properly in the DeckPicker after adding notes to sub-decks.\"\n}"
+  },
+  {
+    "id": "fl_37",
+    "generated": "{\n  \"is_bug\": \"Yes\",\n  \"reason\": \"The app changes the language to Chinese (中国) but does not properly update the UI elements, such as the 'Settings' menu and other text labels, which remain in English or partially translated. This indicates a functional bug related to localization.\"\n}"
+  },
+  {
+    "id": "fl_38",
+    "generated": "{\n  \"is_bug\": \"No\",\n  \"reason\": \"The UI interaction trace shows a normal flow of navigating through the app, opening the drawer, accessing the 'About NewPipe' screen, and viewing license information. There is no indication of a non-crash functional bug, such as incorrect behavior, missing functionality, or UI inconsistencies.\"\n}"
+  },
+  {
+    "id": "fl_39",
+    "generated": "{\n  \"is_bug\": \"Yes\",\n  \"reason\": \"The 'Send usage data' switch was toggled to 'OFF' after being clicked, but the UI did not reflect the expected state change. The switch was initially 'ON' and labeled as 'Send usage data', but after clicking, it remained 'ON' with the same label, indicating a failure to update the UI state correctly.\"\n}"
+  },
+  {
+    "id": "fl_40",
+    "generated": "{\n  \"is_bug\": \"No\",\n  \"reason\": \"The interaction flow correctly sets Firefox Focus as the default browser and reflects the change in the UI. The switch is toggled to 'ON' and the settings screen correctly shows the updated status, indicating no functional issues.\"\n}"
+  },
+  {
+    "id": "fl_41",
+    "generated": "{\n  \"is_bug\": \"Yes\",\n  \"reason\": \"The user added a note with 'testQuestion' as the front and '!$' as the back, then saved it. The note was successfully added, as indicated by the toast message '1 card added'. However, when reviewing the card, the back of the card shows '!$' instead of the expected answer. This indicates a functional issue where the content entered in the 'Back' field is not being displayed correctly during review, which is a non-crash functional bug.\"\n}"
+  },
+  {
+    "id": "fl_42",
+    "generated": "{\n  \"is_bug\": \"Yes\",\n  \"reason\": \"The app language was changed to 'Deutsch' (German), but the UI elements such as button labels and text (e.g., 'Rückblicke', 'Start', 'Mai 2026') are not fully translated or are inconsistent. This indicates a partial or incorrect localization, which is a functional bug.\"\n}"
+  },
+  {
+    "id": "fl_43",
+    "generated": "{\n  \"is_bug\": \"Yes\",\n  \"reason\": \"The app attempts to link with Dropbox via Google authentication, but the input '123123' is not a valid email or Google account identifier. This may result in a failed authentication attempt or an error state, indicating a functional issue where the app does not validate input before proceeding.\"\n}"
+  },
+  {
+    "id": "fl_44",
+    "generated": "{\n  \"is_bug\": \"Yes\",\n  \"reason\": \"The 'Reposition' action allows users to move a card to a specific position, but after repositioning, the card's position is not updated correctly in the list. The card 'Absolute value' was moved to position 20002, but it still appears in the same position as before, indicating a functional bug in the repositioning logic.\"\n}"
+  },
+  {
+    "id": "fl_45",
+    "generated": "{\n  \"is_bug\": \"Yes\",\n  \"reason\": \"After editing and saving a card, the 'head' card is shown again instead of the next card ('hair'). This suggests a flaw in the card navigation logic, as the app should progress to the next card after grading, not repeat the same one.\"\n}"
+  },
+  {
+    "id": "fl_46",
+    "generated": "{\n  \"is_bug\": \"Yes\",\n  \"reason\": \"The user clicked 'Send troubleshooting report' twice, and the system displayed the feedback form both times. However, after the first 'Cancel' action, the user clicked 'Send troubleshooting report' again, and the feedback form reappeared, suggesting that the app did not properly handle the cancellation and reset the state. This could lead to confusion or unintended behavior, indicating a non-crash functional bug.\"\n}"
+  },
+  {
+    "id": "fl_47",
+    "generated": "{\n  \"is_bug\": \"Yes\",\n  \"reason\": \"The user created a new deck named '*Hello(zanki)' and added a note to it. However, when navigating back to the DeckPicker, the deck count for '*Hello(zanki)' shows '1' card, but the note was added successfully and a toast message confirms '1 card added'. The UI does not reflect the correct state, indicating a potential bug in updating the deck card count or UI rendering.\"\n}"
+  },
+  {
+    "id": "fl_48",
+    "generated": "{\n  \"is_bug\": \"Yes\",\n  \"reason\": \"The 'Save' button was clicked, but the event 'test1' did not appear in the calendar view. This indicates a functional issue where the created event is not being properly saved or displayed, which is a non-crash functional bug.\"\n}"
+  },
+  {
+    "id": "fl_49",
+    "generated": "{\n  \"is_bug\": \"Yes\",\n  \"reason\": \"The app displays 'Error' when the user inputs an invalid expression like '2×3(' and does not properly handle the closing parenthesis, leading to incorrect evaluation. This indicates a functional bug in the expression parsing or calculation logic.\"\n}"
+  },
+  {
+    "id": "fl_50",
+    "generated": "{\n  \"is_bug\": \"No\",\n  \"reason\": \"The UI interaction follows a logical flow without any indication of functional issues. The user navigated through search, clicked on a result, viewed the page, swiped, and accessed the edit history, then returned to the page. All actions appear to function as intended without crashes or unexpected behavior.\"\n}"
+  },
+  {
+    "id": "fl_51",
+    "generated": "{\n  \"is_bug\": \"Yes\",\n  \"reason\": \"The app allows the user to select multiple tags (e.g., 'tag1' and 'tag2') and shows a 'Selected 2 tags' message. However, there is no UI element or action provided to perform an operation on the selected tags (e.g., delete, rename, or apply a bulk action). This results in a non-crash functional bug where the selection is enabled but no further functionality is available, leading to a poor user experience.\"\n}"
+  }
+]

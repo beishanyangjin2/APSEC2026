@@ -1,0 +1,8 @@
+# Existing LLM-Based NCF Bug Detectors
+
+This category contains the OLLM reproduction and the VisionDroid re-implementation, both using GPT-4o in place of the unavailable original GPT-4 backend.
+
+- `ollm-gpt-4o/` contains three runs from OLLM's released implementation.
+- `visiondroid-gpt-4o/labels.csv` contains the final 100 evaluated cases. `raw_predictions/`, `manifests/`, and `detector_images/` preserve the detector evidence for each case. The obsolete `tr_33` and `fl_33` cases and non-paper supplemental cases are excluded.
+
+A packaged copy of the VisionDroid detector images is available as `detector_images.zip` in the [FineDroid Project Data folder](https://drive.google.com/drive/folders/1Gcd3DOvtz2brau-ETGziX9KAn1119fgM?usp=sharing).

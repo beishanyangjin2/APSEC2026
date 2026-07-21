@@ -1,5 +1,76 @@
-Run testLLMs.ipynb to test LLMs by api calling
+# FineDroid Evaluation Results
 
-use Finetune and Post-processing/data_test to test all commercial LLMs.
+This directory contains the case-level outputs and labels used for the three baseline comparisons in the FineDroid paper. The old evaluation notebook and spreadsheet have been replaced with a self-contained, auditable result artifact.
 
-All results are shown on the xlsx file
+## Directory structure
+
+```text
+Evaluation/
+├── test_set/                            # Compact ground-truth evaluation set
+├── open_source_llms/                    # Locally deployed open-source LLMs
+├── commercial_llms/                     # API-based model baselines
+├── existing_llm_based_ncf_bug_detectors/ # OLLM and VisionDroid
+├── finedroid/                            # FineDroid output and post-processing
+├── results.csv                           # All three published tables
+└── reproduce_tables.py                   # Recompute metrics from case labels
+```
+
+Each model directory contains its raw `predictions.json` and case-level `labels.csv`. API models have one subdirectory per run. Additional review or post-processing files are retained when they determine the final label. The category-level `results.csv` files include the FineDroid reference row used in the corresponding paper table.
+
+## Evaluation setup
+
+The final test set contains 100 traces: 50 buggy traces and 50 bug-free traces. The legacy cases `tr_33` and `fl_33` are excluded; the replacement cases `tr_43` and `fl_43` are included.
+
+The labels are:
+
+- `TPC`: a reported bug that is consistent with the ground-truth bug;
+- `TPW`: a bug is reported, but the explanation identifies the wrong bug;
+- `FN`: a ground-truth bug is not reported;
+- `TN`: a bug-free trace is correctly classified;
+- `FP`: a bug is reported for a bug-free trace;
+- `PARSE_ERROR`: the model output cannot be parsed.
+
+The reported metrics are calculated as follows:
+
+```text
+TPC (%) = #TPC / 50 × 100
+TPW (%) = #TPW / 50 × 100
+FP  (%) = #FP  / 50 × 100
+FA  (%) = (#TPW + #FP) / 100 × 100
+```
+
+For three-run API evaluations, the per-label counts are averaged across runs before the percentages are calculated. `results.csv` reports the mean rounded to one decimal place.
+
+## Compared systems
+
+The locally deployable open-source baselines are Llama3.1-8B-Instruct, Mistral-7B-Instruct-v0.3, Phi-4, Gemma3-12B-IT, Qwen2.5-14B, and Qwen3-14B in both non-thinking and thinking modes. Their released labels correspond to the raw round-1 outputs. FineDroid's result uses the reason-verification output in `finedroid/labels.csv`.
+
+The API-based baselines are GPT-4o, GPT-5, Gemini 2.5 Flash, Gemini 2.5 Pro, and DeepSeek-V3.2-Exp through its chat and reasoner endpoints. DeepSeek is grouped here by deployment mode because its full model cannot be deployed on the evaluation A100 80GB GPU. Each commercial baseline was evaluated three times with the baseline prompt.
+
+For existing LLM-based NCF bug detectors, OLLM uses its released implementation and VisionDroid is re-implemented from the available partial code and paper description. GPT-4o replaces their unavailable original GPT-4 backend. The OLLM result is the mean of three runs. The VisionDroid directory preserves the final 100 case-level labels, raw detector responses, prompt manifests, and one detector image per case; bulky intermediate annotated images are intentionally omitted.
+
+## Reproducing the tables
+
+Only Python 3's standard library is required:
+
+```bash
+python3 Evaluation/reproduce_tables.py
+python3 Evaluation/reproduce_tables.py --check
+```
+
+The first command prints the three tables in Markdown. The second verifies that every released label file contains the expected 100 cases and reproduces every value in the category-level result tables.
+
+## Published results
+
+The complete machine-readable results are in `results.csv`. TPC, TPW, FP, and FA are percentages.
+
+## External test artifacts
+
+The [FineDroid Project Data folder](https://drive.google.com/drive/folders/1Gcd3DOvtz2brau-ETGziX9KAn1119fgM?usp=sharing) contains:
+
+- `testingset.zip`: complete test-set APKs, execution screenshots, XML hierarchies, and traces;
+- `detector_images.zip`: packaged VisionDroid detector images.
+
+The canonical compact test-set JSON/CSV files are stored in [`test_set/`](test_set/README.md). Structured predictions and final case-level labels required to audit the reported metrics remain in this directory.
+
+The original mixed `testing/` directory is retained only as a local backup and is excluded by the repository `.gitignore`. `Evaluation/` is the canonical, publishable result artifact.

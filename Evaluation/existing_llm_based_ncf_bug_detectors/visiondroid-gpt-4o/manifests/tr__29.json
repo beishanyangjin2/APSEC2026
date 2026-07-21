@@ -1,0 +1,587 @@
+{
+  "case_dir": "<VISIONDROID_WORKSPACE>/new_data_test/tr/29",
+  "workspace": "<VISIONDROID_WORKSPACE>/Trident/tmp/new_data_batch_detector_gpt4o_rerun/cases/tr__29",
+  "function_name": "tr__29",
+  "transition_summary": [
+    {
+      "step": 1,
+      "action": {
+        "type": "click",
+        "feature": "Navigate up",
+        "x": 112,
+        "y": 192,
+        "bounds": [
+          0,
+          84,
+          196,
+          280
+        ],
+        "content_desc": "Navigate up"
+      },
+      "action_source": "events.json",
+      "pre_screenshot": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/29/screenshots/1.png",
+      "pre_hierarchy": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/29/xml_files/1.xml",
+      "result_screenshot": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/29/screenshots/2.png",
+      "result_hierarchy": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/29/xml_files/2.xml",
+      "source_event_type": "click",
+      "source_event_feature": "Navigate up"
+    },
+    {
+      "step": 2,
+      "action": {
+        "type": "click",
+        "feature": "Settings",
+        "x": 368,
+        "y": 1392,
+        "bounds": [
+          56,
+          1285,
+          924,
+          1453
+        ],
+        "resource_id": "com.ichi2.anki:id/design_menu_item_text",
+        "element_text": "Settings"
+      },
+      "action_source": "events.json",
+      "pre_screenshot": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/29/screenshots/2.png",
+      "pre_hierarchy": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/29/xml_files/2.xml",
+      "result_screenshot": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/29/screenshots/3.png",
+      "result_hierarchy": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/29/xml_files/3.xml",
+      "source_event_type": "click",
+      "source_event_feature": "Settings"
+    },
+    {
+      "step": 3,
+      "action": {
+        "type": "click",
+        "feature": "AnkiDroid",
+        "x": 240,
+        "y": 352,
+        "bounds": [
+          84,
+          301,
+          328,
+          377
+        ],
+        "resource_id": "android:id/title",
+        "element_text": "AnkiDroid"
+      },
+      "action_source": "events.json",
+      "pre_screenshot": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/29/screenshots/3.png",
+      "pre_hierarchy": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/29/xml_files/3.xml",
+      "result_screenshot": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/29/screenshots/4.png",
+      "result_hierarchy": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/29/xml_files/4.xml",
+      "source_event_type": "click",
+      "source_event_feature": "AnkiDroid"
+    },
+    {
+      "step": 4,
+      "action": {
+        "type": "click",
+        "feature": "Language",
+        "x": 396,
+        "y": 2032,
+        "bounds": [
+          252,
+          1992,
+          496,
+          2068
+        ],
+        "resource_id": "android:id/title",
+        "element_text": "Language"
+      },
+      "action_source": "events.json",
+      "pre_screenshot": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/29/screenshots/4.png",
+      "pre_hierarchy": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/29/xml_files/4.xml",
+      "result_screenshot": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/29/screenshots/5.png",
+      "result_hierarchy": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/29/xml_files/5.xml",
+      "source_event_type": "click",
+      "source_event_feature": "Language"
+    },
+    {
+      "step": 5,
+      "action": {
+        "type": "swipe",
+        "feature": ""
+      },
+      "action_source": "events.json",
+      "pre_screenshot": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/29/screenshots/5.png",
+      "pre_hierarchy": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/29/xml_files/5.xml",
+      "result_screenshot": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/29/screenshots/6.png",
+      "result_hierarchy": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/29/xml_files/6.xml",
+      "source_event_type": "swipe",
+      "source_event_feature": ""
+    },
+    {
+      "step": 6,
+      "action": {
+        "type": "swipe",
+        "feature": ""
+      },
+      "action_source": "events.json",
+      "pre_screenshot": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/29/screenshots/6.png",
+      "pre_hierarchy": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/29/xml_files/6.xml",
+      "result_screenshot": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/29/screenshots/7.png",
+      "result_hierarchy": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/29/xml_files/7.xml",
+      "source_event_type": "swipe",
+      "source_event_feature": ""
+    },
+    {
+      "step": 7,
+      "action": {
+        "type": "swipe",
+        "feature": ""
+      },
+      "action_source": "events.json",
+      "pre_screenshot": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/29/screenshots/7.png",
+      "pre_hierarchy": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/29/xml_files/7.xml",
+      "result_screenshot": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/29/screenshots/8.png",
+      "result_hierarchy": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/29/xml_files/8.xml",
+      "source_event_type": "swipe",
+      "source_event_feature": ""
+    },
+    {
+      "step": 8,
+      "action": {
+        "type": "swipe",
+        "feature": ""
+      },
+      "action_source": "events.json",
+      "pre_screenshot": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/29/screenshots/8.png",
+      "pre_hierarchy": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/29/xml_files/8.xml",
+      "result_screenshot": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/29/screenshots/9.png",
+      "result_hierarchy": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/29/xml_files/9.xml",
+      "source_event_type": "swipe",
+      "source_event_feature": ""
+    },
+    {
+      "step": 9,
+      "action": {
+        "type": "swipe",
+        "feature": ""
+      },
+      "action_source": "events.json",
+      "pre_screenshot": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/29/screenshots/9.png",
+      "pre_hierarchy": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/29/xml_files/9.xml",
+      "result_screenshot": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/29/screenshots/10.png",
+      "result_hierarchy": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/29/xml_files/10.xml",
+      "source_event_type": "swipe",
+      "source_event_feature": ""
+    },
+    {
+      "step": 10,
+      "action": {
+        "type": "click",
+        "feature": "日本語",
+        "x": 448,
+        "y": 2612,
+        "bounds": [
+          93,
+          2518,
+          1347,
+          2678
+        ],
+        "resource_id": "android:id/text1",
+        "element_text": "日本語"
+      },
+      "action_source": "events.json",
+      "pre_screenshot": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/29/screenshots/10.png",
+      "pre_hierarchy": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/29/xml_files/10.xml",
+      "result_screenshot": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/29/screenshots/11.png",
+      "result_hierarchy": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/29/xml_files/11.xml",
+      "source_event_type": "click",
+      "source_event_feature": "日本語"
+    },
+    {
+      "step": 11,
+      "action": {
+        "type": "click",
+        "feature": "前に戻る",
+        "x": 112,
+        "y": 208,
+        "bounds": [
+          0,
+          84,
+          196,
+          280
+        ],
+        "content_desc": "前に戻る"
+      },
+      "action_source": "events.json",
+      "pre_screenshot": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/29/screenshots/11.png",
+      "pre_hierarchy": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/29/xml_files/11.xml",
+      "result_screenshot": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/29/screenshots/12.png",
+      "result_hierarchy": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/29/xml_files/12.xml",
+      "source_event_type": "click",
+      "source_event_feature": "前に戻る"
+    },
+    {
+      "step": 12,
+      "action": {
+        "type": "click",
+        "feature": "カードブラウザ",
+        "x": 496,
+        "y": 812,
+        "bounds": [
+          56,
+          721,
+          924,
+          889
+        ],
+        "resource_id": "com.ichi2.anki:id/design_menu_item_text",
+        "element_text": "カードブラウザ"
+      },
+      "action_source": "events.json",
+      "pre_screenshot": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/29/screenshots/12.png",
+      "pre_hierarchy": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/29/xml_files/12.xml",
+      "result_screenshot": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/29/screenshots/13.png",
+      "result_hierarchy": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/29/xml_files/13.xml",
+      "source_event_type": "click",
+      "source_event_feature": "カードブラウザ"
+    },
+    {
+      "step": 13,
+      "action": {
+        "type": "click",
+        "feature": "testAnswer",
+        "x": 888,
+        "y": 412,
+        "bounds": [
+          721,
+          364,
+          1440,
+          438
+        ],
+        "resource_id": "com.ichi2.anki:id/card_column2",
+        "element_text": "testAnswer"
+      },
+      "action_source": "events.json",
+      "pre_screenshot": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/29/screenshots/13.png",
+      "pre_hierarchy": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/29/xml_files/13.xml",
+      "result_screenshot": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/29/screenshots/14.png",
+      "result_hierarchy": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/29/xml_files/14.xml",
+      "source_event_type": "click",
+      "source_event_feature": "testAnswer"
+    },
+    {
+      "step": 14,
+      "action": {
+        "type": "back",
+        "feature": ""
+      },
+      "action_source": "events.json",
+      "pre_screenshot": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/29/screenshots/14.png",
+      "pre_hierarchy": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/29/xml_files/14.xml",
+      "result_screenshot": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/29/screenshots/15.png",
+      "result_hierarchy": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/29/xml_files/15.xml",
+      "source_event_type": "back",
+      "source_event_feature": ""
+    },
+    {
+      "step": 15,
+      "action": {
+        "type": "long-click",
+        "feature": "testAnswer",
+        "x": 880,
+        "y": 420,
+        "bounds": [
+          721,
+          364,
+          1440,
+          438
+        ],
+        "resource_id": "com.ichi2.anki:id/card_column2",
+        "element_text": "testAnswer"
+      },
+      "action_source": "events.json",
+      "pre_screenshot": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/29/screenshots/15.png",
+      "pre_hierarchy": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/29/xml_files/15.xml",
+      "result_screenshot": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/29/screenshots/16.png",
+      "result_hierarchy": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/29/xml_files/16.xml",
+      "source_event_type": "long_click",
+      "source_event_feature": "testAnswer"
+    },
+    {
+      "step": 16,
+      "action": {
+        "type": "click",
+        "feature": "その他のオプション",
+        "x": 1352,
+        "y": 192,
+        "bounds": [
+          1300,
+          98,
+          1440,
+          266
+        ],
+        "content_desc": "その他のオプション"
+      },
+      "action_source": "events.json",
+      "pre_screenshot": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/29/screenshots/16.png",
+      "pre_hierarchy": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/29/xml_files/16.xml",
+      "result_screenshot": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/29/screenshots/17.png",
+      "result_hierarchy": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/29/xml_files/17.xml",
+      "source_event_type": "click",
+      "source_event_feature": "その他のオプション"
+    }
+  ],
+  "events_used": true,
+  "actions_txt_used": false,
+  "trace_used": false,
+  "num_screenshots": 17,
+  "num_transitions": 16,
+  "warnings": [],
+  "steps": [
+    {
+      "step": "1",
+      "annotated_image": "<VISIONDROID_WORKSPACE>/Trident/tmp/new_data_batch_detector_gpt4o_rerun/cases/tr__29/annotated_images/1.png",
+      "action": {
+        "type": "click",
+        "feature": "Navigate up",
+        "x": 112,
+        "y": 192,
+        "bounds": [
+          0,
+          84,
+          196,
+          280
+        ],
+        "content_desc": "Navigate up"
+      },
+      "page_description": "Navigate up, AnkiDroid, 1 card due (0 s), Sync (log in), Search decks, More options, Default, 1"
+    },
+    {
+      "step": "2",
+      "annotated_image": "<VISIONDROID_WORKSPACE>/Trident/tmp/new_data_batch_detector_gpt4o_rerun/cases/tr__29/annotated_images/2.png",
+      "action": {
+        "type": "click",
+        "feature": "Settings",
+        "x": 368,
+        "y": 1392,
+        "bounds": [
+          56,
+          1285,
+          924,
+          1453
+        ],
+        "resource_id": "com.ichi2.anki:id/design_menu_item_text",
+        "element_text": "Settings"
+      },
+      "page_description": "Decks, Card browser, Statistics, Night mode, OFF, Settings, Help, Navigate up"
+    },
+    {
+      "step": "3",
+      "annotated_image": "<VISIONDROID_WORKSPACE>/Trident/tmp/new_data_batch_detector_gpt4o_rerun/cases/tr__29/annotated_images/3.png",
+      "action": {
+        "type": "click",
+        "feature": "AnkiDroid",
+        "x": 240,
+        "y": 352,
+        "bounds": [
+          84,
+          301,
+          328,
+          377
+        ],
+        "resource_id": "android:id/title",
+        "element_text": "AnkiDroid"
+      },
+      "page_description": "12:30, 12:30 PM, Settings notification: Virtual SD card, Android System notification: Serial console enabled, Wifi signal full., Phone signal full., Battery 100 percent., Navigate up"
+    },
+    {
+      "step": "4",
+      "annotated_image": "<VISIONDROID_WORKSPACE>/Trident/tmp/new_data_batch_detector_gpt4o_rerun/cases/tr__29/annotated_images/4.png",
+      "action": {
+        "type": "click",
+        "feature": "Language",
+        "x": 396,
+        "y": 2032,
+        "bounds": [
+          252,
+          1992,
+          496,
+          2068
+        ],
+        "resource_id": "android:id/title",
+        "element_text": "Language"
+      },
+      "page_description": "12:30, 12:30 PM, Settings notification: Virtual SD card, Android System notification: Serial console enabled, Wifi signal full., Phone signal full., Battery 100 percent., Navigate up"
+    },
+    {
+      "step": "5",
+      "annotated_image": "<VISIONDROID_WORKSPACE>/Trident/tmp/new_data_batch_detector_gpt4o_rerun/cases/tr__29/annotated_images/5.png",
+      "action": {
+        "type": "swipe",
+        "feature": ""
+      },
+      "page_description": "12:31, 12:31 PM, Settings notification: Virtual SD card, Android System notification: Serial console enabled, Wifi signal full., Phone signal full., Battery 100 percent., Language"
+    },
+    {
+      "step": "6",
+      "annotated_image": "<VISIONDROID_WORKSPACE>/Trident/tmp/new_data_batch_detector_gpt4o_rerun/cases/tr__29/annotated_images/6.png",
+      "action": {
+        "type": "swipe",
+        "feature": ""
+      },
+      "page_description": "12:31, 12:31 PM, Settings notification: Virtual SD card, Android System notification: Serial console enabled, Wifi signal full., Phone signal full., Battery 100 percent., Language"
+    },
+    {
+      "step": "7",
+      "annotated_image": "<VISIONDROID_WORKSPACE>/Trident/tmp/new_data_batch_detector_gpt4o_rerun/cases/tr__29/annotated_images/7.png",
+      "action": {
+        "type": "swipe",
+        "feature": ""
+      },
+      "page_description": "12:31, 12:31 PM, Settings notification: Virtual SD card, Android System notification: Serial console enabled, Wifi signal full., Phone signal full., Battery 100 percent., Language"
+    },
+    {
+      "step": "8",
+      "annotated_image": "<VISIONDROID_WORKSPACE>/Trident/tmp/new_data_batch_detector_gpt4o_rerun/cases/tr__29/annotated_images/8.png",
+      "action": {
+        "type": "swipe",
+        "feature": ""
+      },
+      "page_description": "12:31, 12:31 PM, Settings notification: Virtual SD card, Android System notification: Serial console enabled, Wifi signal full., Phone signal full., Battery 100 percent., Language"
+    },
+    {
+      "step": "9",
+      "annotated_image": "<VISIONDROID_WORKSPACE>/Trident/tmp/new_data_batch_detector_gpt4o_rerun/cases/tr__29/annotated_images/9.png",
+      "action": {
+        "type": "swipe",
+        "feature": ""
+      },
+      "page_description": "12:31, 12:31 PM, Settings notification: Virtual SD card, Android System notification: Serial console enabled, Wifi signal full., Phone signal full., Battery 100 percent., Language"
+    },
+    {
+      "step": "10",
+      "annotated_image": "<VISIONDROID_WORKSPACE>/Trident/tmp/new_data_batch_detector_gpt4o_rerun/cases/tr__29/annotated_images/10.png",
+      "action": {
+        "type": "click",
+        "feature": "日本語",
+        "x": 448,
+        "y": 2612,
+        "bounds": [
+          93,
+          2518,
+          1347,
+          2678
+        ],
+        "resource_id": "android:id/text1",
+        "element_text": "日本語"
+      },
+      "page_description": "12:31, 12:31 PM, Settings notification: Virtual SD card, Android System notification: Serial console enabled, Wifi signal full., Phone signal full., Battery 100 percent., Language"
+    },
+    {
+      "step": "11",
+      "annotated_image": "<VISIONDROID_WORKSPACE>/Trident/tmp/new_data_batch_detector_gpt4o_rerun/cases/tr__29/annotated_images/11.png",
+      "action": {
+        "type": "click",
+        "feature": "前に戻る",
+        "x": 112,
+        "y": 208,
+        "bounds": [
+          0,
+          84,
+          196,
+          280
+        ],
+        "content_desc": "前に戻る"
+      },
+      "page_description": "12:31, 12:31 PM, Settings notification: Virtual SD card, Android System notification: Serial console enabled, Wifi signal full., Phone signal full., Battery 100 percent., 前に戻る"
+    },
+    {
+      "step": "12",
+      "annotated_image": "<VISIONDROID_WORKSPACE>/Trident/tmp/new_data_batch_detector_gpt4o_rerun/cases/tr__29/annotated_images/12.png",
+      "action": {
+        "type": "click",
+        "feature": "カードブラウザ",
+        "x": 496,
+        "y": 812,
+        "bounds": [
+          56,
+          721,
+          924,
+          889
+        ],
+        "resource_id": "com.ichi2.anki:id/design_menu_item_text",
+        "element_text": "カードブラウザ"
+      },
+      "page_description": "12:31, 12:31 PM, Settings notification: Virtual SD card, Android System notification: Serial console enabled, Wifi signal full., Phone signal full., Battery 100 percent., デッキ"
+    },
+    {
+      "step": "13",
+      "annotated_image": "<VISIONDROID_WORKSPACE>/Trident/tmp/new_data_batch_detector_gpt4o_rerun/cases/tr__29/annotated_images/13.png",
+      "action": {
+        "type": "click",
+        "feature": "testAnswer",
+        "x": 888,
+        "y": 412,
+        "bounds": [
+          721,
+          364,
+          1440,
+          438
+        ],
+        "resource_id": "com.ichi2.anki:id/card_column2",
+        "element_text": "testAnswer"
+      },
+      "page_description": "12:31, 12:31 PM, Settings notification: Virtual SD card, Android System notification: Serial console enabled, Wifi signal full., Phone three bars., Battery 100 percent., 前に戻る"
+    },
+    {
+      "step": "14",
+      "annotated_image": "<VISIONDROID_WORKSPACE>/Trident/tmp/new_data_batch_detector_gpt4o_rerun/cases/tr__29/annotated_images/14.png",
+      "action": {
+        "type": "back",
+        "feature": ""
+      },
+      "page_description": "12:32, 12:32 PM, Settings notification: Virtual SD card, Android System notification: Serial console enabled, Wifi signal full., Phone three bars., Battery 100 percent., 前に戻る"
+    },
+    {
+      "step": "15",
+      "annotated_image": "<VISIONDROID_WORKSPACE>/Trident/tmp/new_data_batch_detector_gpt4o_rerun/cases/tr__29/annotated_images/15.png",
+      "action": {
+        "type": "long-click",
+        "feature": "testAnswer",
+        "x": 880,
+        "y": 420,
+        "bounds": [
+          721,
+          364,
+          1440,
+          438
+        ],
+        "resource_id": "com.ichi2.anki:id/card_column2",
+        "element_text": "testAnswer"
+      },
+      "page_description": "12:32, 12:32 PM, Settings notification: Virtual SD card, Android System notification: Serial console enabled, Wifi signal full., Phone three bars., Battery 100 percent., 前に戻る"
+    },
+    {
+      "step": "16",
+      "annotated_image": "<VISIONDROID_WORKSPACE>/Trident/tmp/new_data_batch_detector_gpt4o_rerun/cases/tr__29/annotated_images/16.png",
+      "action": {
+        "type": "click",
+        "feature": "その他のオプション",
+        "x": 1352,
+        "y": 192,
+        "bounds": [
+          1300,
+          98,
+          1440,
+          266
+        ],
+        "content_desc": "その他のオプション"
+      },
+      "page_description": "12:32, 12:32 PM, Settings notification: Virtual SD card, Android System notification: Serial console enabled, Wifi signal full., Phone three bars., Battery 100 percent., 前に戻る"
+    },
+    {
+      "step": "17",
+      "annotated_image": "<VISIONDROID_WORKSPACE>/Trident/tmp/new_data_batch_detector_gpt4o_rerun/cases/tr__29/annotated_images/17.png",
+      "action": {
+        "type": "observe",
+        "feature": ""
+      },
+      "page_description": "ノートの編集, ノートを削除, Card Info, カードを保留, デッキを変更, 新規カードの表示順序を変更, スケジュールを変更, 学習履歴をリセット"
+    }
+  ],
+  "prompt_preview": "Below are instructions for the no-crash bug detection task.\n\n### [Task Description]\nYou are given a tested function sequence from a mobile app.\nPlease analyze the GUI sequence and determine whether the page transitions and interaction results meet the expected behavior of the tested function.\nYou should detect non-crash functional bugs, identify possible bug-triggering paths, and point out abnormal or exception paths.\n\n### [Bug examples]\nThe categories of bugs include:\nPage loading failure\nWidget occlusion/overlap\nContent missing\nFeedback missing\nData operation failure\nMedia control not responding\nNumerical calculation errors\nSetting & configuration failures\nNavigation & linking errors\n\nWe provide the bug examples:\n(1) {'bug_id': 'ex_001', 'app_name': 'Amethyst', 'function_name': 'Copy note text from media view', 'bug_type': 'clipboard content error', 'bug_category': 'Content missing', 'bug_description': 'Copy Text in media view copies empty content instead of the note text containing the media URL.', 'bug_replay_path': ['Go to media view', 'Open the three-dot menu', 'Tap Copy Text', 'Try paste at any text input view like Search Bar'], 'expected_behavior': 'The note text including the media URL should be copied to the clipboard.', 'actual_behavior': 'Empty content is copied to the clipboard.'}\n(2) {'bug_id': 'ex_002', 'app_name': 'Unknown', 'function_name': 'Create and save a password entry', 'bug_type': 'UI state not updated', 'bug_category': 'Content missing', 'bug_description': \"After saving a new password entry, the header title remains '(no title)' instead of updating to the saved title.\", 'bug_replay_path': [\"Tap the '+' button\", 'Enter a title', 'Tap the save icon', 'Remain on the password entry page'], 'expected_behavior': 'The header title should update to the title of the saved password entry.', 'actual_behavior': \"The save icon disappears but the header still shows '(no title)'.\"}\n(3) {'bug_id': 'ex_003', 'app_name': 'floccus', 'function_name': 'Open settings page', 'bug_type': 'button has no response', 'bug_category': 'Feedback missing', 'bug_description': 'Pressing the settings button does nothing and the settings page does not open.', 'bug_replay_path': ['Open floccus Android app', 'Tap the settings button in the upper right corner'], 'expected_behavior': 'The settings page should open.', 'actual_behavior': 'Nothing happens after pressing the settings button.'}\n(4) {'bug_id': 'ex_004', 'app_name': 'Blockstream Green', 'function_name': 'Log into wallet when offline', 'bug_type': 'misleading error message', 'bug_category': 'Navigation & linking errors', 'bug_description': \"When the device is offline, the app shows a 'PIN error' instead of a network error.\", 'bug_replay_path': ['Create a wallet and set a PIN while connected to the internet', 'Disconnect from the internet', 'Close the app', 'Open the app again', 'Try to log into the wallet'], 'expected_behavior': \"The app should show a network-related error such as 'Unable to connect'.\", 'actual_behavior': \"The app shows 'PIN error'.\"}\n(5) {'bug_id': 'ex_005', 'app_name': 'Amethyst', 'function_name': 'Copy text from edited post', 'bug_type': 'stale clipboard data', 'bug_category': 'Navigation & linking errors', 'bug_description': 'Copying text from an edited post copies the original text instead of the updated text.', 'bug_replay_path': ['Create a new post', 'Edit the post and change the text', 'Use Copy Text'], 'expected_behavior': 'The copied text should be the updated edited content.', 'actual_behavior': 'The original text before editing is copied.'}\n(6) {'bug_id': 'ex_006', 'app_name': 'Simplenote', 'function_name': 'Use Notes List widget after logout', 'bug_type': 'wrong navigation after logout', 'bug_category': 'Navigation & linking errors', 'bug_description': 'After logging out, tapping the Notes List widget opens a new note instead of redirecting to the login screen.', 'bug_replay_path': ['Log in to the app', 'Add the Notes List widget to the home screen', 'Confirm the widget works normally', 'Log out of the app', 'Tap the widget on the home screen'], 'expected_behavior': \"The widget should show 'Log in to use widget' and open the login screen when tapped.\", 'actual_behavior': 'A new note is opened and the widget becomes blank.'}\n\n### [Functionality-driven COT]\nLet's think step by step.\n1. Function Identification: The tested function is tr__29.\n2. Expected Path: Please predict the exploration steps for this function based on the above information.\n3. Actual Path: The tested function sequence is as follows:\n(1) The 1st page is Navigate up, AnkiDroid, 1 card due (0 s), Sync (log in), Search decks, More options, Default, 1 + click feature=\"Navigate up\"\n(2) The 2nd page is Decks, Card browser, Statistics, Night mode, OFF, Settings, Help, Navigate up + click feature=\"Settings\"\n(3) The 3rd page is 12:30, 12:30 PM, Settings notification: Virtual SD card, Android System notification: Serial console enabled, Wifi signal full., Phone signal full., Battery 100 percent., Navigate up + click feature=\"AnkiDroid\"\n(4) The 4th page is 12:30, 12:30 PM, Settings notification: Virtual SD card, Android System notification: Serial console enabled, Wifi signal full., Phone signal full., Battery 100 percent., Navigate up + click feature=\"Language\"\n(5) The 5th page is 12:31, 12:31 PM, Settings notification: Virtual SD card, Android System notification: Serial console enabled, Wifi signal full., Phone signal full., Battery 100 percent., Language + swipe\n(6) The 6th page is 12:31, 12:31 PM, Settings notification: Virtual SD card, Android System notification: Serial console enabled, Wifi signal full., Phone signal full., Battery 100 percent., Language + swipe\n(7) The 7th page is 12:31, 12:31 PM, Settings notification: Virtual SD card, Android System notification: Serial console enabled, Wifi signal full., Phone signal full., Battery 100 percent., Language + swipe\n(8) The 8th page is 12:31, 12:31 PM, Settings notification: Virtual SD card, Android System notification: Serial console enabled, Wifi signal full., Phone signal full., Battery 100 percent., Language + swipe\n(9) The 9th page is 12:31, 12:31 PM, Settings notification: Virtual SD card, Android System notification: Serial console enabled, Wifi signal full., Phone signal full., Battery 100 percent., Language + swipe\n(10) The 10th page is 12:31, 12:31 PM, Settings notification: Virtual SD card, Android System notification: Serial console enabled, Wifi signal full., Phone signal full., Battery 100 percent., Language + click feature=\"日本語\"\n(11) The 11th page is 12:31, 12:31 PM, Settings notification: Virtual SD card, Android System notification: Serial console enabled, Wifi signal full., Phone signal full., Battery 100 percent., 前に戻る + click feature=\"前に戻る\"\n(12) The 12th page is 12:31, 12:31 PM, Settings notification: Virtual SD card, Android System notification: Serial console enabled, Wifi signal full., Phone signal full., Battery 100 percent., デッキ + click feature=\"カードブラウザ\"\n(13) The 13th page is 12:31, 12:31 PM, Settings notification: Virtual SD card, Android System notification: Serial console enabled, Wifi signal full., Phone three bars., Battery 100 percent., 前に戻る + click feature=\"testAnswer\"\n(14) The 14th page is 12:32, 12:32 PM, Settings notification: Virtual SD card, Android System notification: Serial console enabled, Wifi signal full., Phone three bars., Battery 100 percent., 前に戻る + back\n(15) The 15th page is 12:32, 12:32 PM, Settings notification: Virtual SD card, Android System notification: Serial console enabled, Wifi signal full., Phone three bars., Battery 100 percent., 前に戻る + long-click feature=\"testAnswer\"\n(16) The 16th page is 12:32, 12:32 PM, Settings notification: Virtual SD card, Android System notification: Serial console enabled, Wifi signal full., Phone three bars., Battery 100 percent., 前に戻る + click feature=\"その他のオプション\"\n(17) The 17th page is ノートの編集, ノートを削除, Card Info, カードを保留, デッキを変更, 新規カードの表示順序を変更, スケジュールを変更, 学習履歴をリセット + observe\n\n### [Legend of image]\nThe image shows a test sequence arranged in order from left to right and from top to bottom.\nEach screenshot is labeled with a bounding box indicating the action of the operation.\nBelow the screenshot is the corresponding page description.\n\n### [Query]\n1. Please analyze each step in the test sequence in the image based on the description and examples of the bugs, predict whether the page that transits after each step meets your expectation, use this to determine whether there are any bugs, and point out the bug page.\n2. Is there any page or operation that could potentially trigger some bugs? Please provide the corresponding page and action widget.\n3. By analyzing the test path, if there are any pages or operations in the path that have abnormalities, please provide the corresponding page and action widget.\n\nReturn STRICT JSON only in the following format:\n{\n  \"has_bug\": true,\n  \"bug_page\": \"\",\n  \"bug_reason\": \"\",\n  \"possible_bug_path\": \"\",\n  \"exception_path\": \"\"\n}\nor\n{\n  \"has_bug\": false,\n  \"possible_bug_path\": \"\",\n  \"exception_path\": \"\"\n}"
+}

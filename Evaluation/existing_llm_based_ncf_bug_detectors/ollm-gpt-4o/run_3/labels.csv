@@ -1,0 +1,133 @@
+id,raw_id,label,gt_is_bug,ai_is_bug,judge_output
+tr_1,1,FN,True,False,
+tr_2,2,TPC,True,True,"Yes. They agree. Both reasons describe the same core issue: after attempting to rename a category, the category list does not reflect the updated name, indicating that the update operation failed. The candidate reason accurately identifies this as a discrepancy in expected behavior and a logical error, aligning with the reference reason's ""functionality issue"" and ""update operation did not succeed."" The specific error message mentioned in the reference reason provides more detail about *why* it failed, but the observed bug is identical."
+tr_3,3,TPW,True,True,"No. They do not agree.
+
+The reference reason describes a data persistence issue where an entered end date is not saved correctly and reverts to an old value. The candidate reason describes a display formatting issue where an end time is shown ambiguously without an AM/PM indicator, leading to potential confusion about the time. These are different types of bugs affecting different aspects (saving vs. display) and different data types (date vs. time)."
+tr_4,4,TPW,True,True,"No. They do not agree.
+The reference reason describes a failure to *edit* an existing transaction, specifically when changing the payee, leading to update failure and error messages. The candidate reason describes a logical error where a *newly created transaction* causes the account balance to be incorrectly displayed as a negative amount instead of a positive one. These are two different types of transaction-related bugs: one about editing, the other about initial balance calculation/display."
+tr_5,5,TPC,True,True,"Yes. They agree. Both reasons describe a situation where a backup restore operation fails to correctly apply the backed-up state or changes. The reference mentions missing UI elements, which is a specific symptom of a failed UI state restoration, while the candidate describes the output structure remaining unchanged, indicating a general failure of the backup's data/configuration to be applied. Both point to a core functionality error in the backup restore process."
+tr_6,6,TPC,True,True,"Yes. They agree.
+
+Both descriptions highlight the same core issue: the ""Undo"" functionality incorrectly removes or negates the addition of cards, rather than just reverting the review status of previously studied cards. The reference states that ""cards were previously added and should not have been removed by undoing reviews,"" leading to an ""empty collection"" message. The candidate states that ""the undo operation should not completely negate the addition of two new cards,"" as the due count reverted to the original state before cards were added. Both point to an overly aggressive undo operation that impacts card existence/availability instead of just review progress."
+tr_7,7,FN,True,False,
+tr_8,8,TPC,True,True,"Yes. They agree. Both reasons describe the same issue: the ""back"" action fails to navigate away from the preview screen, leaving the user stuck on the preview interface instead of returning to the previous activity or screen."
+tr_9,9,FN,True,False,
+tr_10,10,FN,True,False,
+tr_11,11,TPC,True,True,"Yes. They agree. Both reasons describe the same bug where, after switching the language back to English, certain UI elements on the settings page remain in German, indicating that the language change did not fully propagate or persist across all UI components."
+tr_12,12,TPC,True,True,"Yes. They agree.
+
+Both reasons describe the same underlying issue: the application loses its current state (whether it's an onboarding step or an activated feature's display) when the device orientation changes, causing it to revert to an earlier or initial state. The phrase ""Let's do it!"" appears in both, further indicating they are referring to the same initial state that the app incorrectly returns to after rotation."
+tr_13,13,TPC,True,True,"Yes. They agree. Both reasons describe the same underlying issue where the ""Select all"" function is not working correctly. The reference reason points out that not all items were selected (508 out of 551) or the count was wrong. The candidate reason confirms this initial incorrect count of 508 and then elaborates on further inconsistencies, such as the count changing to 507 and status inconsistencies, all of which stem from the core problem that ""Select all"" is not consistently selecting all items as expected."
+tr_14,14,TPW,True,True,"No. They do not agree.
+The reference reason describes an issue with incorrect navigation and state management, where the app returns to the home screen instead of the previous 'Add search engine' screen. The candidate reason describes a data loss issue, where browsing history is unexpectedly erased after navigating back from a 'Learn more' page. These are two distinct problems."
+tr_15,15,FN,True,False,
+tr_16,16,TPC,True,True,"Yes. They agree. Both reasons describe the same bug where an ""undo"" action causes a counter (specifically for reviews or cards) to incorrectly go into a negative value, indicating a logical error in how the counter is updated."
+tr_17,17,TPC,True,True,"Yes. They agree.
+Both descriptions identify the same core issue: the ""CLEAR ALL"" action fails to remove the selected tags (specifically `test_tag1, test_tag2, test_tag3`) from the transaction, even though the UI might imply they are cleared."
+tr_18,18,TPC,True,True,"Yes. They agree.
+Both reasons describe the same logical error where removing a non-default search engine (""Amazon.com"") results in an incorrect change to the default search engine, specifically setting ""DuckDuckGo"" as the new default when ""Google"" should have remained the default."
+tr_19,19,TPC,True,True,"Yes. They agree. Both reasons describe the same issue: a zip file created without a password is later incorrectly treated as password-protected, prompting for a password during extraction when none should be required."
+tr_20,20,TPC,True,True,"Yes. They agree.
+Both reasons describe the same bug: when navigating into the ""AnkiDroid"" specific settings (which is a sub-page of the main ""Settings"" or ""Preferences""), pressing the back button incorrectly skips the parent settings page and returns directly to the main application screen (DeckPicker/initial structure), instead of going back one step in the navigation hierarchy."
+tr_21,21,TPC,True,True,"Yes. They agree.
+Both reasons describe the same underlying issue: when a search result that is a directory (""test1"") is selected, the system incorrectly treats it as a file, prompting an ""Open As"" dialog instead of navigating into the directory. This prevents the user from accessing the contents of the folder."
+tr_22,22,FN,True,False,
+tr_23,23,TPC,True,True,"Yes. They agree.
+Both reasons clearly identify the same core issue: spaces in a file name ('messi 19 99.jpg') are being incorrectly converted to '%20' when displayed ('messi%2019%2099.jpg'). They both attribute this to an encoding or string handling problem, indicating it's not the expected behavior for a user interface or file list display."
+tr_24,24,TPC,True,True,"Yes. They agree. Both reasons describe the same underlying issue: after renaming a subcategory, it (and potentially its parent category) disappears from the displayed list or hierarchy, rather than appearing with its new name."
+tr_25,25,TPC,True,True,"Yes. They agree.
+The Reference Reason states that tapping the ""Download"" button triggers streaming behavior instead of initiating a download. The Candidate Reason describes the issue as the ""Download"" button failing to trigger a download process and showing no feedback regarding download status. The observed streaming behavior in the Reference Reason directly explains why the download isn't starting and why there's no download-specific feedback, making them descriptions of the same underlying bug from slightly different perspectives."
+tr_26,26,FN,True,False,
+tr_27,27,TPC,True,True,"Yes. They agree. Both reasons describe the same underlying issue: that selecting ""Delete"" for a non-empty bookmark folder fails to actually delete the folder, as evidenced by the folder still existing afterward. The candidate reason directly confirms the non-deletion, which is the core problem identified in the reference reason."
+tr_28,28,FN,True,False,
+tr_29,29,FN,True,False,
+tr_30,30,TPW,True,True,"No. They do not agree.
+
+The reference reason describes a bug where, after a user attempts to unhide a file by removing it from the hidden files list, the file *does not reappear* in the main directory view, meaning it remains hidden.
+
+The candidate reason describes a different bug, stating that after a file is hidden, it *should not appear in the hidden files section with a bookmark option*. This suggests an issue with how the hidden file is displayed or interacted with *within the hidden files list itself*, rather than an issue with its ultimate visibility in the main directory after unhiding."
+tr_31,31,TPC,True,True,"Yes. They agree.
+Both reasons describe the same issue where, after clicking ""CROP IMAGE,"" the expected cropping interface or functionality does not appear. The Candidate Reason's ""output structure does not reflect any changes or progression"" and ""remains unchanged"" aligns with the Reference Reason's ""no cropping interface is opened."" The Reference Reason simply provides more detail about the specific error message encountered."
+tr_32,32,TPC,True,True,"Yes. They agree.
+Both reasons describe the same issue: that a new search query (e.g., ""your"") incorrectly displays results from a previous search (e.g., ""cat"") instead of clearing the old results and showing only the current, relevant ones."
+tr_34,34,TPC,True,True,"Yes. They agree.
+Both reasons describe the same core issue: the language settings page does not display the expected language options. The reference states it's a ""blank screen with no visible options or content,"" while the candidate specifies that instead of options, ""only one clickable button"" is present, which still means the language options are ""not displayed as expected."" Both point to the functional failure of not showing the language selection list."
+tr_35,35,TPC,True,True,"Yes. They agree.
+Both reasons describe the same bug: after editing and saving a card (""testQ1""), the preview incorrectly displays a different, unrelated card (""aa"") instead of showing the updated version of the original card. The reference explicitly mentions that ""aa"" is from a different deck, which further clarifies why it's the wrong card, but the core issue identified by both is the failure to display the updated, correct card in the preview."
+tr_36,36,TPC,True,True,"Yes. They agree.
+Both reasons identify the same core issue: a logical error in the application's card counting mechanism, which manifests as the review counter displaying an invalid negative number (-1). The reference reason provides a more specific trigger for this error (incorrect updating after cards are added during review), while the candidate reason describes the symptom (decrement leading to a negative number) and a general logical error in card handling, along with an additional inconsistency in the final count. However, the underlying problem of the counter going into negative due to faulty logic is consistent across both descriptions."
+tr_37,37,TPC,True,True,"Yes. They agree.
+Both reasons describe the same issue: a swipe-up gesture, performed while interacting with a deck or reviewing a card, unexpectedly exits the user from the current session and returns them to the main deck selection screen. The reference specifies a configured action that *should* happen (""Bury note""), while the candidate describes the general expectation of *not* leaving the deck, but the actual incorrect behavior (exiting to the main screen) is identical in both descriptions."
+tr_38,38,FN,True,False,
+tr_39,39,FN,True,False,
+tr_40,40,TPW,True,True,"No. They do not agree.
+
+The reference reason describes a failure when the user attempts to set Firefox Focus as the **permanent** default browser by selecting ""Always"", but another browser activity is opened instead. The candidate reason describes an issue where selecting ""Just once"" for a temporary default does not reflect correctly, with the setting immediately showing ""OFF"". These are distinct scenarios involving different user choices (""Always"" vs. ""Just once"") and different manifestations of the bug."
+tr_41,41,TPC,True,True,"Yes. They agree.
+
+Both reasons describe the same core issue: the ""$"" character is not correctly handled when a card with the answer ""!$"" is created and subsequently displayed. The reference reason states it's ""omitted when displaying the typed-answer feedback,"" while the candidate reason attributes this to ""data loss or incorrect handling of special characters"" during saving, which then leads to only ""!"" being displayed. The candidate reason provides a plausible underlying cause for the display issue identified in the reference reason."
+tr_42,42,FN,True,False,
+tr_43,43,TPW,True,True,"No. They do not agree.
+
+The reference reason describes a navigation issue where the entire web page resets to an earlier page (Quizlet login) after screen rotation, causing a loss of progress. The candidate reason describes a UI rendering issue where essential input fields and the keyboard disappear from the *current* page (Google sign-in) after rotation, making it unusable, but not necessarily reverting to a previous page."
+tr_44,44,FN,True,False,
+tr_45,45,FN,True,False,
+tr_46,46,TPC,True,True,"Yes. They agree. Both reasons describe the same underlying issue: after a user cancels the troubleshooting report dialog, the system incorrectly assumes the report has been submitted, preventing the dialog from reopening when the user tries to send a report again. The candidate reason's ""logical error"" preventing the interface from appearing again directly aligns with the reference reason's explanation that ""cancelling the troubleshooting report flow is treated as if the report had already been submitted."""
+tr_47,47,TPC,True,True,"Yes. They agree. Both reasons describe a bug where a card is successfully added to a deck, but a subsequent view (Card Browser or a general output structure after navigation) incorrectly displays ""0 cards shown"" for that deck, indicating a failure to refresh or display the newly added card."
+tr_48,48,TPC,True,True,"Yes. They agree.
+Both descriptions point to the same core issue: after attempting to save an appointment, the system does not update or provide confirmation that the appointment was successfully created. The reference explicitly mentions a ""DatabaseException"" as the underlying cause for ""nothing update,"" while the candidate describes the observable ""logical error"" where the UI returns to its initial state without showing the saved appointment, which is the direct user-facing symptom of the ""nothing update."" They both describe the same failure to persist and display the new appointment."
+tr_49,49,TPC,True,True,"Yes. They agree.
+Both reasons identify the same incorrect calculation for the expression ""2×3(5)"", stating that it should result in 30 but incorrectly outputs 70. They both attribute this to an incorrect evaluation or logical error in handling the multiplication with parentheses."
+tr_50,50,FN,True,False,
+tr_51,51,TPC,True,True,"Yes. They agree. Both reasons describe the same bug where selecting multiple tags and attempting to delete them results in the tags remaining selected and visible, indicating that the delete action failed to remove them."
+fl_1,1,FP,False,True,
+fl_2,2,FP,False,True,
+fl_3,3,FP,False,True,
+fl_4,4,FP,False,True,
+fl_5,5,FP,False,True,
+fl_6,6,FP,False,True,
+fl_7,7,FP,False,True,
+fl_8,8,TN,False,False,
+fl_9,9,TN,False,False,
+fl_10,10,TN,False,False,
+fl_11,11,TN,False,False,
+fl_12,12,FP,False,True,
+fl_13,13,FP,False,True,
+fl_14,14,FP,False,True,
+fl_15,15,FP,False,True,
+fl_16,16,TN,False,False,
+fl_17,17,TN,False,False,
+fl_18,18,FP,False,True,
+fl_19,19,TN,False,False,
+fl_20,20,TN,False,False,
+fl_21,21,TN,False,False,
+fl_22,22,TN,False,False,
+fl_23,23,TN,False,False,
+fl_24,24,TN,False,False,
+fl_25,25,FP,False,True,
+fl_26,26,TN,False,False,
+fl_27,27,FP,False,True,
+fl_28,28,TN,False,False,
+fl_29,29,TN,False,False,
+fl_30,30,FP,False,True,
+fl_31,31,FP,False,True,
+fl_32,32,FP,False,True,
+fl_34,34,FP,False,True,
+fl_35,35,FP,False,True,
+fl_36,36,FP,False,True,
+fl_37,37,FP,False,True,
+fl_38,38,TN,False,False,
+fl_39,39,TN,False,False,
+fl_40,40,FP,False,True,
+fl_41,41,FP,False,True,
+fl_42,42,TN,False,False,
+fl_43,43,TN,False,False,
+fl_44,44,FP,False,True,
+fl_45,45,TN,False,False,
+fl_46,46,FP,False,True,
+fl_47,47,FP,False,True,
+fl_48,48,FP,False,True,
+fl_49,49,FP,False,True,
+fl_50,50,TN,False,False,
+fl_51,51,TN,False,False,

@@ -1,0 +1,1757 @@
+{
+  "case_dir": "<VISIONDROID_WORKSPACE>/new_data_test/tr/36",
+  "workspace": "<VISIONDROID_WORKSPACE>/Trident/tmp/new_data_batch_detector_gpt4o_rerun/cases/tr__36",
+  "function_name": "tr__36",
+  "transition_summary": [
+    {
+      "step": 1,
+      "action": {
+        "type": "click",
+        "feature": "Add",
+        "x": 930,
+        "y": 1995,
+        "bounds": [
+          834,
+          1901,
+          1036,
+          2104
+        ],
+        "resource_id": "com.ichi2.anki:id/fab_expand_menu_button",
+        "content_desc": "Add"
+      },
+      "action_source": "events.json",
+      "pre_screenshot": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/36/screenshots/1.png",
+      "pre_hierarchy": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/36/xml_files/1.xml",
+      "result_screenshot": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/36/screenshots/2.png",
+      "result_hierarchy": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/36/xml_files/2.xml",
+      "source_event_type": "click",
+      "source_event_feature": "Add"
+    },
+    {
+      "step": 2,
+      "action": {
+        "type": "click",
+        "feature": "Create deck",
+        "x": 951,
+        "y": 1461,
+        "bounds": [
+          856,
+          1391,
+          1015,
+          1550
+        ],
+        "resource_id": "com.ichi2.anki:id/add_deck_action",
+        "content_desc": "Create deck"
+      },
+      "action_source": "events.json",
+      "pre_screenshot": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/36/screenshots/2.png",
+      "pre_hierarchy": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/36/xml_files/2.xml",
+      "result_screenshot": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/36/screenshots/3.png",
+      "result_hierarchy": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/36/xml_files/3.xml",
+      "source_event_type": "click",
+      "source_event_feature": "Create deck"
+    },
+    {
+      "step": 3,
+      "action": {
+        "type": "click",
+        "feature": "[143,1052][915,1176]",
+        "x": 201,
+        "y": 1110,
+        "bounds": [
+          143,
+          1052,
+          915,
+          1176
+        ]
+      },
+      "action_source": "events.json",
+      "pre_screenshot": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/36/screenshots/3.png",
+      "pre_hierarchy": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/36/xml_files/3.xml",
+      "result_screenshot": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/36/screenshots/4.png",
+      "result_hierarchy": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/36/xml_files/4.xml",
+      "source_event_type": "click",
+      "source_event_feature": ""
+    },
+    {
+      "step": 4,
+      "action": {
+        "type": "input",
+        "feature": "[143,1052][915,1176]",
+        "text": "foo::A",
+        "bounds": [
+          143,
+          1052,
+          915,
+          1176
+        ]
+      },
+      "action_source": "events.json",
+      "pre_screenshot": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/36/screenshots/4.png",
+      "pre_hierarchy": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/36/xml_files/4.xml",
+      "result_screenshot": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/36/screenshots/5.png",
+      "result_hierarchy": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/36/xml_files/5.xml",
+      "source_event_type": "set_text",
+      "source_event_feature": ""
+    },
+    {
+      "step": 5,
+      "action": {
+        "type": "click",
+        "feature": "OK",
+        "x": 852,
+        "y": 1272,
+        "bounds": [
+          772,
+          1220,
+          915,
+          1286
+        ],
+        "resource_id": "com.ichi2.anki:id/md_buttonDefaultPositive",
+        "element_text": "OK"
+      },
+      "action_source": "events.json",
+      "pre_screenshot": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/36/screenshots/5.png",
+      "pre_hierarchy": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/36/xml_files/5.xml",
+      "result_screenshot": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/36/screenshots/6.png",
+      "result_hierarchy": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/36/xml_files/6.xml",
+      "source_event_type": "click",
+      "source_event_feature": "OK"
+    },
+    {
+      "step": 6,
+      "action": {
+        "type": "click",
+        "feature": "Add",
+        "x": 915,
+        "y": 1956,
+        "bounds": [
+          834,
+          1901,
+          1036,
+          2104
+        ],
+        "resource_id": "com.ichi2.anki:id/fab_expand_menu_button",
+        "content_desc": "Add"
+      },
+      "action_source": "events.json",
+      "pre_screenshot": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/36/screenshots/6.png",
+      "pre_hierarchy": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/36/xml_files/6.xml",
+      "result_screenshot": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/36/screenshots/7.png",
+      "result_hierarchy": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/36/xml_files/7.xml",
+      "source_event_type": "click",
+      "source_event_feature": "Add"
+    },
+    {
+      "step": 7,
+      "action": {
+        "type": "click",
+        "feature": "Create deck",
+        "x": 918,
+        "y": 1443,
+        "bounds": [
+          856,
+          1391,
+          1015,
+          1550
+        ],
+        "resource_id": "com.ichi2.anki:id/add_deck_action",
+        "content_desc": "Create deck"
+      },
+      "action_source": "events.json",
+      "pre_screenshot": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/36/screenshots/7.png",
+      "pre_hierarchy": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/36/xml_files/7.xml",
+      "result_screenshot": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/36/screenshots/8.png",
+      "result_hierarchy": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/36/xml_files/8.xml",
+      "source_event_type": "click",
+      "source_event_feature": "Create deck"
+    },
+    {
+      "step": 8,
+      "action": {
+        "type": "click",
+        "feature": "[143,1052][915,1176]",
+        "x": 309,
+        "y": 1125,
+        "bounds": [
+          143,
+          1052,
+          915,
+          1176
+        ]
+      },
+      "action_source": "events.json",
+      "pre_screenshot": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/36/screenshots/8.png",
+      "pre_hierarchy": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/36/xml_files/8.xml",
+      "result_screenshot": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/36/screenshots/9.png",
+      "result_hierarchy": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/36/xml_files/9.xml",
+      "source_event_type": "click",
+      "source_event_feature": ""
+    },
+    {
+      "step": 9,
+      "action": {
+        "type": "input",
+        "feature": "[143,1052][915,1176]",
+        "text": "foo::B",
+        "bounds": [
+          143,
+          1052,
+          915,
+          1176
+        ]
+      },
+      "action_source": "events.json",
+      "pre_screenshot": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/36/screenshots/9.png",
+      "pre_hierarchy": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/36/xml_files/9.xml",
+      "result_screenshot": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/36/screenshots/10.png",
+      "result_hierarchy": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/36/xml_files/10.xml",
+      "source_event_type": "set_text",
+      "source_event_feature": ""
+    },
+    {
+      "step": 10,
+      "action": {
+        "type": "click",
+        "feature": "OK",
+        "x": 852,
+        "y": 1272,
+        "bounds": [
+          772,
+          1220,
+          915,
+          1286
+        ],
+        "resource_id": "com.ichi2.anki:id/md_buttonDefaultPositive",
+        "element_text": "OK"
+      },
+      "action_source": "events.json",
+      "pre_screenshot": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/36/screenshots/10.png",
+      "pre_hierarchy": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/36/xml_files/10.xml",
+      "result_screenshot": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/36/screenshots/11.png",
+      "result_hierarchy": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/36/xml_files/11.xml",
+      "source_event_type": "click",
+      "source_event_feature": "OK"
+    },
+    {
+      "step": 11,
+      "action": {
+        "type": "click",
+        "feature": "com.ichi2.anki:id/add_content_menu",
+        "x": 861,
+        "y": 1278,
+        "bounds": [
+          421,
+          1249,
+          1036,
+          2104
+        ],
+        "resource_id": "com.ichi2.anki:id/add_content_menu"
+      },
+      "action_source": "events.json",
+      "pre_screenshot": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/36/screenshots/11.png",
+      "pre_hierarchy": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/36/xml_files/11.xml",
+      "result_screenshot": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/36/screenshots/12.png",
+      "result_hierarchy": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/36/xml_files/12.xml",
+      "source_event_type": "click",
+      "source_event_feature": "com.ichi2.anki:id/add_content_menu"
+    },
+    {
+      "step": 12,
+      "action": {
+        "type": "click",
+        "feature": "A",
+        "x": 195,
+        "y": 567,
+        "bounds": [
+          176,
+          503,
+          213,
+          635
+        ],
+        "resource_id": "com.ichi2.anki:id/deckpicker_name",
+        "element_text": "A"
+      },
+      "action_source": "events.json",
+      "pre_screenshot": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/36/screenshots/12.png",
+      "pre_hierarchy": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/36/xml_files/12.xml",
+      "result_screenshot": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/36/screenshots/13.png",
+      "result_hierarchy": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/36/xml_files/13.xml",
+      "source_event_type": "click",
+      "source_event_feature": "A"
+    },
+    {
+      "step": 13,
+      "action": {
+        "type": "click",
+        "feature": "Add",
+        "x": 930,
+        "y": 1995,
+        "bounds": [
+          834,
+          1901,
+          1036,
+          2104
+        ],
+        "resource_id": "com.ichi2.anki:id/fab_expand_menu_button",
+        "content_desc": "Add"
+      },
+      "action_source": "events.json",
+      "pre_screenshot": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/36/screenshots/13.png",
+      "pre_hierarchy": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/36/xml_files/13.xml",
+      "result_screenshot": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/36/screenshots/14.png",
+      "result_hierarchy": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/36/xml_files/14.xml",
+      "source_event_type": "click",
+      "source_event_feature": "Add"
+    },
+    {
+      "step": 14,
+      "action": {
+        "type": "click",
+        "feature": "Add",
+        "x": 927,
+        "y": 1806,
+        "bounds": [
+          856,
+          1731,
+          1015,
+          1890
+        ],
+        "resource_id": "com.ichi2.anki:id/add_note_action",
+        "content_desc": "Add"
+      },
+      "action_source": "events.json",
+      "pre_screenshot": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/36/screenshots/14.png",
+      "pre_hierarchy": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/36/xml_files/14.xml",
+      "result_screenshot": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/36/screenshots/15.png",
+      "result_hierarchy": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/36/xml_files/15.xml",
+      "source_event_type": "click",
+      "source_event_feature": "Add"
+    },
+    {
+      "step": 15,
+      "action": {
+        "type": "click",
+        "feature": "Front",
+        "x": 153,
+        "y": 678,
+        "bounds": [
+          58,
+          612,
+          956,
+          736
+        ],
+        "resource_id": "com.ichi2.anki:id/id_note_editText",
+        "content_desc": "Front"
+      },
+      "action_source": "events.json",
+      "pre_screenshot": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/36/screenshots/15.png",
+      "pre_hierarchy": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/36/xml_files/15.xml",
+      "result_screenshot": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/36/screenshots/16.png",
+      "result_hierarchy": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/36/xml_files/16.xml",
+      "source_event_type": "click",
+      "source_event_feature": "Front"
+    },
+    {
+      "step": 16,
+      "action": {
+        "type": "input",
+        "feature": "com.ichi2.anki:id/id_note_editText",
+        "text": "Q1",
+        "bounds": [
+          58,
+          612,
+          956,
+          736
+        ],
+        "resource_id": "com.ichi2.anki:id/id_note_editText",
+        "content_desc": "Front"
+      },
+      "action_source": "events.json",
+      "pre_screenshot": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/36/screenshots/16.png",
+      "pre_hierarchy": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/36/xml_files/16.xml",
+      "result_screenshot": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/36/screenshots/17.png",
+      "result_hierarchy": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/36/xml_files/17.xml",
+      "source_event_type": "set_text",
+      "source_event_feature": "com.ichi2.anki:id/id_note_editText"
+    },
+    {
+      "step": 17,
+      "action": {
+        "type": "click",
+        "feature": "Save",
+        "x": 882,
+        "y": 180,
+        "bounds": [
+          816,
+          94,
+          948,
+          226
+        ],
+        "resource_id": "com.ichi2.anki:id/action_save",
+        "content_desc": "Save"
+      },
+      "action_source": "events.json",
+      "pre_screenshot": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/36/screenshots/17.png",
+      "pre_hierarchy": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/36/xml_files/17.xml",
+      "result_screenshot": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/36/screenshots/18.png",
+      "result_hierarchy": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/36/xml_files/18.xml",
+      "source_event_type": "click",
+      "source_event_feature": "Save"
+    },
+    {
+      "step": 18,
+      "action": {
+        "type": "click",
+        "feature": "com.ichi2.anki:id/note_deck_spinner",
+        "x": 1005,
+        "y": 453,
+        "bounds": [
+          156,
+          383,
+          1066,
+          515
+        ],
+        "resource_id": "com.ichi2.anki:id/note_deck_spinner"
+      },
+      "action_source": "events.json",
+      "pre_screenshot": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/36/screenshots/18.png",
+      "pre_hierarchy": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/36/xml_files/18.xml",
+      "result_screenshot": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/36/screenshots/19.png",
+      "result_hierarchy": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/36/xml_files/19.xml",
+      "source_event_type": "click",
+      "source_event_feature": "com.ichi2.anki:id/note_deck_spinner"
+    },
+    {
+      "step": 19,
+      "action": {
+        "type": "click",
+        "feature": "foo::B",
+        "x": 216,
+        "y": 801,
+        "bounds": [
+          156,
+          779,
+          846,
+          823
+        ],
+        "resource_id": "android:id/text1",
+        "element_text": "foo::B"
+      },
+      "action_source": "events.json",
+      "pre_screenshot": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/36/screenshots/19.png",
+      "pre_hierarchy": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/36/xml_files/19.xml",
+      "result_screenshot": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/36/screenshots/20.png",
+      "result_hierarchy": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/36/xml_files/20.xml",
+      "source_event_type": "click",
+      "source_event_feature": "foo::B"
+    },
+    {
+      "step": 20,
+      "action": {
+        "type": "click",
+        "feature": "Front",
+        "x": 96,
+        "y": 675,
+        "bounds": [
+          58,
+          612,
+          956,
+          736
+        ],
+        "resource_id": "com.ichi2.anki:id/id_note_editText",
+        "content_desc": "Front"
+      },
+      "action_source": "events.json",
+      "pre_screenshot": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/36/screenshots/20.png",
+      "pre_hierarchy": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/36/xml_files/20.xml",
+      "result_screenshot": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/36/screenshots/21.png",
+      "result_hierarchy": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/36/xml_files/21.xml",
+      "source_event_type": "click",
+      "source_event_feature": "Front"
+    },
+    {
+      "step": 21,
+      "action": {
+        "type": "input",
+        "feature": "com.ichi2.anki:id/id_note_editText",
+        "text": "Q2",
+        "bounds": [
+          58,
+          612,
+          956,
+          736
+        ],
+        "resource_id": "com.ichi2.anki:id/id_note_editText",
+        "content_desc": "Front"
+      },
+      "action_source": "events.json",
+      "pre_screenshot": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/36/screenshots/21.png",
+      "pre_hierarchy": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/36/xml_files/21.xml",
+      "result_screenshot": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/36/screenshots/22.png",
+      "result_hierarchy": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/36/xml_files/22.xml",
+      "source_event_type": "set_text",
+      "source_event_feature": "com.ichi2.anki:id/id_note_editText"
+    },
+    {
+      "step": 22,
+      "action": {
+        "type": "click",
+        "feature": "Save",
+        "x": 876,
+        "y": 165,
+        "bounds": [
+          816,
+          94,
+          948,
+          226
+        ],
+        "resource_id": "com.ichi2.anki:id/action_save",
+        "content_desc": "Save"
+      },
+      "action_source": "events.json",
+      "pre_screenshot": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/36/screenshots/22.png",
+      "pre_hierarchy": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/36/xml_files/22.xml",
+      "result_screenshot": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/36/screenshots/23.png",
+      "result_hierarchy": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/36/xml_files/23.xml",
+      "source_event_type": "click",
+      "source_event_feature": "Save"
+    },
+    {
+      "step": 23,
+      "action": {
+        "type": "back",
+        "feature": ""
+      },
+      "action_source": "events.json",
+      "pre_screenshot": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/36/screenshots/23.png",
+      "pre_hierarchy": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/36/xml_files/23.xml",
+      "result_screenshot": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/36/screenshots/24.png",
+      "result_hierarchy": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/36/xml_files/24.xml",
+      "source_event_type": "back",
+      "source_event_feature": ""
+    },
+    {
+      "step": 24,
+      "action": {
+        "type": "click",
+        "feature": "foo",
+        "x": 150,
+        "y": 444,
+        "bounds": [
+          132,
+          370,
+          214,
+          502
+        ],
+        "resource_id": "com.ichi2.anki:id/deckpicker_name",
+        "element_text": "foo"
+      },
+      "action_source": "events.json",
+      "pre_screenshot": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/36/screenshots/24.png",
+      "pre_hierarchy": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/36/xml_files/24.xml",
+      "result_screenshot": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/36/screenshots/25.png",
+      "result_hierarchy": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/36/xml_files/25.xml",
+      "source_event_type": "click",
+      "source_event_feature": "foo"
+    },
+    {
+      "step": 25,
+      "action": {
+        "type": "click",
+        "feature": "Add note",
+        "x": 900,
+        "y": 156,
+        "bounds": [
+          837,
+          94,
+          969,
+          226
+        ],
+        "resource_id": "com.ichi2.anki:id/action_add_note_reviewer",
+        "content_desc": "Add note"
+      },
+      "action_source": "events.json",
+      "pre_screenshot": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/36/screenshots/25.png",
+      "pre_hierarchy": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/36/xml_files/25.xml",
+      "result_screenshot": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/36/screenshots/26.png",
+      "result_hierarchy": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/36/xml_files/26.xml",
+      "source_event_type": "click",
+      "source_event_feature": "Add note"
+    },
+    {
+      "step": 26,
+      "action": {
+        "type": "click",
+        "feature": "com.ichi2.anki:id/note_deck_spinner",
+        "x": 1008,
+        "y": 456,
+        "bounds": [
+          156,
+          383,
+          1066,
+          515
+        ],
+        "resource_id": "com.ichi2.anki:id/note_deck_spinner"
+      },
+      "action_source": "events.json",
+      "pre_screenshot": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/36/screenshots/26.png",
+      "pre_hierarchy": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/36/xml_files/26.xml",
+      "result_screenshot": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/36/screenshots/27.png",
+      "result_hierarchy": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/36/xml_files/27.xml",
+      "source_event_type": "click",
+      "source_event_feature": "com.ichi2.anki:id/note_deck_spinner"
+    },
+    {
+      "step": 27,
+      "action": {
+        "type": "click",
+        "feature": "foo::B",
+        "x": 198,
+        "y": 834,
+        "bounds": [
+          156,
+          779,
+          846,
+          823
+        ],
+        "resource_id": "android:id/text1",
+        "element_text": "foo::B"
+      },
+      "action_source": "events.json",
+      "pre_screenshot": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/36/screenshots/27.png",
+      "pre_hierarchy": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/36/xml_files/27.xml",
+      "result_screenshot": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/36/screenshots/28.png",
+      "result_hierarchy": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/36/xml_files/28.xml",
+      "source_event_type": "click",
+      "source_event_feature": "foo::B"
+    },
+    {
+      "step": 28,
+      "action": {
+        "type": "click",
+        "feature": "Front",
+        "x": 111,
+        "y": 663,
+        "bounds": [
+          58,
+          612,
+          956,
+          736
+        ],
+        "resource_id": "com.ichi2.anki:id/id_note_editText",
+        "content_desc": "Front"
+      },
+      "action_source": "events.json",
+      "pre_screenshot": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/36/screenshots/28.png",
+      "pre_hierarchy": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/36/xml_files/28.xml",
+      "result_screenshot": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/36/screenshots/29.png",
+      "result_hierarchy": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/36/xml_files/29.xml",
+      "source_event_type": "click",
+      "source_event_feature": "Front"
+    },
+    {
+      "step": 29,
+      "action": {
+        "type": "input",
+        "feature": "com.ichi2.anki:id/id_note_editText",
+        "text": "Q3",
+        "bounds": [
+          58,
+          612,
+          956,
+          736
+        ],
+        "resource_id": "com.ichi2.anki:id/id_note_editText",
+        "content_desc": "Front"
+      },
+      "action_source": "events.json",
+      "pre_screenshot": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/36/screenshots/29.png",
+      "pre_hierarchy": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/36/xml_files/29.xml",
+      "result_screenshot": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/36/screenshots/30.png",
+      "result_hierarchy": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/36/xml_files/30.xml",
+      "source_event_type": "set_text",
+      "source_event_feature": "com.ichi2.anki:id/id_note_editText"
+    },
+    {
+      "step": 30,
+      "action": {
+        "type": "click",
+        "feature": "Save",
+        "x": 882,
+        "y": 168,
+        "bounds": [
+          816,
+          94,
+          948,
+          226
+        ],
+        "resource_id": "com.ichi2.anki:id/action_save",
+        "content_desc": "Save"
+      },
+      "action_source": "events.json",
+      "pre_screenshot": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/36/screenshots/30.png",
+      "pre_hierarchy": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/36/xml_files/30.xml",
+      "result_screenshot": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/36/screenshots/31.png",
+      "result_hierarchy": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/36/xml_files/31.xml",
+      "source_event_type": "click",
+      "source_event_feature": "Save"
+    },
+    {
+      "step": 31,
+      "action": {
+        "type": "click",
+        "feature": "Front",
+        "x": 150,
+        "y": 666,
+        "bounds": [
+          58,
+          612,
+          956,
+          736
+        ],
+        "resource_id": "com.ichi2.anki:id/id_note_editText",
+        "content_desc": "Front"
+      },
+      "action_source": "events.json",
+      "pre_screenshot": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/36/screenshots/31.png",
+      "pre_hierarchy": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/36/xml_files/31.xml",
+      "result_screenshot": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/36/screenshots/32.png",
+      "result_hierarchy": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/36/xml_files/32.xml",
+      "source_event_type": "click",
+      "source_event_feature": "Front"
+    },
+    {
+      "step": 32,
+      "action": {
+        "type": "input",
+        "feature": "com.ichi2.anki:id/id_note_editText",
+        "text": "Q4",
+        "bounds": [
+          58,
+          612,
+          956,
+          736
+        ],
+        "resource_id": "com.ichi2.anki:id/id_note_editText",
+        "content_desc": "Front"
+      },
+      "action_source": "events.json",
+      "pre_screenshot": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/36/screenshots/32.png",
+      "pre_hierarchy": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/36/xml_files/32.xml",
+      "result_screenshot": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/36/screenshots/33.png",
+      "result_hierarchy": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/36/xml_files/33.xml",
+      "source_event_type": "set_text",
+      "source_event_feature": "com.ichi2.anki:id/id_note_editText"
+    },
+    {
+      "step": 33,
+      "action": {
+        "type": "click",
+        "feature": "Save",
+        "x": 885,
+        "y": 162,
+        "bounds": [
+          816,
+          94,
+          948,
+          226
+        ],
+        "resource_id": "com.ichi2.anki:id/action_save",
+        "content_desc": "Save"
+      },
+      "action_source": "events.json",
+      "pre_screenshot": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/36/screenshots/33.png",
+      "pre_hierarchy": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/36/xml_files/33.xml",
+      "result_screenshot": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/36/screenshots/34.png",
+      "result_hierarchy": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/36/xml_files/34.xml",
+      "source_event_type": "click",
+      "source_event_feature": "Save"
+    },
+    {
+      "step": 34,
+      "action": {
+        "type": "back",
+        "feature": ""
+      },
+      "action_source": "events.json",
+      "pre_screenshot": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/36/screenshots/34.png",
+      "pre_hierarchy": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/36/xml_files/34.xml",
+      "result_screenshot": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/36/screenshots/35.png",
+      "result_hierarchy": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/36/xml_files/35.xml",
+      "source_event_type": "back",
+      "source_event_feature": ""
+    },
+    {
+      "step": 35,
+      "action": {
+        "type": "click",
+        "feature": "SHOW ANSWER",
+        "x": 552,
+        "y": 2082,
+        "bounds": [
+          0,
+          2016,
+          1080,
+          2148
+        ],
+        "resource_id": "com.ichi2.anki:id/flip_card",
+        "element_text": "SHOW ANSWER"
+      },
+      "action_source": "events.json",
+      "pre_screenshot": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/36/screenshots/35.png",
+      "pre_hierarchy": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/36/xml_files/35.xml",
+      "result_screenshot": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/36/screenshots/36.png",
+      "result_hierarchy": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/36/xml_files/36.xml",
+      "source_event_type": "click",
+      "source_event_feature": "SHOW ANSWER"
+    },
+    {
+      "step": 36,
+      "action": {
+        "type": "click",
+        "feature": "Easy",
+        "x": 894,
+        "y": 2112,
+        "bounds": [
+          720,
+          2082,
+          1080,
+          2128
+        ],
+        "resource_id": "com.ichi2.anki:id/ease3",
+        "element_text": "Easy"
+      },
+      "action_source": "events.json",
+      "pre_screenshot": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/36/screenshots/36.png",
+      "pre_hierarchy": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/36/xml_files/36.xml",
+      "result_screenshot": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/36/screenshots/37.png",
+      "result_hierarchy": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/36/xml_files/37.xml",
+      "source_event_type": "click",
+      "source_event_feature": "Easy"
+    },
+    {
+      "step": 37,
+      "action": {
+        "type": "click",
+        "feature": "SHOW ANSWER",
+        "x": 540,
+        "y": 2082,
+        "bounds": [
+          0,
+          2016,
+          1080,
+          2148
+        ],
+        "resource_id": "com.ichi2.anki:id/flip_card",
+        "element_text": "SHOW ANSWER"
+      },
+      "action_source": "events.json",
+      "pre_screenshot": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/36/screenshots/37.png",
+      "pre_hierarchy": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/36/xml_files/37.xml",
+      "result_screenshot": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/36/screenshots/38.png",
+      "result_hierarchy": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/36/xml_files/38.xml",
+      "source_event_type": "click",
+      "source_event_feature": "SHOW ANSWER"
+    },
+    {
+      "step": 38,
+      "action": {
+        "type": "click",
+        "feature": "Easy",
+        "x": 906,
+        "y": 2115,
+        "bounds": [
+          720,
+          2082,
+          1080,
+          2128
+        ],
+        "resource_id": "com.ichi2.anki:id/ease3",
+        "element_text": "Easy"
+      },
+      "action_source": "events.json",
+      "pre_screenshot": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/36/screenshots/38.png",
+      "pre_hierarchy": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/36/xml_files/38.xml",
+      "result_screenshot": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/36/screenshots/39.png",
+      "result_hierarchy": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/36/xml_files/39.xml",
+      "source_event_type": "click",
+      "source_event_feature": "Easy"
+    },
+    {
+      "step": 39,
+      "action": {
+        "type": "click",
+        "feature": "SHOW ANSWER",
+        "x": 501,
+        "y": 2088,
+        "bounds": [
+          0,
+          2016,
+          1080,
+          2148
+        ],
+        "resource_id": "com.ichi2.anki:id/flip_card",
+        "element_text": "SHOW ANSWER"
+      },
+      "action_source": "events.json",
+      "pre_screenshot": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/36/screenshots/39.png",
+      "pre_hierarchy": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/36/xml_files/39.xml",
+      "result_screenshot": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/36/screenshots/40.png",
+      "result_hierarchy": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/36/xml_files/40.xml",
+      "source_event_type": "click",
+      "source_event_feature": "SHOW ANSWER"
+    },
+    {
+      "step": 40,
+      "action": {
+        "type": "click",
+        "feature": "Easy",
+        "x": 888,
+        "y": 2115,
+        "bounds": [
+          720,
+          2082,
+          1080,
+          2128
+        ],
+        "resource_id": "com.ichi2.anki:id/ease3",
+        "element_text": "Easy"
+      },
+      "action_source": "events.json",
+      "pre_screenshot": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/36/screenshots/40.png",
+      "pre_hierarchy": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/36/xml_files/40.xml",
+      "result_screenshot": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/36/screenshots/41.png",
+      "result_hierarchy": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/36/xml_files/41.xml",
+      "source_event_type": "click",
+      "source_event_feature": "Easy"
+    },
+    {
+      "step": 41,
+      "action": {
+        "type": "click",
+        "feature": "SHOW ANSWER",
+        "x": 549,
+        "y": 2088,
+        "bounds": [
+          0,
+          2016,
+          1080,
+          2148
+        ],
+        "resource_id": "com.ichi2.anki:id/flip_card",
+        "element_text": "SHOW ANSWER"
+      },
+      "action_source": "events.json",
+      "pre_screenshot": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/36/screenshots/41.png",
+      "pre_hierarchy": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/36/xml_files/41.xml",
+      "result_screenshot": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/36/screenshots/42.png",
+      "result_hierarchy": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/36/xml_files/42.xml",
+      "source_event_type": "click",
+      "source_event_feature": "SHOW ANSWER"
+    },
+    {
+      "step": 42,
+      "action": {
+        "type": "click",
+        "feature": "Easy",
+        "x": 906,
+        "y": 2115,
+        "bounds": [
+          720,
+          2082,
+          1080,
+          2128
+        ],
+        "resource_id": "com.ichi2.anki:id/ease3",
+        "element_text": "Easy"
+      },
+      "action_source": "events.json",
+      "pre_screenshot": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/36/screenshots/42.png",
+      "pre_hierarchy": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/36/xml_files/42.xml",
+      "result_screenshot": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/36/screenshots/43.png",
+      "result_hierarchy": "<LOCAL_WORKSPACE>/new_testing_set_and_others/new_data_test/tr/36/xml_files/43.xml",
+      "source_event_type": "click",
+      "source_event_feature": "Easy"
+    }
+  ],
+  "events_used": true,
+  "actions_txt_used": false,
+  "trace_used": false,
+  "num_screenshots": 43,
+  "num_transitions": 42,
+  "warnings": [],
+  "steps": [
+    {
+      "step": "1",
+      "annotated_image": "<VISIONDROID_WORKSPACE>/Trident/tmp/new_data_batch_detector_gpt4o_rerun/cases/tr__36/annotated_images/1.png",
+      "action": {
+        "type": "click",
+        "feature": "Add",
+        "x": 930,
+        "y": 1995,
+        "bounds": [
+          834,
+          1901,
+          1036,
+          2104
+        ],
+        "resource_id": "com.ichi2.anki:id/fab_expand_menu_button",
+        "content_desc": "Add"
+      },
+      "page_description": "11:43, 11:43 PM, Settings notification: Virtual SD card, Android System notification: USB debugging connected, Wifi signal full., Phone two bars., Battery 100 percent., Navigate up"
+    },
+    {
+      "step": "2",
+      "annotated_image": "<VISIONDROID_WORKSPACE>/Trident/tmp/new_data_batch_detector_gpt4o_rerun/cases/tr__36/annotated_images/2.png",
+      "action": {
+        "type": "click",
+        "feature": "Create deck",
+        "x": 951,
+        "y": 1461,
+        "bounds": [
+          856,
+          1391,
+          1015,
+          1550
+        ],
+        "resource_id": "com.ichi2.anki:id/add_deck_action",
+        "content_desc": "Create deck"
+      },
+      "page_description": "11:43, 11:43 PM, Settings notification: Virtual SD card, Android System notification: USB debugging connected, Wifi signal full., Phone two bars., Battery 100 percent., Navigate up"
+    },
+    {
+      "step": "3",
+      "annotated_image": "<VISIONDROID_WORKSPACE>/Trident/tmp/new_data_batch_detector_gpt4o_rerun/cases/tr__36/annotated_images/3.png",
+      "action": {
+        "type": "click",
+        "feature": "[143,1052][915,1176]",
+        "x": 201,
+        "y": 1110,
+        "bounds": [
+          143,
+          1052,
+          915,
+          1176
+        ]
+      },
+      "page_description": "Create deck, CANCEL, OK, 11:43, 11:43 PM, Settings notification: Virtual SD card, Android System notification: USB debugging connected, Wifi signal full."
+    },
+    {
+      "step": "4",
+      "annotated_image": "<VISIONDROID_WORKSPACE>/Trident/tmp/new_data_batch_detector_gpt4o_rerun/cases/tr__36/annotated_images/4.png",
+      "action": {
+        "type": "input",
+        "feature": "[143,1052][915,1176]",
+        "text": "foo::A",
+        "bounds": [
+          143,
+          1052,
+          915,
+          1176
+        ]
+      },
+      "page_description": "Create deck, CANCEL, OK, 11:43, 11:43 PM, Settings notification: Virtual SD card, Android System notification: USB debugging connected, Wifi signal full."
+    },
+    {
+      "step": "5",
+      "annotated_image": "<VISIONDROID_WORKSPACE>/Trident/tmp/new_data_batch_detector_gpt4o_rerun/cases/tr__36/annotated_images/5.png",
+      "action": {
+        "type": "click",
+        "feature": "OK",
+        "x": 852,
+        "y": 1272,
+        "bounds": [
+          772,
+          1220,
+          915,
+          1286
+        ],
+        "resource_id": "com.ichi2.anki:id/md_buttonDefaultPositive",
+        "element_text": "OK"
+      },
+      "page_description": "Create deck, foo::A, CANCEL, OK, 11:43, 11:43 PM, Settings notification: Virtual SD card, Android System notification: USB debugging connected"
+    },
+    {
+      "step": "6",
+      "annotated_image": "<VISIONDROID_WORKSPACE>/Trident/tmp/new_data_batch_detector_gpt4o_rerun/cases/tr__36/annotated_images/6.png",
+      "action": {
+        "type": "click",
+        "feature": "Add",
+        "x": 915,
+        "y": 1956,
+        "bounds": [
+          834,
+          1901,
+          1036,
+          2104
+        ],
+        "resource_id": "com.ichi2.anki:id/fab_expand_menu_button",
+        "content_desc": "Add"
+      },
+      "page_description": "11:43, 11:43 PM, Settings notification: Virtual SD card, Android System notification: USB debugging connected, Wifi signal full., Phone two bars., Battery 100 percent., Navigate up"
+    },
+    {
+      "step": "7",
+      "annotated_image": "<VISIONDROID_WORKSPACE>/Trident/tmp/new_data_batch_detector_gpt4o_rerun/cases/tr__36/annotated_images/7.png",
+      "action": {
+        "type": "click",
+        "feature": "Create deck",
+        "x": 918,
+        "y": 1443,
+        "bounds": [
+          856,
+          1391,
+          1015,
+          1550
+        ],
+        "resource_id": "com.ichi2.anki:id/add_deck_action",
+        "content_desc": "Create deck"
+      },
+      "page_description": "11:43, 11:43 PM, Settings notification: Virtual SD card, Android System notification: USB debugging connected, Wifi signal full., Phone two bars., Battery 100 percent., Navigate up"
+    },
+    {
+      "step": "8",
+      "annotated_image": "<VISIONDROID_WORKSPACE>/Trident/tmp/new_data_batch_detector_gpt4o_rerun/cases/tr__36/annotated_images/8.png",
+      "action": {
+        "type": "click",
+        "feature": "[143,1052][915,1176]",
+        "x": 309,
+        "y": 1125,
+        "bounds": [
+          143,
+          1052,
+          915,
+          1176
+        ]
+      },
+      "page_description": "Create deck, CANCEL, OK, 11:43, 11:43 PM, Settings notification: Virtual SD card, Android System notification: USB debugging connected, Wifi signal full."
+    },
+    {
+      "step": "9",
+      "annotated_image": "<VISIONDROID_WORKSPACE>/Trident/tmp/new_data_batch_detector_gpt4o_rerun/cases/tr__36/annotated_images/9.png",
+      "action": {
+        "type": "input",
+        "feature": "[143,1052][915,1176]",
+        "text": "foo::B",
+        "bounds": [
+          143,
+          1052,
+          915,
+          1176
+        ]
+      },
+      "page_description": "Create deck, CANCEL, OK, 11:44, 11:44 PM, Settings notification: Virtual SD card, Android System notification: USB debugging connected, Wifi signal full."
+    },
+    {
+      "step": "10",
+      "annotated_image": "<VISIONDROID_WORKSPACE>/Trident/tmp/new_data_batch_detector_gpt4o_rerun/cases/tr__36/annotated_images/10.png",
+      "action": {
+        "type": "click",
+        "feature": "OK",
+        "x": 852,
+        "y": 1272,
+        "bounds": [
+          772,
+          1220,
+          915,
+          1286
+        ],
+        "resource_id": "com.ichi2.anki:id/md_buttonDefaultPositive",
+        "element_text": "OK"
+      },
+      "page_description": "Create deck, foo::B, CANCEL, OK, 11:44, 11:44 PM, Settings notification: Virtual SD card, Android System notification: USB debugging connected"
+    },
+    {
+      "step": "11",
+      "annotated_image": "<VISIONDROID_WORKSPACE>/Trident/tmp/new_data_batch_detector_gpt4o_rerun/cases/tr__36/annotated_images/11.png",
+      "action": {
+        "type": "click",
+        "feature": "com.ichi2.anki:id/add_content_menu",
+        "x": 861,
+        "y": 1278,
+        "bounds": [
+          421,
+          1249,
+          1036,
+          2104
+        ],
+        "resource_id": "com.ichi2.anki:id/add_content_menu"
+      },
+      "page_description": "11:44, 11:44 PM, Settings notification: Virtual SD card, Android System notification: USB debugging connected, Wifi signal full., Phone two bars., Battery 100 percent., Navigate up"
+    },
+    {
+      "step": "12",
+      "annotated_image": "<VISIONDROID_WORKSPACE>/Trident/tmp/new_data_batch_detector_gpt4o_rerun/cases/tr__36/annotated_images/12.png",
+      "action": {
+        "type": "click",
+        "feature": "A",
+        "x": 195,
+        "y": 567,
+        "bounds": [
+          176,
+          503,
+          213,
+          635
+        ],
+        "resource_id": "com.ichi2.anki:id/deckpicker_name",
+        "element_text": "A"
+      },
+      "page_description": "11:44, 11:44 PM, Settings notification: Virtual SD card, Android System notification: USB debugging connected, Wifi signal full., Phone two bars., Battery 100 percent., Navigate up"
+    },
+    {
+      "step": "13",
+      "annotated_image": "<VISIONDROID_WORKSPACE>/Trident/tmp/new_data_batch_detector_gpt4o_rerun/cases/tr__36/annotated_images/13.png",
+      "action": {
+        "type": "click",
+        "feature": "Add",
+        "x": 930,
+        "y": 1995,
+        "bounds": [
+          834,
+          1901,
+          1036,
+          2104
+        ],
+        "resource_id": "com.ichi2.anki:id/fab_expand_menu_button",
+        "content_desc": "Add"
+      },
+      "page_description": "11:44, 11:44 PM, Settings notification: Virtual SD card, Android System notification: USB debugging connected, Wifi signal full., Phone two bars., Battery 100 percent., Navigate up"
+    },
+    {
+      "step": "14",
+      "annotated_image": "<VISIONDROID_WORKSPACE>/Trident/tmp/new_data_batch_detector_gpt4o_rerun/cases/tr__36/annotated_images/14.png",
+      "action": {
+        "type": "click",
+        "feature": "Add",
+        "x": 927,
+        "y": 1806,
+        "bounds": [
+          856,
+          1731,
+          1015,
+          1890
+        ],
+        "resource_id": "com.ichi2.anki:id/add_note_action",
+        "content_desc": "Add"
+      },
+      "page_description": "11:44, 11:44 PM, Settings notification: Virtual SD card, Android System notification: USB debugging connected, Wifi signal full., Phone two bars., Battery 100 percent., Navigate up"
+    },
+    {
+      "step": "15",
+      "annotated_image": "<VISIONDROID_WORKSPACE>/Trident/tmp/new_data_batch_detector_gpt4o_rerun/cases/tr__36/annotated_images/15.png",
+      "action": {
+        "type": "click",
+        "feature": "Front",
+        "x": 153,
+        "y": 678,
+        "bounds": [
+          58,
+          612,
+          956,
+          736
+        ],
+        "resource_id": "com.ichi2.anki:id/id_note_editText",
+        "content_desc": "Front"
+      },
+      "page_description": "Navigate up, Add note, Save, Preview, Type:, Basic, Deck:, foo::A"
+    },
+    {
+      "step": "16",
+      "annotated_image": "<VISIONDROID_WORKSPACE>/Trident/tmp/new_data_batch_detector_gpt4o_rerun/cases/tr__36/annotated_images/16.png",
+      "action": {
+        "type": "input",
+        "feature": "com.ichi2.anki:id/id_note_editText",
+        "text": "Q1",
+        "bounds": [
+          58,
+          612,
+          956,
+          736
+        ],
+        "resource_id": "com.ichi2.anki:id/id_note_editText",
+        "content_desc": "Front"
+      },
+      "page_description": "Navigate up, Add note, Save, Preview, Type:, Basic, Deck:, foo::A"
+    },
+    {
+      "step": "17",
+      "annotated_image": "<VISIONDROID_WORKSPACE>/Trident/tmp/new_data_batch_detector_gpt4o_rerun/cases/tr__36/annotated_images/17.png",
+      "action": {
+        "type": "click",
+        "feature": "Save",
+        "x": 882,
+        "y": 180,
+        "bounds": [
+          816,
+          94,
+          948,
+          226
+        ],
+        "resource_id": "com.ichi2.anki:id/action_save",
+        "content_desc": "Save"
+      },
+      "page_description": "Navigate up, Add note, Save, Preview, Type:, Basic, Deck:, foo::A"
+    },
+    {
+      "step": "18",
+      "annotated_image": "<VISIONDROID_WORKSPACE>/Trident/tmp/new_data_batch_detector_gpt4o_rerun/cases/tr__36/annotated_images/18.png",
+      "action": {
+        "type": "click",
+        "feature": "com.ichi2.anki:id/note_deck_spinner",
+        "x": 1005,
+        "y": 453,
+        "bounds": [
+          156,
+          383,
+          1066,
+          515
+        ],
+        "resource_id": "com.ichi2.anki:id/note_deck_spinner"
+      },
+      "page_description": "Navigate up, Add note, Save, Preview, Type:, Basic, Deck:, foo::A"
+    },
+    {
+      "step": "19",
+      "annotated_image": "<VISIONDROID_WORKSPACE>/Trident/tmp/new_data_batch_detector_gpt4o_rerun/cases/tr__36/annotated_images/19.png",
+      "action": {
+        "type": "click",
+        "feature": "foo::B",
+        "x": 216,
+        "y": 801,
+        "bounds": [
+          156,
+          779,
+          846,
+          823
+        ],
+        "resource_id": "android:id/text1",
+        "element_text": "foo::B"
+      },
+      "page_description": "11:45, 11:45 PM, Settings notification: Virtual SD card, Android System notification: USB debugging connected, Wifi signal full., Phone two bars., Battery 100 percent., Back"
+    },
+    {
+      "step": "20",
+      "annotated_image": "<VISIONDROID_WORKSPACE>/Trident/tmp/new_data_batch_detector_gpt4o_rerun/cases/tr__36/annotated_images/20.png",
+      "action": {
+        "type": "click",
+        "feature": "Front",
+        "x": 96,
+        "y": 675,
+        "bounds": [
+          58,
+          612,
+          956,
+          736
+        ],
+        "resource_id": "com.ichi2.anki:id/id_note_editText",
+        "content_desc": "Front"
+      },
+      "page_description": "Navigate up, Add note, Save, Preview, Type:, Basic, Deck:, foo::B"
+    },
+    {
+      "step": "21",
+      "annotated_image": "<VISIONDROID_WORKSPACE>/Trident/tmp/new_data_batch_detector_gpt4o_rerun/cases/tr__36/annotated_images/21.png",
+      "action": {
+        "type": "input",
+        "feature": "com.ichi2.anki:id/id_note_editText",
+        "text": "Q2",
+        "bounds": [
+          58,
+          612,
+          956,
+          736
+        ],
+        "resource_id": "com.ichi2.anki:id/id_note_editText",
+        "content_desc": "Front"
+      },
+      "page_description": "Navigate up, Add note, Save, Preview, Type:, Basic, Deck:, foo::B"
+    },
+    {
+      "step": "22",
+      "annotated_image": "<VISIONDROID_WORKSPACE>/Trident/tmp/new_data_batch_detector_gpt4o_rerun/cases/tr__36/annotated_images/22.png",
+      "action": {
+        "type": "click",
+        "feature": "Save",
+        "x": 876,
+        "y": 165,
+        "bounds": [
+          816,
+          94,
+          948,
+          226
+        ],
+        "resource_id": "com.ichi2.anki:id/action_save",
+        "content_desc": "Save"
+      },
+      "page_description": "Navigate up, Add note, Save, Preview, Type:, Basic, Deck:, foo::B"
+    },
+    {
+      "step": "23",
+      "annotated_image": "<VISIONDROID_WORKSPACE>/Trident/tmp/new_data_batch_detector_gpt4o_rerun/cases/tr__36/annotated_images/23.png",
+      "action": {
+        "type": "back",
+        "feature": ""
+      },
+      "page_description": "Navigate up, Add note, Save, Preview, Type:, Basic, Deck:, foo::B"
+    },
+    {
+      "step": "24",
+      "annotated_image": "<VISIONDROID_WORKSPACE>/Trident/tmp/new_data_batch_detector_gpt4o_rerun/cases/tr__36/annotated_images/24.png",
+      "action": {
+        "type": "click",
+        "feature": "foo",
+        "x": 150,
+        "y": 444,
+        "bounds": [
+          132,
+          370,
+          214,
+          502
+        ],
+        "resource_id": "com.ichi2.anki:id/deckpicker_name",
+        "element_text": "foo"
+      },
+      "page_description": "12:15, 12:15 AM, Settings notification: Virtual SD card, Android System notification: USB debugging connected, Wifi signal full., Phone two bars., Battery 100 percent., Navigate up"
+    },
+    {
+      "step": "25",
+      "annotated_image": "<VISIONDROID_WORKSPACE>/Trident/tmp/new_data_batch_detector_gpt4o_rerun/cases/tr__36/annotated_images/25.png",
+      "action": {
+        "type": "click",
+        "feature": "Add note",
+        "x": 900,
+        "y": 156,
+        "bounds": [
+          837,
+          94,
+          969,
+          226
+        ],
+        "resource_id": "com.ichi2.anki:id/action_add_note_reviewer",
+        "content_desc": "Add note"
+      },
+      "page_description": "Navigate up, A, 0 minutes left, Undo, Flag card, Add note, More options, 2"
+    },
+    {
+      "step": "26",
+      "annotated_image": "<VISIONDROID_WORKSPACE>/Trident/tmp/new_data_batch_detector_gpt4o_rerun/cases/tr__36/annotated_images/26.png",
+      "action": {
+        "type": "click",
+        "feature": "com.ichi2.anki:id/note_deck_spinner",
+        "x": 1008,
+        "y": 456,
+        "bounds": [
+          156,
+          383,
+          1066,
+          515
+        ],
+        "resource_id": "com.ichi2.anki:id/note_deck_spinner"
+      },
+      "page_description": "Navigate up, Add note, Save, Preview, Type:, Basic, Deck:, foo"
+    },
+    {
+      "step": "27",
+      "annotated_image": "<VISIONDROID_WORKSPACE>/Trident/tmp/new_data_batch_detector_gpt4o_rerun/cases/tr__36/annotated_images/27.png",
+      "action": {
+        "type": "click",
+        "feature": "foo::B",
+        "x": 198,
+        "y": 834,
+        "bounds": [
+          156,
+          779,
+          846,
+          823
+        ],
+        "resource_id": "android:id/text1",
+        "element_text": "foo::B"
+      },
+      "page_description": "Default, foo, foo::A, foo::B, 12:15, 12:15 AM, Settings notification: Virtual SD card, Android System notification: USB debugging connected"
+    },
+    {
+      "step": "28",
+      "annotated_image": "<VISIONDROID_WORKSPACE>/Trident/tmp/new_data_batch_detector_gpt4o_rerun/cases/tr__36/annotated_images/28.png",
+      "action": {
+        "type": "click",
+        "feature": "Front",
+        "x": 111,
+        "y": 663,
+        "bounds": [
+          58,
+          612,
+          956,
+          736
+        ],
+        "resource_id": "com.ichi2.anki:id/id_note_editText",
+        "content_desc": "Front"
+      },
+      "page_description": "Navigate up, Add note, Save, Preview, Type:, Basic, Deck:, foo::B"
+    },
+    {
+      "step": "29",
+      "annotated_image": "<VISIONDROID_WORKSPACE>/Trident/tmp/new_data_batch_detector_gpt4o_rerun/cases/tr__36/annotated_images/29.png",
+      "action": {
+        "type": "input",
+        "feature": "com.ichi2.anki:id/id_note_editText",
+        "text": "Q3",
+        "bounds": [
+          58,
+          612,
+          956,
+          736
+        ],
+        "resource_id": "com.ichi2.anki:id/id_note_editText",
+        "content_desc": "Front"
+      },
+      "page_description": "Navigate up, Add note, Save, Preview, Type:, Basic, Deck:, foo::B"
+    },
+    {
+      "step": "30",
+      "annotated_image": "<VISIONDROID_WORKSPACE>/Trident/tmp/new_data_batch_detector_gpt4o_rerun/cases/tr__36/annotated_images/30.png",
+      "action": {
+        "type": "click",
+        "feature": "Save",
+        "x": 882,
+        "y": 168,
+        "bounds": [
+          816,
+          94,
+          948,
+          226
+        ],
+        "resource_id": "com.ichi2.anki:id/action_save",
+        "content_desc": "Save"
+      },
+      "page_description": "Navigate up, Add note, Save, Preview, Type:, Basic, Deck:, foo::B"
+    },
+    {
+      "step": "31",
+      "annotated_image": "<VISIONDROID_WORKSPACE>/Trident/tmp/new_data_batch_detector_gpt4o_rerun/cases/tr__36/annotated_images/31.png",
+      "action": {
+        "type": "click",
+        "feature": "Front",
+        "x": 150,
+        "y": 666,
+        "bounds": [
+          58,
+          612,
+          956,
+          736
+        ],
+        "resource_id": "com.ichi2.anki:id/id_note_editText",
+        "content_desc": "Front"
+      },
+      "page_description": "Navigate up, Add note, Save, Preview, Type:, Basic, Deck:, foo::B"
+    },
+    {
+      "step": "32",
+      "annotated_image": "<VISIONDROID_WORKSPACE>/Trident/tmp/new_data_batch_detector_gpt4o_rerun/cases/tr__36/annotated_images/32.png",
+      "action": {
+        "type": "input",
+        "feature": "com.ichi2.anki:id/id_note_editText",
+        "text": "Q4",
+        "bounds": [
+          58,
+          612,
+          956,
+          736
+        ],
+        "resource_id": "com.ichi2.anki:id/id_note_editText",
+        "content_desc": "Front"
+      },
+      "page_description": "Navigate up, Add note, Save, Preview, Type:, Basic, Deck:, foo::B"
+    },
+    {
+      "step": "33",
+      "annotated_image": "<VISIONDROID_WORKSPACE>/Trident/tmp/new_data_batch_detector_gpt4o_rerun/cases/tr__36/annotated_images/33.png",
+      "action": {
+        "type": "click",
+        "feature": "Save",
+        "x": 885,
+        "y": 162,
+        "bounds": [
+          816,
+          94,
+          948,
+          226
+        ],
+        "resource_id": "com.ichi2.anki:id/action_save",
+        "content_desc": "Save"
+      },
+      "page_description": "Navigate up, Add note, Save, Preview, Type:, Basic, Deck:, foo::B"
+    },
+    {
+      "step": "34",
+      "annotated_image": "<VISIONDROID_WORKSPACE>/Trident/tmp/new_data_batch_detector_gpt4o_rerun/cases/tr__36/annotated_images/34.png",
+      "action": {
+        "type": "back",
+        "feature": ""
+      },
+      "page_description": "Navigate up, Add note, Save, Preview, Type:, Basic, Deck:, foo::B"
+    },
+    {
+      "step": "35",
+      "annotated_image": "<VISIONDROID_WORKSPACE>/Trident/tmp/new_data_batch_detector_gpt4o_rerun/cases/tr__36/annotated_images/35.png",
+      "action": {
+        "type": "click",
+        "feature": "SHOW ANSWER",
+        "x": 552,
+        "y": 2082,
+        "bounds": [
+          0,
+          2016,
+          1080,
+          2148
+        ],
+        "resource_id": "com.ichi2.anki:id/flip_card",
+        "element_text": "SHOW ANSWER"
+      },
+      "page_description": "Back, Overview, Home, Navigate up, A, 0 minutes left, Undo, Flag card"
+    },
+    {
+      "step": "36",
+      "annotated_image": "<VISIONDROID_WORKSPACE>/Trident/tmp/new_data_batch_detector_gpt4o_rerun/cases/tr__36/annotated_images/36.png",
+      "action": {
+        "type": "click",
+        "feature": "Easy",
+        "x": 894,
+        "y": 2112,
+        "bounds": [
+          720,
+          2082,
+          1080,
+          2128
+        ],
+        "resource_id": "com.ichi2.anki:id/ease3",
+        "element_text": "Easy"
+      },
+      "page_description": "Back, Overview, Home, Navigate up, A, 0 minutes left, Undo, Flag card"
+    },
+    {
+      "step": "37",
+      "annotated_image": "<VISIONDROID_WORKSPACE>/Trident/tmp/new_data_batch_detector_gpt4o_rerun/cases/tr__36/annotated_images/37.png",
+      "action": {
+        "type": "click",
+        "feature": "SHOW ANSWER",
+        "x": 540,
+        "y": 2082,
+        "bounds": [
+          0,
+          2016,
+          1080,
+          2148
+        ],
+        "resource_id": "com.ichi2.anki:id/flip_card",
+        "element_text": "SHOW ANSWER"
+      },
+      "page_description": "Back, Overview, Home, Navigate up, B, 0 minutes left, Undo, Flag card"
+    },
+    {
+      "step": "38",
+      "annotated_image": "<VISIONDROID_WORKSPACE>/Trident/tmp/new_data_batch_detector_gpt4o_rerun/cases/tr__36/annotated_images/38.png",
+      "action": {
+        "type": "click",
+        "feature": "Easy",
+        "x": 906,
+        "y": 2115,
+        "bounds": [
+          720,
+          2082,
+          1080,
+          2128
+        ],
+        "resource_id": "com.ichi2.anki:id/ease3",
+        "element_text": "Easy"
+      },
+      "page_description": "Back, Overview, Home, Navigate up, B, 0 minutes left, Undo, Flag card"
+    },
+    {
+      "step": "39",
+      "annotated_image": "<VISIONDROID_WORKSPACE>/Trident/tmp/new_data_batch_detector_gpt4o_rerun/cases/tr__36/annotated_images/39.png",
+      "action": {
+        "type": "click",
+        "feature": "SHOW ANSWER",
+        "x": 501,
+        "y": 2088,
+        "bounds": [
+          0,
+          2016,
+          1080,
+          2148
+        ],
+        "resource_id": "com.ichi2.anki:id/flip_card",
+        "element_text": "SHOW ANSWER"
+      },
+      "page_description": "Back, Overview, Home, Navigate up, B, 0 minutes left, Undo, Flag card"
+    },
+    {
+      "step": "40",
+      "annotated_image": "<VISIONDROID_WORKSPACE>/Trident/tmp/new_data_batch_detector_gpt4o_rerun/cases/tr__36/annotated_images/40.png",
+      "action": {
+        "type": "click",
+        "feature": "Easy",
+        "x": 888,
+        "y": 2115,
+        "bounds": [
+          720,
+          2082,
+          1080,
+          2128
+        ],
+        "resource_id": "com.ichi2.anki:id/ease3",
+        "element_text": "Easy"
+      },
+      "page_description": "Back, Overview, Home, Navigate up, B, 0 minutes left, Undo, Flag card"
+    },
+    {
+      "step": "41",
+      "annotated_image": "<VISIONDROID_WORKSPACE>/Trident/tmp/new_data_batch_detector_gpt4o_rerun/cases/tr__36/annotated_images/41.png",
+      "action": {
+        "type": "click",
+        "feature": "SHOW ANSWER",
+        "x": 549,
+        "y": 2088,
+        "bounds": [
+          0,
+          2016,
+          1080,
+          2148
+        ],
+        "resource_id": "com.ichi2.anki:id/flip_card",
+        "element_text": "SHOW ANSWER"
+      },
+      "page_description": "Back, Overview, Home, Navigate up, B, 0 minutes left, Undo, Flag card"
+    },
+    {
+      "step": "42",
+      "annotated_image": "<VISIONDROID_WORKSPACE>/Trident/tmp/new_data_batch_detector_gpt4o_rerun/cases/tr__36/annotated_images/42.png",
+      "action": {
+        "type": "click",
+        "feature": "Easy",
+        "x": 906,
+        "y": 2115,
+        "bounds": [
+          720,
+          2082,
+          1080,
+          2128
+        ],
+        "resource_id": "com.ichi2.anki:id/ease3",
+        "element_text": "Easy"
+      },
+      "page_description": "Back, Overview, Home, Navigate up, B, 0 minutes left, Undo, Flag card"
+    },
+    {
+      "step": "43",
+      "annotated_image": "<VISIONDROID_WORKSPACE>/Trident/tmp/new_data_batch_detector_gpt4o_rerun/cases/tr__36/annotated_images/43.png",
+      "action": {
+        "type": "observe",
+        "feature": ""
+      },
+      "page_description": "Back, Overview, Home, Navigate up, AnkiDroid, 1 card due (0 s), Synchronization, More options"
+    }
+  ],
+  "prompt_preview": "Below are instructions for the no-crash bug detection task.\n\n### [Task Description]\nYou are given a tested function sequence from a mobile app.\nPlease analyze the GUI sequence and determine whether the page transitions and interaction results meet the expected behavior of the tested function.\nYou should detect non-crash functional bugs, identify possible bug-triggering paths, and point out abnormal or exception paths.\n\n### [Bug examples]\nThe categories of bugs include:\nPage loading failure\nWidget occlusion/overlap\nContent missing\nFeedback missing\nData operation failure\nMedia control not responding\nNumerical calculation errors\nSetting & configuration failures\nNavigation & linking errors\n\nWe provide the bug examples:\n(1) {'bug_id': 'ex_001', 'app_name': 'Amethyst', 'function_name': 'Copy note text from media view', 'bug_type': 'clipboard content error', 'bug_category': 'Content missing', 'bug_description': 'Copy Text in media view copies empty content instead of the note text containing the media URL.', 'bug_replay_path': ['Go to media view', 'Open the three-dot menu', 'Tap Copy Text', 'Try paste at any text input view like Search Bar'], 'expected_behavior': 'The note text including the media URL should be copied to the clipboard.', 'actual_behavior': 'Empty content is copied to the clipboard.'}\n(2) {'bug_id': 'ex_002', 'app_name': 'Unknown', 'function_name': 'Create and save a password entry', 'bug_type': 'UI state not updated', 'bug_category': 'Content missing', 'bug_description': \"After saving a new password entry, the header title remains '(no title)' instead of updating to the saved title.\", 'bug_replay_path': [\"Tap the '+' button\", 'Enter a title', 'Tap the save icon', 'Remain on the password entry page'], 'expected_behavior': 'The header title should update to the title of the saved password entry.', 'actual_behavior': \"The save icon disappears but the header still shows '(no title)'.\"}\n(3) {'bug_id': 'ex_003', 'app_name': 'floccus', 'function_name': 'Open settings page', 'bug_type': 'button has no response', 'bug_category': 'Feedback missing', 'bug_description': 'Pressing the settings button does nothing and the settings page does not open.', 'bug_replay_path': ['Open floccus Android app', 'Tap the settings button in the upper right corner'], 'expected_behavior': 'The settings page should open.', 'actual_behavior': 'Nothing happens after pressing the settings button.'}\n(4) {'bug_id': 'ex_004', 'app_name': 'Blockstream Green', 'function_name': 'Log into wallet when offline', 'bug_type': 'misleading error message', 'bug_category': 'Navigation & linking errors', 'bug_description': \"When the device is offline, the app shows a 'PIN error' instead of a network error.\", 'bug_replay_path': ['Create a wallet and set a PIN while connected to the internet', 'Disconnect from the internet', 'Close the app', 'Open the app again', 'Try to log into the wallet'], 'expected_behavior': \"The app should show a network-related error such as 'Unable to connect'.\", 'actual_behavior': \"The app shows 'PIN error'.\"}\n(5) {'bug_id': 'ex_005', 'app_name': 'Amethyst', 'function_name': 'Copy text from edited post', 'bug_type': 'stale clipboard data', 'bug_category': 'Navigation & linking errors', 'bug_description': 'Copying text from an edited post copies the original text instead of the updated text.', 'bug_replay_path': ['Create a new post', 'Edit the post and change the text', 'Use Copy Text'], 'expected_behavior': 'The copied text should be the updated edited content.', 'actual_behavior': 'The original text before editing is copied.'}\n(6) {'bug_id': 'ex_006', 'app_name': 'Simplenote', 'function_name': 'Use Notes List widget after logout', 'bug_type': 'wrong navigation after logout', 'bug_category': 'Navigation & linking errors', 'bug_description': 'After logging out, tapping the Notes List widget opens a new note instead of redirecting to the login screen.', 'bug_replay_path': ['Log in to the app', 'Add the Notes List widget to the home screen', 'Confirm the widget works normally', 'Log out of the app', 'Tap the widget on the home screen'], 'expected_behavior': \"The widget should show 'Log in to use widget' and open the login screen when tapped.\", 'actual_behavior': 'A new note is opened and the widget becomes blank.'}\n\n### [Functionality-driven COT]\nLet's think step by step.\n1. Function Identification: The tested function is tr__36.\n2. Expected Path: Please predict the exploration steps for this function based on the above information.\n3. Actual Path: The tested function sequence is as follows:\n(1) The 1st page is 11:43, 11:43 PM, Settings notification: Virtual SD card, Android System notification: USB debugging connected, Wifi signal full., Phone two bars., Battery 100 percent., Navigate up + click feature=\"Add\"\n(2) The 2nd page is 11:43, 11:43 PM, Settings notification: Virtual SD card, Android System notification: USB debugging connected, Wifi signal full., Phone two bars., Battery 100 percent., Navigate up + click feature=\"Create deck\"\n(3) The 3rd page is Create deck, CANCEL, OK, 11:43, 11:43 PM, Settings notification: Virtual SD card, Android System notification: USB debugging connected, Wifi signal full. + click feature=\"[143,1052][915,1176]\"\n(4) The 4th page is Create deck, CANCEL, OK, 11:43, 11:43 PM, Settings notification: Virtual SD card, Android System notification: USB debugging connected, Wifi signal full. + input feature=\"[143,1052][915,1176]\" text=\"foo::A\"\n(5) The 5th page is Create deck, foo::A, CANCEL, OK, 11:43, 11:43 PM, Settings notification: Virtual SD card, Android System notification: USB debugging connected + click feature=\"OK\"\n(6) The 6th page is 11:43, 11:43 PM, Settings notification: Virtual SD card, Android System notification: USB debugging connected, Wifi signal full., Phone two bars., Battery 100 percent., Navigate up + click feature=\"Add\"\n(7) The 7th page is 11:43, 11:43 PM, Settings notification: Virtual SD card, Android System notification: USB debugging connected, Wifi signal full., Phone two bars., Battery 100 percent., Navigate up + click feature=\"Create deck\"\n(8) The 8th page is Create deck, CANCEL, OK, 11:43, 11:43 PM, Settings notification: Virtual SD card, Android System notification: USB debugging connected, Wifi signal full. + click feature=\"[143,1052][915,1176]\"\n(9) The 9th page is Create deck, CANCEL, OK, 11:44, 11:44 PM, Settings notification: Virtual SD card, Android System notification: USB debugging connected, Wifi signal full. + input feature=\"[143,1052][915,1176]\" text=\"foo::B\"\n(10) The 10th page is Create deck, foo::B, CANCEL, OK, 11:44, 11:44 PM, Settings notification: Virtual SD card, Android System notification: USB debugging connected + click feature=\"OK\"\n(11) The 11th page is 11:44, 11:44 PM, Settings notification: Virtual SD card, Android System notification: USB debugging connected, Wifi signal full., Phone two bars., Battery 100 percent., Navigate up + click feature=\"com.ichi2.anki:id/add_content_menu\"\n(12) The 12th page is 11:44, 11:44 PM, Settings notification: Virtual SD card, Android System notification: USB debugging connected, Wifi signal full., Phone two bars., Battery 100 percent., Navigate up + click feature=\"A\"\n(13) The 13th page is 11:44, 11:44 PM, Settings notification: Virtual SD card, Android System notification: USB debugging connected, Wifi signal full., Phone two bars., Battery 100 percent., Navigate up + click feature=\"Add\"\n(14) The 14th page is 11:44, 11:44 PM, Settings notification: Virtual SD card, Android System notification: USB debugging connected, Wifi signal full., Phone two bars., Battery 100 percent., Navigate up + click feature=\"Add\"\n(15) The 15th page is Navigate up, Add note, Save, Preview, Type:, Basic, Deck:, foo::A + click feature=\"Front\"\n(16) The 16th page is Navigate up, Add note, Save, Preview, Type:, Basic, Deck:, foo::A + input feature=\"com.ichi2.anki:id/id_note_editText\" text=\"Q1\"\n(17) The 17th page is Navigate up, Add note, Save, Preview, Type:, Basic, Deck:, foo::A + click feature=\"Save\"\n(18) The 18th page is Navigate up, Add note, Save, Preview, Type:, Basic, Deck:, foo::A + click feature=\"com.ichi2.anki:id/note_deck_spinner\"\n(19) The 19th page is 11:45, 11:45 PM, Settings notification: Virtual SD card, Android System notification: USB debugging connected, Wifi signal full., Phone two bars., Battery 100 percent., Back + click feature=\"foo::B\"\n(20) The 20th page is Navigate up, Add note, Save, Preview, Type:, Basic, Deck:, foo::B + click feature=\"Front\"\n(21) The 21th page is Navigate up, Add note, Save, Preview, Type:, Basic, Deck:, foo::B + input feature=\"com.ichi2.anki:id/id_note_editText\" text=\"Q2\"\n(22) The 22th page is Navigate up, Add note, Save, Preview, Type:, Basic, Deck:, foo::B + click feature=\"Save\"\n(23) The 23th page is Navigate up, Add note, Save, Preview, Type:, Basic, Deck:, foo::B + back\n(24) The 24th page is 12:15, 12:15 AM, Settings notification: Virtual SD card, Android System notification: USB debugging connected, Wifi signal full., Phone two bars., Battery 100 percent., Navigate up + click feature=\"foo\"\n(25) The 25th page is Navigate up, A, 0 minutes left, Undo, Flag card, Add note, More options, 2 + click feature=\"Add note\"\n(26) The 26th page is Navigate up, Add note, Save, Preview, Type:, Basic, Deck:, foo + click feature=\"com.ichi2.anki:id/note_deck_spinner\"\n(27) The 27th page is Default, foo, foo::A, foo::B, 12:15, 12:15 AM, Settings notification: Virtual SD card, Android System notification: USB debugging connected + click feature=\"foo::B\"\n(28) The 28th page is Navigate up, Add note, Save, Preview, Type:, Basic, Deck:, foo::B + click feature=\"Front\"\n(29) The 29th page is Navigate up, Add note, Save, Preview, Type:, Basic, Deck:, foo::B + input feature=\"com.ichi2.anki:id/id_note_editText\" text=\"Q3\"\n(30) The 30th page is Navigate up, Add note, Save, Preview, Type:, Basic, Deck:, foo::B + click feature=\"Save\"\n(31) The 31th page is Navigate up, Add note, Save, Preview, Type:, Basic, Deck:, foo::B + click feature=\"Front\"\n(32) The 32th page is Navigate up, Add note, Save, Preview, Type:, Basic, Deck:, foo::B + input feature=\"com.ichi2.anki:id/id_note_editText\" text=\"Q4\"\n(33) The 33th page is Navigate up, Add note, Save, Preview, Type:, Basic, Deck:, foo::B + click feature=\"Save\"\n(34) The 34th page is Navigate up, Add note, Save, Preview, Type:, Basic, Deck:, foo::B + back\n(35) The 35th page is Back, Overview, Home, Navigate up, A, 0 minutes left, Undo, Flag card + click feature=\"SHOW ANSWER\"\n(36) The 36th page is Back, Overview, Home, Navigate up, A, 0 minutes left, Undo, Flag card + click feature=\"Easy\"\n(37) The 37th page is Back, Overview, Home, Navigate up, B, 0 minutes left, Undo, Flag card + click feature=\"SHOW ANSWER\"\n(38) The 38th page is Back, Overview, Home, Navigate up, B, 0 minutes left, Undo, Flag card + click feature=\"Easy\"\n(39) The 39th page is Back, Overview, Home, Navigate up, B, 0 minutes left, Undo, Flag card + click feature=\"SHOW ANSWER\"\n(40) The 40th page is Back, Overview, Home, Navigate up, B, 0 minutes left, Undo, Flag card + click feature=\"Easy\"\n(41) The 41th page is Back, Overview, Home, Navigate up, B, 0 minutes left, Undo, Flag card + click feature=\"SHOW ANSWER\"\n(42) The 42th page is Back, Overview, Home, Navigate up, B, 0 minutes left, Undo, Flag card + click feature=\"Easy\"\n(43) The 43th page is Back, Overview, Home, Navigate up, AnkiDroid, 1 card due (0 s), Synchronization, More options + observe\n\n### [Legend of image]\nThe image shows a test sequence arranged in order from left to right and from top to bottom.\nEach screenshot is labeled with a bounding box indicating the action of the operation.\nBelow the screenshot is the corresponding page description.\n\n### [Query]\n1. Please analyze each step in the test sequence in the image based on the description and examples of the bugs, predict whether the page that transits after each step meets your expectation, use this to determine whether there are any bugs, and point out the bug page.\n2. Is there any page or operation that could potentially trigger some bugs? Please provide the corresponding page and action widget.\n3. By analyzing the test path, if there are any pages or operations in the path that have abnormalities, please provide the corresponding page and action widget.\n\nReturn STRICT JSON only in the following format:\n{\n  \"has_bug\": true,\n  \"bug_page\": \"\",\n  \"bug_reason\": \"\",\n  \"possible_bug_path\": \"\",\n  \"exception_path\": \"\"\n}\nor\n{\n  \"has_bug\": false,\n  \"possible_bug_path\": \"\",\n  \"exception_path\": \"\"\n}"
+}
