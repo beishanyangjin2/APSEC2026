@@ -1,0 +1,104 @@
+
+UI info interaction trace example:
+
+Example 1:
+**UI info interaction trace:
+*Initial Structure
+
+*Current Screen Information:  #Current Activity: .DeckPicker.  # UI Information:click has the following group(s):1#.toolbar:[{'ImageView': 'More options'}, {'Button': 'Sync (log in)'}, {'ImageButton': 'Open drawer'}, 'AnkiDroid'];2#.[{'ImageButton': 'com.ichi2.anki:id/fab_main'}];Other Widgets with Text in This Page has the following group(s):1#.Collection is empty;2#.Start adding cards
+using the + icon.;.
+'action': 'click', 'feature': 'com.ichi2.anki:id/fab_main'
+
+*Current Screen Information:  #Current Activity: .DeckPicker.  # UI Information:click has the following group(s):1#.toolbar:[{'ImageView': 'More options'}, {'Button': 'Sync (log in)'}, {'ImageButton': 'Open drawer'}, 'AnkiDroid'];2#.fabBGLayout:[{'View': 'com.ichi2.anki:id/fabBGLayout'}];3#.add_shared_layout:[{'ImageButton': 'com.ichi2.anki:id/add_shared_action'}, 'Get shared decks'];4#.add_filtered_deck_layout:[{'ImageButton': 'com.ichi2.anki:id/add_filtered_deck_action'}, 'Create filtered deck'];5#.add_deck_layout:[{'ImageButton': 'com.ichi2.anki:id/add_deck_action'}, 'Create deck'];6#.[{'ImageButton': 'com.ichi2.anki:id/fab_main'}, 'Add'];Other Widgets with Text in This Page has the following group(s):1#.Collection is empty;2#.Start adding cards
+using the + icon.;.
+'action': 'click', 'feature': 'Add'
+
+*Current Screen Information:  #Current Activity: .NoteEditor.  # UI Information:set_text has the following group(s):1#.constraint_layout:[{'EditText': 'com.ichi2.anki:id/id_note_editText'}, {'ImageButton': 'com.ichi2.anki:id/id_expand_button'}, {'ImageButton': 'Attach multimedia content to the Front field'}, {'ImageButton': 'Make field Front sticky'}, 'Front'];2#.constraint_layout:[{'EditText': 'com.ichi2.anki:id/id_note_editText'}, {'ImageButton': 'com.ichi2.anki:id/id_expand_button'}, {'ImageButton': 'Attach multimedia content to the Back field'}, {'ImageButton': 'Make field Back sticky'}, 'Back'];click has the following group(s):1#.key_pos_header_voice:[{'FrameLayout': 'Voice input'}];2#.['Close features menu'];3#.['Search'];4#.['Sticker Keyboard'];5#.['GIF Keyboard'];6#.['Translate'];7#.['More features'];8#.key_pos_0_0:[{'FrameLayout': 'Q'}, '1'];9#.key_pos_0_1:[{'FrameLayout': 'W'}, '2'];10#.key_pos_0_2:[{'FrameLayout': 'E'}, '3'];11#.key_pos_0_3:[{'FrameLayout': 'R'}, '4'];12#.key_pos_0_4:[{'FrameLayout': 'T'}, '5'];13#.key_pos_0_5:[{'FrameLayout': 'Y'}, '6'];14#.key_pos_0_6:[{'FrameLayout': 'U'}, '7'];15#.key_pos_0_7:[{'FrameLayout': 'I'}, '8'];16#.key_pos_0_8:[{'FrameLayout': 'O'}, '9'];17#.key_pos_0_9:[{'FrameLayout': 'P'}, '0'];18#.['A'];19#.key_pos_1_1:[{'FrameLayout': 'S'}];20#.key_pos_1_2:[{'FrameLayout': 'D'}];21#.key_pos_1_3:[{'FrameLayout': 'F'}];22#.key_pos_1_4:[{'FrameLayout': 'G'}];23#.key_pos_1_5:[{'FrameLayout': 'H'}];24#.key_pos_1_6:[{'FrameLayout': 'J'}];25#.key_pos_1_7:[{'FrameLayout': 'K'}];26#.['L'];27#.key_pos_shift:[{'FrameLayout': 'Shift'}];28#.key_pos_2_1:[{'FrameLayout': 'Z'}];29#.key_pos_2_2:[{'FrameLayout': 'X'}];30#.key_pos_2_3:[{'FrameLayout': 'C'}];31#.key_pos_2_4:[{'FrameLayout': 'V'}];32#.key_pos_2_5:[{'FrameLayout': 'B'}];33#.key_pos_2_6:[{'FrameLayout': 'N'}];34#.key_pos_2_7:[{'FrameLayout': 'M'}];35#.key_pos_del:[{'FrameLayout': 'Delete'}];36#.key_pos_switch_to_symbol:[{'FrameLayout': 'Symbol keyboard'}];37#.key_pos_bottom_symbol_1:[{'FrameLayout': ','}];38#.key_pos_switch_to_next_language:[{'FrameLayout': 'Emoji button'}];39#.['Space'];40#.key_pos_bottom_symbol_2:[{'FrameLayout': '.'}];41#.['Enter'];42#.toolbar:[{'ImageView': 'More options'}, {'Button': 'Preview'}, {'Button': 'Save'}, {'ImageButton': 'Navigate up'}, 'Add'];43#.CardEditorTagButton:['Tags: '];44#.CardEditorCardsButton:['Cards: Card 1'];45#.editor_toolbar:[{'ImageButton': 'Create Toolbar Item'}, {'ImageButton': 'Insert MathJax Equation'}, {'ImageButton': 'Change Font Size'}, {'ImageButton': 'Insert Heading'}, {'ImageButton': 'Insert Horizontal Line'}, {'ImageButton': 'Format as Underline'}, {'ImageButton': 'Format as Italic'}, {'ImageButton': 'Format as Bold'}];spinner has the following group(s):1#.note_deck_spinner:[{'Spinner': 'com.ichi2.anki:id/note_deck_spinner'}, 'Default'];scrollable has the following group(s):1#.note_type_spinner:[{'Spinner': 'com.ichi2.anki:id/note_type_spinner'}, 'Basic'];Other Widgets with Text in This Page has the following group(s):1#.Type:;2#.Deck:;.
+'action': 'set_text', 'feature': 'Front', 'input_text': '<a href="https://google.com">test</a>'
+
+*Current Screen Information:  #Current Activity: .NoteEditor.  # UI Information:set_text has the following group(s):1#.constraint_layout:['<a href="https://google.com">test</a>', {'EditText': 'com.ichi2.anki:id/id_note_editText'}, {'ImageButton': 'com.ichi2.anki:id/id_expand_button'}, {'ImageButton': 'Attach multimedia content to the Front field'}, {'ImageButton': 'Make field Front sticky'}, 'Front'];2#.constraint_layout:[{'EditText': 'com.ichi2.anki:id/id_note_editText'}, {'ImageButton': 'com.ichi2.anki:id/id_expand_button'}, {'ImageButton': 'Attach multimedia content to the Back field'}, {'ImageButton': 'Make field Back sticky'}, 'Back'];click has the following group(s):1#.['a'];2#.['to'];3#.['I'];4#.key_pos_header_voice:[{'FrameLayout': 'Voice input'}];5#.['Open features menu'];6#.key_pos_0_0:[{'FrameLayout': 'q'}, '1'];7#.key_pos_0_1:[{'FrameLayout': 'w'}, '2'];8#.key_pos_0_2:[{'FrameLayout': 'e'}, '3'];9#.key_pos_0_3:[{'FrameLayout': 'r'}, '4'];10#.key_pos_0_4:[{'FrameLayout': 't'}, '5'];11#.key_pos_0_5:[{'FrameLayout': 'y'}, '6'];12#.key_pos_0_6:[{'FrameLayout': 'u'}, '7'];13#.key_pos_0_7:[{'FrameLayout': 'i'}, '8'];14#.key_pos_0_8:[{'FrameLayout': 'o'}, '9'];15#.key_pos_0_9:[{'FrameLayout': 'p'}, '0'];16#.['a'];17#.key_pos_1_1:[{'FrameLayout': 's'}];18#.key_pos_1_2:[{'FrameLayout': 'd'}];19#.key_pos_1_3:[{'FrameLayout': 'f'}];20#.key_pos_1_4:[{'FrameLayout': 'g'}];21#.key_pos_1_5:[{'FrameLayout': 'h'}];22#.key_pos_1_6:[{'FrameLayout': 'j'}];23#.key_pos_1_7:[{'FrameLayout': 'k'}];24#.['l'];25#.key_pos_shift:[{'FrameLayout': 'Shift'}];26#.key_pos_2_1:[{'FrameLayout': 'z'}];27#.key_pos_2_2:[{'FrameLayout': 'x'}];28#.key_pos_2_3:[{'FrameLayout': 'c'}];29#.key_pos_2_4:[{'FrameLayout': 'v'}];30#.key_pos_2_5:[{'FrameLayout': 'b'}];31#.key_pos_2_6:[{'FrameLayout': 'n'}];32#.key_pos_2_7:[{'FrameLayout': 'm'}];33#.key_pos_del:[{'FrameLayout': 'Delete'}];34#.key_pos_switch_to_symbol:[{'FrameLayout': 'Symbol keyboard'}];35#.key_pos_bottom_symbol_1:[{'FrameLayout': ','}];36#.key_pos_switch_to_next_language:[{'FrameLayout': 'Emoji button'}];37#.['Space'];38#.key_pos_bottom_symbol_2:[{'FrameLayout': '.'}];39#.['Enter'];40#.toolbar:[{'ImageView': 'More options'}, {'Button': 'Preview'}, {'Button': 'Save'}, {'ImageButton': 'Navigate up'}, 'Add'];41#.CardEditorTagButton:['Tags: '];42#.CardEditorCardsButton:['Cards: Card 1'];43#.editor_toolbar:[{'ImageButton': 'Create Toolbar Item'}, {'ImageButton': 'Insert MathJax Equation'}, {'ImageButton': 'Change Font Size'}, {'ImageButton': 'Insert Heading'}, {'ImageButton': 'Insert Horizontal Line'}, {'ImageButton': 'Format as Underline'}, {'ImageButton': 'Format as Italic'}, {'ImageButton': 'Format as Bold'}];spinner has the following group(s):1#.note_deck_spinner:[{'Spinner': 'com.ichi2.anki:id/note_deck_spinner'}, 'Default'];scrollable has the following group(s):1#.note_type_spinner:[{'Spinner': 'com.ichi2.anki:id/note_type_spinner'}, 'Basic'];Other Widgets with Text in This Page has the following group(s):1#.Type:;2#.Deck:;.
+'action': 'click', 'feature': 'Save'
+
+*Current Screen Information:  #Current Activity: .NoteEditor.  # UI Information:set_text has the following group(s):1#.constraint_layout:[{'EditText': 'com.ichi2.anki:id/id_note_editText'}, {'ImageButton': 'com.ichi2.anki:id/id_expand_button'}, {'ImageButton': 'Attach multimedia content to the Front field'}, {'ImageButton': 'Make field Front sticky'}, 'Front'];2#.constraint_layout:[{'EditText': 'com.ichi2.anki:id/id_note_editText'}, {'ImageButton': 'com.ichi2.anki:id/id_expand_button'}, {'ImageButton': 'Attach multimedia content to the Back field'}, {'ImageButton': 'Make field Back sticky'}, 'Back'];click has the following group(s):1#.key_pos_header_voice:[{'FrameLayout': 'Voice input'}];2#.['Close features menu'];3#.['Search'];4#.['Sticker Keyboard'];5#.['GIF Keyboard'];6#.['Translate'];7#.['More features'];8#.key_pos_0_0:[{'FrameLayout': 'Q'}, '1'];9#.key_pos_0_1:[{'FrameLayout': 'W'}, '2'];10#.key_pos_0_2:[{'FrameLayout': 'E'}, '3'];11#.key_pos_0_3:[{'FrameLayout': 'R'}, '4'];12#.key_pos_0_4:[{'FrameLayout': 'T'}, '5'];13#.key_pos_0_5:[{'FrameLayout': 'Y'}, '6'];14#.key_pos_0_6:[{'FrameLayout': 'U'}, '7'];15#.key_pos_0_7:[{'FrameLayout': 'I'}, '8'];16#.key_pos_0_8:[{'FrameLayout': 'O'}, '9'];17#.key_pos_0_9:[{'FrameLayout': 'P'}, '0'];18#.['A'];19#.key_pos_1_1:[{'FrameLayout': 'S'}];20#.key_pos_1_2:[{'FrameLayout': 'D'}];21#.key_pos_1_3:[{'FrameLayout': 'F'}];22#.key_pos_1_4:[{'FrameLayout': 'G'}];23#.key_pos_1_5:[{'FrameLayout': 'H'}];24#.key_pos_1_6:[{'FrameLayout': 'J'}];25#.key_pos_1_7:[{'FrameLayout': 'K'}];26#.['L'];27#.key_pos_shift:[{'FrameLayout': 'Shift'}];28#.key_pos_2_1:[{'FrameLayout': 'Z'}];29#.key_pos_2_2:[{'FrameLayout': 'X'}];30#.key_pos_2_3:[{'FrameLayout': 'C'}];31#.key_pos_2_4:[{'FrameLayout': 'V'}];32#.key_pos_2_5:[{'FrameLayout': 'B'}];33#.key_pos_2_6:[{'FrameLayout': 'N'}];34#.key_pos_2_7:[{'FrameLayout': 'M'}];35#.key_pos_del:[{'FrameLayout': 'Delete'}];36#.key_pos_switch_to_symbol:[{'FrameLayout': 'Symbol keyboard'}];37#.key_pos_bottom_symbol_1:[{'FrameLayout': ','}];38#.key_pos_switch_to_next_language:[{'FrameLayout': 'Emoji button'}];39#.['Space'];40#.key_pos_bottom_symbol_2:[{'FrameLayout': '.'}];41#.['Enter'];42#.toolbar:[{'ImageView': 'More options'}, {'Button': 'Preview'}, {'Button': 'Save'}, {'ImageButton': 'Navigate up'}, 'Add'];43#.CardEditorTagButton:['Tags: '];44#.CardEditorCardsButton:['Cards: Card 1'];45#.editor_toolbar:[{'ImageButton': 'Create Toolbar Item'}, {'ImageButton': 'Insert MathJax Equation'}, {'ImageButton': 'Change Font Size'}, {'ImageButton': 'Insert Heading'}, {'ImageButton': 'Insert Horizontal Line'}, {'ImageButton': 'Format as Underline'}, {'ImageButton': 'Format as Italic'}, {'ImageButton': 'Format as Bold'}];spinner has the following group(s):1#.note_deck_spinner:[{'Spinner': 'com.ichi2.anki:id/note_deck_spinner'}, 'Default'];scrollable has the following group(s):1#.note_type_spinner:[{'Spinner': 'com.ichi2.anki:id/note_type_spinner'}, 'Basic'];Other Widgets with Text in This Page has the following group(s):1#.Type:;2#.Deck:;.
+'action': 'click', 'feature': 'Navigate up'
+
+*Current Screen Information:  #Current Activity: .DeckPicker.  # UI Information:click has the following group(s):1#.toolbar:[{'ImageView': 'More options'}, {'Button': 'Sync (log in)'}, {'ImageButton': 'Open drawer'}, 'AnkiDroid', '1 card due'];2#.['com.ichi2.anki:id/DeckPickerHoriz'];3#.counts_layout:[{'LinearLayout': 'Open the deck overview page containing the number of cards to see today.'}, '1', '0', '0'];4#.[{'ImageButton': 'com.ichi2.anki:id/fab_main'}];Other Widgets with Text in This Page has the following group(s):1#.Default;2#.Studied ⁨0⁩ cards ⁨in ⁨0⁩ seconds⁩ today (⁨0⁩s/card);.
+'action': 'click', 'feature': 'Default'
+
+*Current Screen Information:  #Current Activity: .Reviewer.  # UI Information:click has the following group(s):1#.toolbar:[{'ImageView': 'More options'}, {'Button': 'Flag card'}, {'NAF': '[705,105][837,237]'}, {'ImageButton': 'Open drawer'}];2#.qa:['test'];3#.['com.ichi2.anki:id/touch_layer'];4#.flashcard_layout_flip:[{'FrameLayout': 'com.ichi2.anki:id/flashcard_layout_flip'}, 'Show answer'];Other Widgets with Text in This Page has the following group(s):1#.1;2#.0;3#.0;4#.AnkiDroid Flashcard;.
+'action': 'click', 'feature': 'test'
+
+*Current Screen Information:  #Current Activity: .Reviewer.  # UI Information:click has the following group(s):1#.toolbar:[{'ImageView': 'More options'}, {'Button': 'Flag card'}, {'NAF': '[705,105][837,237]'}, {'ImageButton': 'Open drawer'}];2#.qa:['test'];3#.['com.ichi2.anki:id/touch_layer'];4#.flashcard_layout_flip:[{'FrameLayout': 'com.ichi2.anki:id/flashcard_layout_flip'}, 'Show answer'];Other Widgets with Text in This Page has the following group(s):1#.1;2#.0;3#.0;4#.AnkiDroid Flashcard;.
+'action': 'click', 'feature': 'test'
+
+*Current Screen Information:  #Current Activity: .Reviewer.  # UI Information:click has the following group(s):1#.toolbar:[{'ImageView': 'More options'}, {'Button': 'Flag card'}, {'NAF': '[705,105][837,237]'}, {'ImageButton': 'Open drawer'}];2#.qa:['test'];3#.['com.ichi2.anki:id/touch_layer'];4#.flashcard_layout_flip:[{'FrameLayout': 'com.ichi2.anki:id/flashcard_layout_flip'}, 'Show answer'];Other Widgets with Text in This Page has the following group(s):1#.1;2#.0;3#.0;4#.AnkiDroid Flashcard;.
+
+**output:
+
+```json
+{
+  "is_ncf_bug": true,
+  "categories": ["F-5"],     
+  "evidence": [
+    "'action': 'set_text', 'feature': 'Front', 'input_text': '<a href=""https://google.com"">test</a>'",
+    "'action': 'click', 'feature': 'test'",
+  ],
+  "explanation": "The sequence shows that after creating a card with a hyperlink in the 'Front' field and saving it, the card is shown in the reviewer with the text 'test' instead of displaying the hyperlink as expected. This indicates that the hyperlink is not being rendered or displayed correctly in the card review, which is a functionality issue."
+}
+```
+Done Example 1.
+
+
+Example 2:
+**UI info interaction trace:
+
+*Initial Structure
+
+*Current Screen Information:  #Current Activity: design.codeux.authpass.MainActivity.  # UI Information:click has the following group(s):1#.[{'Button': 'Show menu'}, {'Button': 'Search'}, {'Button': 'Filter by group'}, {'Button': 'Save'}, {'Button': 'Open navigation menu'}, 'AuthPass'];2#.[{'Button': 'Create your first Password'}];Other Widgets with Text in This Page has the following group(s):1#...️;2#.You do not have any password in your database yet.;.
+'action': 'click', 'feature': 'Create your first Password'
+
+*Current Screen Information:  #Current Activity: design.codeux.authpass.MainActivity.  # UI Information:click has the following group(s):1#.[{'Button': 'Show menu'}, {'Button': 'Back'}, '(no title)'];2#.[{'View': '\uf084'}];3#.[{'View': 'Group:\nPersonalPasswords'}];4#.[{'Button': 'Add Field'}];5#.[{'Button': 'Add Attachment'}];scrollable has the following group(s):1#.[{'Button': 'Show menu'}, 'Title'];2#.[{'Button': 'Show menu'}, 'Website'];3#.[{'Button': 'Show menu'}, 'User'];4#.[{'Button': 'Show menu'}, {'Button': 'Generate Password (cmd+g)'}, 'Password'];Other Widgets with Text in This Page has the following group(s):1#.File:
+PersonalPasswords;2#.Last Modified:
+4/17/2025 17:18:19;.
+'action': 'set_text', 'feature': 'Title', 'input_text': 'testTitle'
+'action': 'set_text', 'feature': 'Website', 'input_text': 'uc.edu'
+'action': 'set_text', 'feature': 'User', 'input_text': 'testUser'
+'action': 'set_text', 'feature': 'Password', 'input_text': '123456'
+
+*Current Screen Information:  #Current Activity: design.codeux.authpass.MainActivity.  # UI Information:click has the following group(s):1#.[{'Button': 'Show menu'}, {'NAF': '[828,63][954,210]'}, {'Button': 'Back'}, '(no title)'];2#.[{'View': '\uf084'}];3#.[{'View': 'Group:\nPersonalPasswords'}];4#.[{'Button': 'Add Field'}];5#.[{'Button': 'Add Attachment'}];scrollable has the following group(s):1#.[{'Button': 'Show menu'}, 'testTitle, Title'];2#.[{'Button': 'Show menu'}, {'Button': 'Open URL (shift+cmd+U)'}, 'uc.edu, Website'];3#.[{'Button': 'Show menu'}, 'testUser, User'];4#.[{'Button': 'Show menu'}, '123456, Password'];Other Widgets with Text in This Page has the following group(s):1#.File:
+PersonalPasswords;2#.Last Modified:
+4/17/2025 17:19:51;.
+'action': 'click', 'feature': 'Save' at (891,137)
+
+*Current Screen Information:  #Current Activity: design.codeux.authpass.MainActivity.  # UI Information:click has the following group(s):1#.[{'Button': 'Show menu'}, {'Button': 'Back'}, 'testTitle'];2#.[{'View': '\uf084'}];3#.[{'View': 'Group:\nPersonalPasswords'}];4#.[{'Button': 'Add Field'}];5#.[{'Button': 'Add Attachment'}];scrollable has the following group(s):1#.[{'Button': 'Show menu'}, 'testTitle, Title'];2#.[{'Button': 'Show menu'}, {'Button': 'Open URL (shift+cmd+U)'}, 'uc.edu, Website'];3#.[{'Button': 'Show menu'}, 'testUser, User'];4#.[{'Button': 'Show menu'}, '123456, Password'];Other Widgets with Text in This Page has the following group(s):1#.File:
+PersonalPasswords;2#.Last Modified:
+4/17/2025 17:20:19;.
+'action': 'click', 'feature': 'back'
+
+*Current Screen Information:  #Current Activity: design.codeux.authpass.MainActivity.  # UI Information:click has the following group(s):1#.[{'Button': 'Show menu'}, {'Button': 'Search'}, {'Button': 'Filter by group'}, {'Button': 'Open navigation menu'}, 'AuthPass'];2#.[{'ImageView': 'testTitle\ntestUser'}];3#.[{'Button': 'Add New Password'}];.
+'action': 'click', 'feature': 'testTitle'
+
+*Current Screen Information:  #Current Activity: design.codeux.authpass.MainActivity.  # UI Information:click has the following group(s):1#.[{'Button': 'Show menu'}, {'Button': 'Back'}, 'testTitle'];2#.[{'View': 'Group:\nPersonalPasswords'}];3#.[{'Button': 'Add Field'}];4#.[{'Button': 'Add Attachment'}];scrollable has the following group(s):1#.[{'Button': 'Show menu'}, 'testTitle, Title'];2#.[{'Button': 'Show menu'}, {'Button': 'Open URL (shift+cmd+U)'}, 'uc.edu, Website'];3#.[{'Button': 'Show menu'}, 'testUser, User'];4#.[{'Button': 'Show menu'}, {'Button': 'Show protected field'}, {'Button': 'Protected field. Click to reveal.'}, 'Password\n**********'];Other Widgets with Text in This Page has the following group(s):1#.File:
+PersonalPasswords;2#.Last Modified:
+4/17/2025 17:20:19;.
+
+
+**output:
+
+```json
+{
+  "is_ncf_bug": false,
+  "categories": [],     
+  "evidence": [],
+  "explanation": "This is a standard security design pattern, not a data loss or persistence failure. The presence of a 'Show protected field' button confirms this is intentional behavior, which is explicitly listed as not an NCF bug."
+}
+```
+Done Example 2.
+
+• If several failures appear, list every triggering category.
+• If no NCF bug, `is_ncf_bug` = false and leave `categories` empty.
+• Keep evidence snippets short—just enough to make the verdict clear.
+
+BEGIN EVALUATION NOW.
+
+UI info interaction trace:

@@ -1,0 +1,11 @@
+### Instruction:
+Please determine whether there is a non-crash functional bug in the following android app UI interaction trace, and briefly explain the reason.
+
+### Input:
+{actions}
+
+### Output format:
+{{
+  "is_bug": "Yes" or "No",
+  "reason": "brief reasons for why consider as bug or no bug."
+}}

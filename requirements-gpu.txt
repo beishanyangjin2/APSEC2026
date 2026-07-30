@@ -1,0 +1,10 @@
+-r requirements.txt
+accelerate>=1.0
+datasets>=3.0
+peft>=0.15
+torch>=2.5
+transformers>=4.51
+
+# Install Unsloth separately for the CUDA and PyTorch versions on the host.
+# See https://docs.unsloth.ai/get-started/installing-+-updating
+

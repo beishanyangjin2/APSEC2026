@@ -16,6 +16,6 @@ All case-level outputs in the parent [`Evaluation`](../readme.md) directory foll
 
 ## Complete raw artifacts
 
-Download `testingset.zip` from the [FineDroid Project Data folder](https://drive.google.com/drive/folders/1Gcd3DOvtz2brau-ETGziX9KAn1119fgM?usp=sharing) for the corresponding APKs, execution screenshots, XML hierarchy files, and raw traces.
+`testingset.zip` in the [FineDroid Project Data folder](https://drive.google.com/drive/folders/1Gcd3DOvtz2brau-ETGziX9KAn1119fgM?usp=sharing) contains the raw artifacts collected when these evaluation cases were executed on Android apps: the tested APKs, per-step screenshots, UI hierarchy XML files, and recorded traces. The compact JSON/CSV files in this directory were prepared from that execution data. Download the archive only when the raw evidence is needed; it is not a third-party benchmark and is not required for the table-reproduction script.
 
 The files in this directory are the canonical compact copy for the GitHub artifact. The duplicate under the ignored local `testing/testset/` directory is not required for publication.

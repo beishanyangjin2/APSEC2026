@@ -1,0 +1,17 @@
+Given a Bug Report (title + body) and a set of detected NCF bugs, pick the SINGLE bug that best aligns with the BR.
+Focus on functional correctness; ignore pure UX-only concerns.
+Return ONLY a JSON object with:
+{{
+  "same_as_BR": "yes" | "no" | "partial",
+  "matched_bug_index": integer or null,
+  "matched_bug": {{ "title": string, "description": string }} or null,
+  "reason": "brief why this choice aligns (or not)"
+}}
+BR Title:
+{br_title}
+
+BR Body:
+{br_body}
+
+Detected bugs (JSON):
+{bugs_json}

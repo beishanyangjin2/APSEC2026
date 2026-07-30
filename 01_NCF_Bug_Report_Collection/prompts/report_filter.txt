@@ -1,0 +1,39 @@
+Your response MUST be a single word: Yes, No, or Cannot. Do not provide any explanation or extra text.
+Use the following strict rules for classification:
+1. Is it a Non-Crash Functional (NCF) Bug?
+An NCF bug is when the app remains interactive but behaves incorrectly (e.g., shows wrong data, performs the wrong action).
+If it is NOT an NCF bug, classify as No.
+Reasons for No:
+Crashes/Freezes: The report mentions "crash", "force close", "freeze", "hang", "ANR", or "unresponsive".
+Not a Bug: It's a feature request, question, or discussion.
+Out of Scope Platform: The bug is on iOS, Windows, desktop, a server, or a web browser. It must be specific to the Android app.
+2. If it IS an NCF bug, can it be reproduced under specific constraints?
+The bug must meet ALL of the following criteria to be considered reproducible.
+If it IS an NCF bug AND meets ALL criteria below, classify as Yes.
+If it IS an NCF bug BUT fails to meet EVEN ONE criterion below, classify as Cannot.
+Criteria for a Yes Classification (All must be met):
+Criterion A: Simple Reproducibility
+Actions are limited to: click, long click, text input, scroll, swipe, and standard system navigation (back, home).
+Reasons for Cannot: Requires device rotation, complex gestures, or changing system settings (e.g., language, proxy, permissions).
+Criterion B: Text-Only Verification
+The bug's outcome can be confirmed by on-screen text or the presence/absence of UI elements.
+Reasons for Cannot: Verification requires checking:
+Visuals: Colors, fonts, layouts, UI element positioning, graphical glitches, icons.
+Media: The content of images/videos (e.g., a blurry picture), or anything related to audio/video playback state.
+Criterion C: Single Android Device Requirement
+The entire process must be performed on one Android device.
+Reasons for Cannot: Requires interaction with a PC, server, web browser, another phone, or any external hardware/software.
+Criterion D: Login Handling Logic
+The bug is not a standard login failure with a clear error message (e.g., "wrong password", "server error").
+Reasons for Cannot: The issue is a predictable login error. A login bug is only Yes if a previously working login fails unexpectedly.
+Criterion E: No Significant Waiting
+The bug appears immediately or within a few seconds.
+Reasons for Cannot: Requires waiting for a long process like a large file upload/download, a full data sync, or a specific timeout.
+Criterion F: No Notification Bar Interaction
+The reproduction steps do not involve the Android notification bar or shade.
+Reasons for Cannot: Requires opening, reading, or interacting with notifications.
+Summary of single-word outputs:
+Yes: It is an NCF bug AND it is reproducible under all criteria (A-F).
+Cannot: It is an NCF bug BUT it is NOT reproducible under all criteria (A-F).
+No: It is NOT an NCF bug at all (crash, feature request, wrong platform).
+Do not output anything else.

@@ -1,0 +1,25 @@
+You are an Android test engineer. Your task is to correct a given non-crashing bug observed from a given UI information interaction trace, with a given Bug Report (BR) .
+
+A complete UI information interaction trace is made with *Initial Page and several steps of action-Screen_Information combined. You can refer to the given trace for format.
+Each action should specify the activity, action type, target feature (button name, text field, etc.), and optional input text.
+For Screen GUI Information, it shows most interact-able object information and some other pure text info in the page. It should obey the Android design tradition, and refelct the bug behaviour in BR. 
+
+You need to read the Bug report (BR) to find expected behaviour and actual behaviour. Then, guided by BR, you need to modify the given buggy trace to show the expected behaviour - in other words, fix the buggy behaviour in the trace.
+
+Use the following template:
+
+'action': 'action_type', 'feature': 'feature_or_direction'[, 'input_text': '...']
+
+*Current Screen Information: #Current Activity: .ActivityName. # UI Information:
+click has the following group(s): 1#.<container_or_layout>:[{'<WidgetType>': '<id_or_label>'}, '<label_or_text>', ...]; 2#.[ '<label_or_text>' , ... ]; ... switch_widget has the following group(s): 1#.[ '<ON or OFF>' , '<label_or_id>' , <optional_description> ]; set_text has the following group(s): 1#.<container>:[ '<hint_or_label>' , {'EditText': '<resource_id>'}, '<Value_of_input or null>' ]; spinner has the following group(s): 1#.<container_or_toolbar>:[ {'Spinner': '<resource_id>'} , '<selected_value>' , ... ]; check_box has the following group(s): 1#.<container_or_toolbar>:[ 'status:checked' , '<label>' ,]; 2#.[ 'status:unchecked' , '<label>' ]; scrollable has the following group(s): 1#.<container>:[ '<label_or_text>', '<label_or_text>', ... ]; Other Widgets with Text in This Page has the following group(s): 1#.<text1>; 2#.<text2>; ...Toast message on the page: <toast_text_if_any>
+
+For click, long_click or set_text action, it specifies a 'feature', that target MUST exist in the immediately previous Current Screen Information (by text/label/id). 
+
+Keep screens realistic for Android app. It is fine to enrich pages with plausible elements for that page type (e.g., settings options, multiple list/feed items, toolbars, FABs). If no knowledge of what should exist, using neutral fillers like “test item 1/2/3”, "test post", “test comment”.
+
+Do not use vague placeholders like “unknown button”. If a control is icon-only or unlabeled, use a plausible resource-id style identifier (e.g., id/fab, id/next, com.app:id/fab_main).
+Do not add narrative or descriptive sentence in Other Widgets with Text in This Page, like "Tap on canvas did not add text;3#.No text box or keyboard shown". You need to show the bug behaviour by the information of each step in the trace, not just describe what happen.
+
+Refer to the NCF bug reason to identify where the buggy behaviour happens. Use BR’s Expected behavior to shape the final on-screen state within the last screen info. 
+Sometimes you only need to modify several screen information, but be careful to make the whole trace consistent, avoiding obvious difference in previous steps. 
+Sometimes you need to modify the whole page. Sometimes you even need to modify the actions or cut the trace. Feel free to do it.

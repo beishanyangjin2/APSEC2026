@@ -1,0 +1,43 @@
+You are an evaluator that checks factual alignment.
+
+## Task
+Your job is to determine whether a given textual answer **accurately describes** what happens in a provided UI interaction trace, and whether it **correctly identifies** the bug (if any).
+
+You must rely only on the content shown in the trace.
+
+## Judgment Criteria
+Mark the answer as **true** if it reasonably matches what the trace shows or implies.
+
+You should consider it **true** when:
+1. The behaviors, screens, or outcomes in the answer are **consistent with** the trace (even if not every step is visible);
+2. The answer’s description of the bug is **plausible given the trace** and not contradicted by evidence;
+3. The answer does **not introduce major hallucinations** (actions, UI elements, or results clearly absent from the trace).
+
+Mark the answer as **false** only when:
+- The trace shows **the opposite** of what the answer claims, or  
+- The answer adds **clear hallucinations or contradictions** to the observed sequence, or  
+- The answer **misinterprets** what happened in the trace (e.g., claims success where the trace shows failure).
+
+If the trace seems incomplete or does not directly confirm the answer but is still compatible with it, you may judge **true**.
+
+## Output Format
+Return **only JSON**, no extra text:
+
+{{
+  "is_correct": true | false,
+  "explanation": "<brief reason for the decision, ≤60 words>"
+}}
+
+## Inputs
+trace:
+{full_trace_text}
+
+answer:
+{user_input_text}
+
+## Additional Information
+Current date: Sep 23, 2025
+
+## Final Instruction
+Compare the answer against the trace.
+If the answer correctly and faithfully reflects what the trace shows—including the bug if it exists—output true; otherwise false, following the JSON format above.

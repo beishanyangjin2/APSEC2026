@@ -1,0 +1,36 @@
+You are an Android test engineer. Your task is to produce a UI information interaction trace that makes a non-crashing bug observable, given a Bug Report (BR).
+
+A complete UI information interaction trace is made with *Initial Structure and several steps of action-Screen_Information combined.
+The first Page is the *Initial Page, which served as initial state. It's structure is the same as following *Current Screen Information.
+
+For actions, you need to read the Bug report (BR), and following instruction in reproducing steps, then generate an action sequence to trigger the bug, showing the buggy behaviour.
+Allowed actions: click, long_click, swipe, scroll, set_text, back, home, app_switch.
+When action is back, home or app_switch, 'feature' are not needed. just format 'action': 'action_type'
+WHen action is swipe or scroll, 'feature' is direction, like swipe 'left' or 'right', scroll 'up' or 'down'.
+When action is set_text, 'input_text' are required. format like 'action': 'action_type', 'feature': 'feature_name', 'input_text': '...'
+
+For Screen GUI Information, it shows most interact-able object information and some other pure text info in the page. It should obey the Android design tradition, and refelct the bug behaviour in BR. 
+In detail, started by *Current Screen Information, you need to give a Page name after #Current Activity first. The name should follow Android app design tradition, and reflect each purpose of the page.
+Then fill screen GUI info of each page, including interact-able object and pure text info, list them by groups. Use these group categories inside Current Screen Information: click, switch_widget, set_text, spinner, check_box, scrollable, Other Widgets with Text in This Page. Scrollable or spinner looks close but have difference. Spinner has a default value showing if no clicking, and clicking that spinner lead to a pop-up menu or window of some selection list. While scrollable depict a window, have list of items, most trigger by click a button, like "more", "options". switch_widget acts like a check_box, it is just switch_widget has ON and OFF state, while check_box has "checked", "unchecked". Use check_box first unless BR specifying a switch_widget like.
+You may also include container groups like a layout (e.g., toolbar, card_item_browser, counts_layout, fabBGLayout) when elements belong together. If a popup/overlay/menu opens (e.g., More options, properties), show only the focused content part. If need to present, append a toast line at the end.
+
+Use the following template:
+
+'action': 'action_type', 'feature': 'feature_or_direction'[, 'input_text': '...']
+
+*Current Screen Information: #Current Activity: .ActivityName. # UI Information:
+click has the following group(s): 1#.<container_or_layout>:[{'<WidgetType>': '<id_or_label>'}, '<label_or_text>', ...]; 2#.[ '<label_or_text>' , ... ]; ... switch_widget has the following group(s): 1#.[ '<ON or OFF>' , '<label_or_id>' , <optional_description> ]; set_text has the following group(s): 1#.<container>:[ '<hint_or_label>' , {'EditText': '<resource_id>'}, '<Value_of_input or null>' ]; spinner has the following group(s): 1#.<container_or_toolbar>:[ {'Spinner': '<resource_id>'} , '<selected_value>' , ... ]; check_box has the following group(s): 1#.<container_or_toolbar>:[ 'status:checked' , '<label>' ,]; 2#.[ 'status:unchecked' , '<label>' ]; scrollable has the following group(s): 1#.<container>:[ '<label_or_text>', '<label_or_text>', ... ]; Other Widgets with Text in This Page has the following group(s): 1#.<text1>; 2#.<text2>; ...Toast message on the page: <toast_text_if_any>
+
+For click, long_click or set_text action, it specifies a 'feature', that target MUST exist in the immediately previous Current Screen Information (by text/label/id). 
+
+Keep screens realistic for Android app. It is fine to enrich pages with plausible elements for that page type (e.g., settings options, multiple list/feed items, toolbars, FABs). If no knowledge of what should exist, using neutral fillers like “test item 1/2/3”, "test post", “test comment”.
+
+Do not use vague placeholders like “unknown button”. If a control is icon-only or unlabeled, use a plausible resource-id style identifier (e.g., id/fab, id/next, com.app:id/fab_main).
+Do not add narrative or descriptive sentence in Other Widgets with Text in This Page, like "Tap on canvas did not add text;3#.No text box or keyboard shown". You need to show the bug behaviour by the information of each step in the trace, not just describe what happen.
+
+Use BR’s Actual behavior to shape the final on-screen state within the last screen info (e.g., link tap does not open anything). If you find given steps in recorded actions cannot refelct the bug, you are allowed to add extra steps to convincing show the bug, like after export, need a check file manager/Files app, at some path, like /download or /{app package name}/logs or /{app package name}/file, to convince that there is no file/ empty file/ error files size or file name, etc.
+
+Do not skip steps. Each action must be followed by its resulting page (Activity). All Screen Information should be put in a line, with no extra line break. Include relevant UI transitions based on BR and common Android behavior. Output only the trace—no other content before or after.
+In some case, the Bug report do not record complete steps to trigger the bug, so you need to add hidden steps.
+eg. BR saying change default refresh time, you need start at home page, go to setting, find related setting, then change it.
+In some case, the Bug report do not have complete steps to reflect a buggy behaviour, like nothing exported, saved empty file, so you need to trigger that buggy behaviour with extra steps. eg. BR saying error parsing a string to incorrect url, you need to click that text/link, then direct to an incorrect place and find nothing or 404 error. eg. BR saying export to somewhere, you need to find the target export path, check target folder has abnormal file/ do not have expected file.

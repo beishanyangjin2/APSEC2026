@@ -1,0 +1,77 @@
+
+Example
+
+Bug Report:
+-----------
+Title: [BUG]: Links in cards no longer work
+Body: ### Checked for duplicates?
+
+- [X] This issue is not a duplicate
+
+### What are the steps to reproduce this bug?
+
+Enter a <a href="https://google.com">test</a> in a field's html.
+Open card, click on this link.
+
+### Expected behaviour
+
+Link opens
+
+### Actual behaviour
+
+Nothing happens
+
+-----------
+
+Buggy UI Info Interaction Trace:
+--------------------------
+*Initial Page
+
+*Current Screen Information:  #Current Activity: .DeckPicker.  # UI Information:click has the following group(s):1#.toolbar:[{'ImageView': 'More options'}, {'Button': 'Sync (log in)'}, {'ImageButton': 'Open drawer'}, 'AnkiDroid'];2#.[{'ImageButton': 'com.ichi2.anki:id/fab_main'}];Other Widgets with Text in This Page has the following group(s):1#.Collection is empty;2#.Start adding cards
+using the + icon.;.
+'action': 'click', 'feature': 'com.ichi2.anki:id/fab_main'
+
+*Current Screen Information:  #Current Activity: .DeckPicker.  # UI Information:click has the following group(s):1#.toolbar:[{'ImageView': 'More options'}, {'Button': 'Sync (log in)'}, {'ImageButton': 'Open drawer'}, 'AnkiDroid'];2#.fabBGLayout:[{'View': 'com.ichi2.anki:id/fabBGLayout'}];3#.add_shared_layout:[{'ImageButton': 'com.ichi2.anki:id/add_shared_action'}, 'Get shared decks'];4#.add_filtered_deck_layout:[{'ImageButton': 'com.ichi2.anki:id/add_filtered_deck_action'}, 'Create filtered deck'];5#.add_deck_layout:[{'ImageButton': 'com.ichi2.anki:id/add_deck_action'}, 'Create deck'];6#.[{'ImageButton': 'com.ichi2.anki:id/fab_main'}, 'Add'];Other Widgets with Text in This Page has the following group(s):1#.Collection is empty;2#.Start adding cards
+using the + icon.;.
+'action': 'click', 'feature': 'Add'
+
+*Current Screen Information:  #Current Activity: .NoteEditor.  # UI Information:set_text has the following group(s):1#.constraint_layout:[{'EditText': 'com.ichi2.anki:id/id_note_editText'}, {'ImageButton': 'com.ichi2.anki:id/id_expand_button'}, {'ImageButton': 'Attach multimedia content to the Front field'}, {'ImageButton': 'Make field Front sticky'}, 'Front'];2#.constraint_layout:[{'EditText': 'com.ichi2.anki:id/id_note_editText'}, {'ImageButton': 'com.ichi2.anki:id/id_expand_button'}, {'ImageButton': 'Attach multimedia content to the Back field'}, {'ImageButton': 'Make field Back sticky'}, 'Back'];click has the following group(s):1#.key_pos_header_voice:[{'FrameLayout': 'Voice input'}];2#.['Close features menu'];3#.['Search'];4#.['Sticker Keyboard'];5#.['GIF Keyboard'];6#.['Translate'];7#.['More features'];8#.key_pos_0_0:[{'FrameLayout': 'Q'}, '1'];9#.key_pos_0_1:[{'FrameLayout': 'W'}, '2'];10#.key_pos_0_2:[{'FrameLayout': 'E'}, '3'];11#.key_pos_0_3:[{'FrameLayout': 'R'}, '4'];12#.key_pos_0_4:[{'FrameLayout': 'T'}, '5'];13#.key_pos_0_5:[{'FrameLayout': 'Y'}, '6'];14#.key_pos_0_6:[{'FrameLayout': 'U'}, '7'];15#.key_pos_0_7:[{'FrameLayout': 'I'}, '8'];16#.key_pos_0_8:[{'FrameLayout': 'O'}, '9'];17#.key_pos_0_9:[{'FrameLayout': 'P'}, '0'];18#.['A'];19#.key_pos_1_1:[{'FrameLayout': 'S'}];20#.key_pos_1_2:[{'FrameLayout': 'D'}];21#.key_pos_1_3:[{'FrameLayout': 'F'}];22#.key_pos_1_4:[{'FrameLayout': 'G'}];23#.key_pos_1_5:[{'FrameLayout': 'H'}];24#.key_pos_1_6:[{'FrameLayout': 'J'}];25#.key_pos_1_7:[{'FrameLayout': 'K'}];26#.['L'];27#.key_pos_shift:[{'FrameLayout': 'Shift'}];28#.key_pos_2_1:[{'FrameLayout': 'Z'}];29#.key_pos_2_2:[{'FrameLayout': 'X'}];30#.key_pos_2_3:[{'FrameLayout': 'C'}];31#.key_pos_2_4:[{'FrameLayout': 'V'}];32#.key_pos_2_5:[{'FrameLayout': 'B'}];33#.key_pos_2_6:[{'FrameLayout': 'N'}];34#.key_pos_2_7:[{'FrameLayout': 'M'}];35#.key_pos_del:[{'FrameLayout': 'Delete'}];36#.key_pos_switch_to_symbol:[{'FrameLayout': 'Symbol keyboard'}];37#.key_pos_bottom_symbol_1:[{'FrameLayout': ','}];38#.key_pos_switch_to_next_language:[{'FrameLayout': 'Emoji button'}];39#.['Space'];40#.key_pos_bottom_symbol_2:[{'FrameLayout': '.'}];41#.['Enter'];42#.toolbar:[{'ImageView': 'More options'}, {'Button': 'Preview'}, {'Button': 'Save'}, {'ImageButton': 'Navigate up'}, 'Add'];43#.CardEditorTagButton:['Tags: '];44#.CardEditorCardsButton:['Cards: Card 1'];45#.editor_toolbar:[{'ImageButton': 'Create Toolbar Item'}, {'ImageButton': 'Insert MathJax Equation'}, {'ImageButton': 'Change Font Size'}, {'ImageButton': 'Insert Heading'}, {'ImageButton': 'Insert Horizontal Line'}, {'ImageButton': 'Format as Underline'}, {'ImageButton': 'Format as Italic'}, {'ImageButton': 'Format as Bold'}];spinner has the following group(s):1#.note_deck_spinner:[{'Spinner': 'com.ichi2.anki:id/note_deck_spinner'}, 'Default'];2#.note_type_spinner:[{'Spinner': 'com.ichi2.anki:id/note_type_spinner'}, 'Basic'];Other Widgets with Text in This Page has the following group(s):1#.Type:;2#.Deck:;.
+'action': 'set_text', 'feature': 'Front', 'input_text': '<a href="https://google.com">test</a>'
+
+*Current Screen Information:  #Current Activity: .NoteEditor.  # UI Information:set_text has the following group(s):1#.constraint_layout:['<a href="https://google.com">test</a>', {'EditText': 'com.ichi2.anki:id/id_note_editText'}, {'ImageButton': 'com.ichi2.anki:id/id_expand_button'}, {'ImageButton': 'Attach multimedia content to the Front field'}, {'ImageButton': 'Make field Front sticky'}, 'Front'];2#.constraint_layout:[{'EditText': 'com.ichi2.anki:id/id_note_editText'}, {'ImageButton': 'com.ichi2.anki:id/id_expand_button'}, {'ImageButton': 'Attach multimedia content to the Back field'}, {'ImageButton': 'Make field Back sticky'}, 'Back'];click has the following group(s):1#.['a'];2#.['to'];3#.['I'];4#.key_pos_header_voice:[{'FrameLayout': 'Voice input'}];5#.['Open features menu'];6#.key_pos_0_0:[{'FrameLayout': 'q'}, '1'];7#.key_pos_0_1:[{'FrameLayout': 'w'}, '2'];8#.key_pos_0_2:[{'FrameLayout': 'e'}, '3'];9#.key_pos_0_3:[{'FrameLayout': 'r'}, '4'];10#.key_pos_0_4:[{'FrameLayout': 't'}, '5'];11#.key_pos_0_5:[{'FrameLayout': 'y'}, '6'];12#.key_pos_0_6:[{'FrameLayout': 'u'}, '7'];13#.key_pos_0_7:[{'FrameLayout': 'i'}, '8'];14#.key_pos_0_8:[{'FrameLayout': 'o'}, '9'];15#.key_pos_0_9:[{'FrameLayout': 'p'}, '0'];16#.['a'];17#.key_pos_1_1:[{'FrameLayout': 's'}];18#.key_pos_1_2:[{'FrameLayout': 'd'}];19#.key_pos_1_3:[{'FrameLayout': 'f'}];20#.key_pos_1_4:[{'FrameLayout': 'g'}];21#.key_pos_1_5:[{'FrameLayout': 'h'}];22#.key_pos_1_6:[{'FrameLayout': 'j'}];23#.key_pos_1_7:[{'FrameLayout': 'k'}];24#.['l'];25#.key_pos_shift:[{'FrameLayout': 'Shift'}];26#.key_pos_2_1:[{'FrameLayout': 'z'}];27#.key_pos_2_2:[{'FrameLayout': 'x'}];28#.key_pos_2_3:[{'FrameLayout': 'c'}];29#.key_pos_2_4:[{'FrameLayout': 'v'}];30#.key_pos_2_5:[{'FrameLayout': 'b'}];31#.key_pos_2_6:[{'FrameLayout': 'n'}];32#.key_pos_2_7:[{'FrameLayout': 'm'}];33#.key_pos_del:[{'FrameLayout': 'Delete'}];34#.key_pos_switch_to_symbol:[{'FrameLayout': 'Symbol keyboard'}];35#.key_pos_bottom_symbol_1:[{'FrameLayout': ','}];36#.key_pos_switch_to_next_language:[{'FrameLayout': 'Emoji button'}];37#.['Space'];38#.key_pos_bottom_symbol_2:[{'FrameLayout': '.'}];39#.['Enter'];40#.toolbar:[{'ImageView': 'More options'}, {'Button': 'Preview'}, {'Button': 'Save'}, {'ImageButton': 'Navigate up'}, 'Add'];41#.CardEditorTagButton:['Tags: '];42#.CardEditorCardsButton:['Cards: Card 1'];43#.editor_toolbar:[{'ImageButton': 'Create Toolbar Item'}, {'ImageButton': 'Insert MathJax Equation'}, {'ImageButton': 'Change Font Size'}, {'ImageButton': 'Insert Heading'}, {'ImageButton': 'Insert Horizontal Line'}, {'ImageButton': 'Format as Underline'}, {'ImageButton': 'Format as Italic'}, {'ImageButton': 'Format as Bold'}];spinner has the following group(s):1#.note_deck_spinner:[{'Spinner': 'com.ichi2.anki:id/note_deck_spinner'}, 'Default'];2#.note_type_spinner:[{'Spinner': 'com.ichi2.anki:id/note_type_spinner'}, 'Basic'];Other Widgets with Text in This Page has the following group(s):1#.Type:;2#.Deck:;.
+'action': 'click', 'feature': 'Save'
+
+*Current Screen Information:  #Current Activity: .NoteEditor.  # UI Information:set_text has the following group(s):1#.constraint_layout:[{'EditText': 'com.ichi2.anki:id/id_note_editText'}, {'ImageButton': 'com.ichi2.anki:id/id_expand_button'}, {'ImageButton': 'Attach multimedia content to the Front field'}, {'ImageButton': 'Make field Front sticky'}, 'Front'];2#.constraint_layout:[{'EditText': 'com.ichi2.anki:id/id_note_editText'}, {'ImageButton': 'com.ichi2.anki:id/id_expand_button'}, {'ImageButton': 'Attach multimedia content to the Back field'}, {'ImageButton': 'Make field Back sticky'}, 'Back'];click has the following group(s):1#.toolbar:[{'ImageView': 'More options'}, {'Button': 'Preview'}, {'Button': 'Save'}, {'ImageButton': 'Navigate up'}, 'Add'];2#.CardEditorTagButton:['Tags: '];3#.CardEditorCardsButton:['Cards: Card 1'];4#.editor_toolbar:[{'ImageButton': 'Create Toolbar Item'}, {'ImageButton': 'Insert MathJax Equation'}, {'ImageButton': 'Change Font Size'}, {'ImageButton': 'Insert Heading'}, {'ImageButton': 'Insert Horizontal Line'}, {'ImageButton': 'Format as Underline'}, {'ImageButton': 'Format as Italic'}, {'ImageButton': 'Format as Bold'}];spinner has the following group(s):1#.note_deck_spinner:[{'Spinner': 'com.ichi2.anki:id/note_deck_spinner'}, 'Default'];2#.note_type_spinner:[{'Spinner': 'com.ichi2.anki:id/note_type_spinner'}, 'Basic'];Other Widgets with Text in This Page has the following group(s):1#.Type:;2#.Deck:;Toast message on the page: Card saved;.
+'action': 'click', 'feature': 'Navigate up'
+
+*Current Screen Information:  #Current Activity: .DeckPicker.  # UI Information:click has the following group(s):1#.toolbar:[{'ImageView': 'More options'}, {'Button': 'Sync (log in)'}, {'ImageButton': 'Open drawer'}, 'AnkiDroid', '1 card due'];2#.['com.ichi2.anki:id/DeckPickerHoriz'];3#.counts_layout:[{'LinearLayout': 'Open the deck overview page containing the number of cards to see today.'}, '1', '0', '0'];4#.[{'ImageButton': 'com.ichi2.anki:id/fab_main'}];Other Widgets with Text in This Page has the following group(s):1#.Default;2#.Studied 0 cards in 0 seconds today (0s/card);.
+'action': 'click', 'feature': 'Default'
+
+*Current Screen Information:  #Current Activity: .Reviewer.  # UI Information:click has the following group(s):1#.toolbar:[{'ImageView': 'More options'}, {'Button': 'Flag card'}, {'NAF': '[705,105][837,237]'}, {'ImageButton': 'Open drawer'}];2#.qa:['test'];3#.['com.ichi2.anki:id/touch_layer'];4#.flashcard_layout_flip:[{'FrameLayout': 'com.ichi2.anki:id/flashcard_layout_flip'}, 'Show answer'];Other Widgets with Text in This Page has the following group(s):1#.1;2#.0;3#.0;4#.AnkiDroid Flashcard;.
+'action': 'click', 'feature': 'test'
+
+*Current Screen Information:  #Current Activity: .Reviewer.  # UI Information:click has the following group(s):1#.toolbar:[{'ImageView': 'More options'}, {'Button': 'Flag card'}, {'NAF': '[705,105][837,237]'}, {'ImageButton': 'Open drawer'}];2#.qa:['test'];3#.['com.ichi2.anki:id/touch_layer'];4#.flashcard_layout_flip:[{'FrameLayout': 'com.ichi2.anki:id/flashcard_layout_flip'}, 'Show answer'];Other Widgets with Text in This Page has the following group(s):1#.1;2#.0;3#.0;4#.AnkiDroid Flashcard;.
+'action': 'click', 'feature': 'test'
+
+*Current Screen Information:  #Current Activity: .Reviewer.  # UI Information:click has the following group(s):1#.toolbar:[{'ImageView': 'More options'}, {'Button': 'Flag card'}, {'NAF': '[705,105][837,237]'}, {'ImageButton': 'Open drawer'}];2#.qa:['test'];3#.['com.ichi2.anki:id/touch_layer'];4#.flashcard_layout_flip:[{'FrameLayout': 'com.ichi2.anki:id/flashcard_layout_flip'}, 'Show answer'];Other Widgets with Text in This Page has the following group(s):1#.1;2#.0;3#.0;4#.AnkiDroid Flashcard;.
+
+--------------------------
+NCF bug observed:
+
+"The sequence shows that after creating a card with a hyperlink in the 'Front' field and saving it, the card is shown in the reviewer with the text 'test' instead of displaying the hyperlink as expected. This indicates that the hyperlink is not being rendered or displayed correctly in the card review, which is a functionality issue."
+
+--------------------------
+Fixed UI Info Interaction Trace:
+--------------------------
+(For Simplicity, here just show the modified part, but you need to output the complete trace)
+
+*Current Screen Information:  #Current Activity: .DeckPicker.  # UI Information:click has the following group(s):1#.toolbar:[{'ImageView': 'More options'}, {'Button': 'Sync (log in)'}, {'ImageButton': 'Open drawer'}, 'AnkiDroid', '1 card due'];2#.['com.ichi2.anki:id/DeckPickerHoriz'];3#.counts_layout:[{'LinearLayout': 'Open the deck overview page containing the number of cards to see today.'}, '1', '0', '0'];4#.[{'ImageButton': 'com.ichi2.anki:id/fab_main'}];Other Widgets with Text in This Page has the following group(s):1#.Default;2#.Studied 0 cards in 0 seconds today (0s/card);.
+'action': 'click', 'feature': 'Default'
+
+*Current Screen Information:  #Current Activity: .Reviewer.  # UI Information:click has the following group(s):1#.toolbar:[{'ImageView': 'More options'}, {'Button': 'Flag card'}, {'NAF': '[705,105][837,237]'}, {'ImageButton': 'Open drawer'}];2#.qa:['test'];3#.['com.ichi2.anki:id/touch_layer'];4#.flashcard_layout_flip:[{'FrameLayout': 'com.ichi2.anki:id/flashcard_layout_flip'}, 'Show answer'];Other Widgets with Text in This Page has the following group(s):1#.1;2#.0;3#.0;4#.AnkiDroid Flashcard;.
+'action': 'click', 'feature': 'test'
+
+*Current Screen Information:  #Current Activity: org.chromium.chrome.browser.ChromeTabbedActivity.  # UI Information: set_text has the following group(s): 1#.toolbar_container:[{'ImageView': 'com.android.chrome:id/toolbar_shadow'}, {'ImageButton': 'com.android.chrome:id/menu_button'}, {'FrameLayout': 'com.android.chrome:id/menu_button_wrapper'}, {'ImageButton': 'com.android.chrome:id/tab_switcher_button'}, {'LinearLayout': 'com.android.chrome:id/toolbar_buttons'}, 'google.com', {'EditText': 'com.android.chrome:id/url_bar'}, {'ImageButton': 'Connection is secure. Site information'}, {'ImageButton': 'Home'}]; Other Widgets with Text in This Page has the following group(s): 1#.Web View;.
+
+--------------------------
+Note(DO NOT include this not in your response): In this case, the buggy beahviour discribed in BR is clicking the 'test' has no effect. And the correct way is click a link will open it, lead to ideal website.

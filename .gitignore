@@ -1,3 +1,7 @@
 .DS_Store
 __pycache__/
 /testing/
+.env
+.venv/
+/artifacts/
+**/.ipynb_checkpoints/

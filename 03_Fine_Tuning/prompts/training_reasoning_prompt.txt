@@ -1,0 +1,17 @@
+### Instruction:
+Please determine whether there is a non-crash functional bug in the following android app UI interaction trace.
+
+Think step by step inside <think>...</think>, then give your final JSON answer.
+
+### Input:
+{actions}
+
+### Output format example:
+<think>
+your detailed reasoning here...
+</think>
+
+{{
+  "is_bug": "Yes" or "No",
+  "reason": "brief explanation"
+}}

@@ -1,0 +1,6 @@
+Please determine whether there is a non-crash functional bug in the following app operation log, and explain the sequence by analyzing the meaning and result of each recorded operation.
+output format {
+	"is_bug": true or false,
+	"reason": brief explain why do you consider it is a bug or it does not has bug
+}
+UI info interaction trace:
